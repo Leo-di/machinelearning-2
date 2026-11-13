@@ -1,0 +1,41 @@
+tidy_finance.sqlite 数据来源与兼容说明
+
+本数据库由公开原始数据重建，供同目录的“4.1机器学习与因子筛选_整合.ipynb”直接读取。
+它不是找回的原始课程数据库，不保证与 Notebook 中保存的历史结果完全相同。
+
+四张表与来源：
+1. factors_ff3_monthly：Ken French 三因子月度数据，包括 mkt_excess、smb、hml、rf。
+2. industries_ff_monthly：Ken French 十行业组合月度市值加权含股息收益。
+   上述两份文件的头部标注 202609 CRSP 数据版本；收益统一除以 100，转换为小数。
+   官网：https://mba.tuck.dartmouth.edu/pages/faculty/ken.french/data_library.html
+3. factors_q_monthly：Hou、Xue、Zhang 等作者的 q5_factors_monthly_2022.csv。
+   原网址：https://global-q.org/uploads/1/2/2/6/122679606/q5_factors_monthly_2022.csv
+   同站托管备用地址：https://global-q.weebly.com/uploads/1/2/2/6/122679606/q5_factors_monthly_2022.csv
+4. macro_predictors：Goyal–Welch 公开月度数据（下载的文件截至 2023-12），
+   按旧作业范围截取至 2022-12，再构造变量。并非访问经管院订阅账户所得。
+   作者主页：https://sites.google.com/view/agoyal145
+   数据地址：https://docs.google.com/spreadsheets/d/1bM7vCWd3WOt95Sf9qjLPZjoiafgF_8EG/gviz/tq?tqx=out:csv&sheet=Monthly
+   来源与常规定义参考：https://www.tidy-finance.org/chapters/accessing-and-managing-financial-data.html
+
+与旧作业的兼容处理：
+- 从本机“毕业设计-cs/4.1机器学习与因子筛选_Lasso优化版.ipynb”的已保存表格确认列结构。
+  q 表保留 year、f、mkt、me、ia、roe、eg，q 收益沿用原表的百分数单位。
+  原代码对所有候选特征标准化，因此不在这次补数据时调整其建模逻辑。
+  year 是年份，f 是无风险收益；保留它们是为了兼容原候选集，不表示它们属于五个 q 因子。
+- 旧表的 macro_dy 与 log(D12) 的一阶差分一致，已与旧输出可见的 10 个月份逐一核对。
+  本次保留这一实际口径。它是股息对数增长，并非文献通常采用的
+  log(D12_t) - log(Index_{t-1}) 股息收益率；没有静默改成另一种变量。
+- 保留原字段名 b/m，供后续系数表及图表使用。
+- rp_div 按公开教程计算为下一期超额对数收益，随后在 Notebook 中被删除，
+  不进入模型。原表未展示此列，不能声称已核对其原始计算公式。
+- 截取后的宏观原始数据最后一期因下一期目标缺失而删除，四表共同月份为
+  1967-01 至 2022-11，共 671 个月、10 个行业，合并后 6,710 行、153 个候选变量。
+
+复现边界：
+Ken French 会修订历史数据，宏观公开文件也可能与课程原版本不同。
+重新训练后请以新运行结果为准；原 Notebook 的静态分析文字和已有指标未改写。
+这里只补充数据库与数据来源记录，没有修改原 Notebook 的模型、代码或章节。
+
+维护：
+manifest.json 记录原始文件 SHA-256、下载来源、各表列名与时间范围。
+同目录上一级的 build_tidy_finance.py 可以从这些原始文件重新生成数据库。

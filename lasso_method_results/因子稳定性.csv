@@ -1,0 +1,30 @@
+行业,最终入选,完整训练系数（百分点）,验证折入选次数,验证折数,入选频率,与最终符号一致率,变量
+durbl,false,0.0,3,5,0.6,,factor_q_mkt
+durbl,false,-0.0,1,5,0.2,,macro_dp × factor_q_mkt
+durbl,true,-2.329678167456274,3,5,0.6,1.0,macro_ep × factor_q_mkt
+durbl,true,0.3767731373688764,0,5,0.0,,macro_dfy × factor_q_mkt
+enrgy,true,0.7232178222338097,0,5,0.0,,factor_ff_mkt_excess
+enrgy,false,0.0,2,5,0.4,,macro_tbl × factor_ff_mkt_excess
+enrgy,false,0.0,5,5,1.0,,macro_tbl × factor_q_mkt
+hitec,false,0.0,3,5,0.6,,factor_q_mkt
+hitec,false,-0.0,1,5,0.2,,factor_q_ia
+hitec,true,0.19223037409431898,2,5,0.4,1.0,macro_dp × factor_ff_hml
+hitec,true,-4.026216821238129,3,5,0.6,1.0,macro_dp × factor_q_mkt
+hitec,true,0.38605502913005646,3,5,0.6,1.0,macro_dp × factor_q_ia
+hitec,false,-0.0,1,5,0.2,,macro_ep × factor_q_mkt
+hitec,false,0.0,1,5,0.2,,macro_ep × factor_q_ia
+hitec,false,0.0,1,5,0.2,,macro_de × factor_q_ia
+hitec,false,0.0,1,5,0.2,,macro_dfy × factor_q_mkt
+hlth,true,0.8397828489352243,5,5,1.0,1.0,factor_ff_mkt_excess
+hlth,false,-0.0,1,5,0.2,,macro_dp × factor_ff_mkt_excess
+manuf,true,3.1248739183231984,5,5,1.0,1.0,factor_ff_mkt_excess
+manuf,false,0.0,2,5,0.4,,factor_q_mkt
+manuf,false,0.0,2,5,0.4,,macro_lty × factor_ff_mkt_excess
+nodur,true,0.7241499179456233,3,5,0.6,1.0,factor_ff_mkt_excess
+nodur,false,-0.0,2,5,0.4,,macro_dp × factor_ff_mkt_excess
+other,true,2.989521950516151,5,5,1.0,1.0,factor_ff_mkt_excess
+other,false,-0.0,1,5,0.2,,macro_dp × factor_ff_mkt_excess
+shops,true,2.2249661635386584,4,5,0.8,1.0,factor_ff_mkt_excess
+shops,false,-0.0,2,5,0.4,,macro_dp × factor_ff_mkt_excess
+telcm,true,-1.1001125990965122,0,5,0.0,,macro_dp × factor_ff_mkt_excess
+telcm,true,-0.8752570334341538,5,5,1.0,1.0,macro_ep × factor_ff_mkt_excess

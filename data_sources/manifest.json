@@ -1,0 +1,120 @@
+{
+  "built_at_utc": "2026-11-13T13:09:12.626997+00:00",
+  "status": "Reconstructed from public downloads; not the missing original SQLite file",
+  "sources": [
+    {
+      "file": "F-F_Research_Data_Factors_CSV.zip",
+      "source_urls": [
+        "https://mba.tuck.dartmouth.edu/pages/faculty/ken.french/ftp/F-F_Research_Data_Factors_CSV.zip"
+      ],
+      "sha256": "b03d39e4bb253dda0f14893db3b78e64b40b8d6549a0fc0fd4111dae84c98618"
+    },
+    {
+      "file": "10_Industry_Portfolios_CSV.zip",
+      "source_urls": [
+        "https://mba.tuck.dartmouth.edu/pages/faculty/ken.french/ftp/10_Industry_Portfolios_CSV.zip"
+      ],
+      "sha256": "cee051709825e60cc38f2aff01c2dec52265aa7ea4a1fefa023a2c8114a5166e"
+    },
+    {
+      "file": "q5_factors_monthly_2022.csv",
+      "source_urls": [
+        "https://global-q.org/uploads/1/2/2/6/122679606/q5_factors_monthly_2022.csv",
+        "https://global-q.weebly.com/uploads/1/2/2/6/122679606/q5_factors_monthly_2022.csv"
+      ],
+      "sha256": "b0e868f2dc355a8e3051fab181164809c2f5e5fb2dcfcf74cfcda90680fcfec4"
+    },
+    {
+      "file": "goyal_welch_monthly.csv",
+      "source_urls": [
+        "https://docs.google.com/spreadsheets/d/1bM7vCWd3WOt95Sf9qjLPZjoiafgF_8EG/gviz/tq?tqx=out:csv&sheet=Monthly"
+      ],
+      "sha256": "0f45de94311a03841a809a95c7e245e06893dfb3d248f447b46c948cb592f66c"
+    }
+  ],
+  "tables": {
+    "factors_ff3_monthly": {
+      "rows": 756,
+      "columns": [
+        "date",
+        "mkt_excess",
+        "smb",
+        "hml",
+        "rf"
+      ],
+      "start": "1960-01-01",
+      "end": "2022-12-01"
+    },
+    "factors_q_monthly": {
+      "rows": 672,
+      "columns": [
+        "date",
+        "year",
+        "f",
+        "mkt",
+        "me",
+        "ia",
+        "roe",
+        "eg"
+      ],
+      "start": "1967-01-01",
+      "end": "2022-12-01"
+    },
+    "macro_predictors": {
+      "rows": 755,
+      "columns": [
+        "date",
+        "rp_div",
+        "dp",
+        "dy",
+        "ep",
+        "de",
+        "svar",
+        "b/m",
+        "ntis",
+        "tbl",
+        "lty",
+        "ltr",
+        "tms",
+        "dfy",
+        "infl"
+      ],
+      "start": "1960-01-01",
+      "end": "2022-11-01"
+    },
+    "industries_ff_monthly": {
+      "rows": 756,
+      "columns": [
+        "date",
+        "nodur",
+        "durbl",
+        "manuf",
+        "enrgy",
+        "hitec",
+        "telcm",
+        "shops",
+        "hlth",
+        "utils",
+        "other"
+      ],
+      "start": "1960-01-01",
+      "end": "2022-12-01"
+    }
+  },
+  "merged_sample": {
+    "start": "1967-01-01",
+    "end": "2022-11-01",
+    "months": 671,
+    "industries": 10,
+    "rows": 6710,
+    "features": 153
+  },
+  "compatibility_notes": [
+    "FF factors and value-weighted industry total returns use the downloaded 202609 CRSP vintage, scaled from percent to decimal.",
+    "Q factors use the 2022 release. Preserve year and f and percentage units as observed in the original notebook output.",
+    "Macro raw CSV is PredictorData2023, available through the Tidy Finance reference link. Raw input is truncated at 202212 before the one-month lead target is formed.",
+    "The macro column dy reproduces the observed original dividend log growth (diff(log(D12))); it is not the standard dividend-yield definition.",
+    "rp_div is included for schema compatibility and dropped by the notebook before modeling; its original formula cannot be verified from stored output.",
+    "Source revisions mean historical notebook metrics are not guaranteed to reproduce. No notebook content or outputs are overwritten."
+  ]
+}

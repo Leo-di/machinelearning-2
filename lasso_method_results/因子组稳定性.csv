@@ -1,0 +1,28 @@
+行业,因子组,成员,最终入选成员,最终组入选,验证折入选次数,验证折数,组入选频率
+durbl,市场因子（FF/q）,factor_ff_mkt_excess；factor_q_mkt,"",false,3,5,0.6
+durbl,macro_dp × 市场因子（FF/q）,macro_dp × factor_ff_mkt_excess；macro_dp × factor_q_mkt,"",false,1,5,0.2
+durbl,macro_ep × 市场因子（FF/q）,macro_ep × factor_ff_mkt_excess；macro_ep × factor_q_mkt,macro_ep × factor_q_mkt,true,3,5,0.6
+durbl,macro_dfy × 市场因子（FF/q）,macro_dfy × factor_ff_mkt_excess；macro_dfy × factor_q_mkt,macro_dfy × factor_q_mkt,true,0,5,0.0
+enrgy,市场因子（FF/q）,factor_ff_mkt_excess；factor_q_mkt,factor_ff_mkt_excess,true,0,5,0.0
+enrgy,macro_tbl × 市场因子（FF/q）,macro_tbl × factor_ff_mkt_excess；macro_tbl × factor_q_mkt,"",false,5,5,1.0
+hitec,市场因子（FF/q）,factor_ff_mkt_excess；factor_q_mkt,"",false,3,5,0.6
+hitec,factor_q_ia,factor_q_ia,"",false,1,5,0.2
+hitec,macro_dp × 市场因子（FF/q）,macro_dp × factor_ff_mkt_excess；macro_dp × factor_q_mkt,macro_dp × factor_q_mkt,true,3,5,0.6
+hitec,macro_dp × factor_ff_hml,macro_dp × factor_ff_hml,macro_dp × factor_ff_hml,true,2,5,0.4
+hitec,macro_dp × factor_q_ia,macro_dp × factor_q_ia,macro_dp × factor_q_ia,true,3,5,0.6
+hitec,macro_ep × 市场因子（FF/q）,macro_ep × factor_ff_mkt_excess；macro_ep × factor_q_mkt,"",false,1,5,0.2
+hitec,macro_ep × factor_q_ia,macro_ep × factor_q_ia,"",false,1,5,0.2
+hitec,macro_de × factor_q_ia,macro_de × factor_q_ia,"",false,1,5,0.2
+hitec,macro_dfy × 市场因子（FF/q）,macro_dfy × factor_ff_mkt_excess；macro_dfy × factor_q_mkt,"",false,1,5,0.2
+hlth,市场因子（FF/q）,factor_ff_mkt_excess；factor_q_mkt,factor_ff_mkt_excess,true,5,5,1.0
+hlth,macro_dp × 市场因子（FF/q）,macro_dp × factor_ff_mkt_excess；macro_dp × factor_q_mkt,"",false,1,5,0.2
+manuf,市场因子（FF/q）,factor_ff_mkt_excess；factor_q_mkt,factor_ff_mkt_excess,true,5,5,1.0
+manuf,macro_lty × 市场因子（FF/q）,macro_lty × factor_ff_mkt_excess；macro_lty × factor_q_mkt,"",false,2,5,0.4
+nodur,市场因子（FF/q）,factor_ff_mkt_excess；factor_q_mkt,factor_ff_mkt_excess,true,3,5,0.6
+nodur,macro_dp × 市场因子（FF/q）,macro_dp × factor_ff_mkt_excess；macro_dp × factor_q_mkt,"",false,2,5,0.4
+other,市场因子（FF/q）,factor_ff_mkt_excess；factor_q_mkt,factor_ff_mkt_excess,true,5,5,1.0
+other,macro_dp × 市场因子（FF/q）,macro_dp × factor_ff_mkt_excess；macro_dp × factor_q_mkt,"",false,1,5,0.2
+shops,市场因子（FF/q）,factor_ff_mkt_excess；factor_q_mkt,factor_ff_mkt_excess,true,4,5,0.8
+shops,macro_dp × 市场因子（FF/q）,macro_dp × factor_ff_mkt_excess；macro_dp × factor_q_mkt,"",false,2,5,0.4
+telcm,macro_dp × 市场因子（FF/q）,macro_dp × factor_ff_mkt_excess；macro_dp × factor_q_mkt,macro_dp × factor_ff_mkt_excess,true,0,5,0.0
+telcm,macro_ep × 市场因子（FF/q）,macro_ep × factor_ff_mkt_excess；macro_ep × factor_q_mkt,macro_ep × factor_ff_mkt_excess,true,5,5,1.0

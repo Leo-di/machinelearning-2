@@ -1,0 +1,58 @@
+MAX_FACTORS = 5
+ALPHAS = np.logspace(-5, 0, 40)
+TRAIN_WINDOW, VALID_WINDOW = 60, 48
+
+
+def industry_sample(industry):
+    frame = data.filter(pl.col("industry") == industry)
+    split = int(frame.height * 0.8)
+    folds = [
+        (np.arange(start, start + TRAIN_WINDOW),
+         np.arange(start + TRAIN_WINDOW, start + TRAIN_WINDOW + VALID_WINDOW))
+        for start in range(0, split - TRAIN_WINDOW - VALID_WINDOW + 1, VALID_WINDOW)
+    ]
+    if not folds:
+        raise ValueError(f"{industry} 的训练期不足 108 条月度观测")
+    return frame.select(feature_cols).to_numpy(), frame["ret_excess"].to_numpy(), split, folds
+
+
+def fit_sparse_lasso(x_train, y_train, folds):
+    search = GridSearchCV(
+        make_pipeline(StandardScaler(), Lasso(max_iter=50_000)),
+        {"lasso__alpha": ALPHAS},
+        cv=folds,
+        scoring="neg_mean_squared_error",
+        refit=False,
+        error_score="raise",
+    ).fit(x_train, y_train)
+
+    scores = search.cv_results_["mean_test_score"]
+    for index in np.argsort(-scores, kind="stable"):
+        alpha = search.cv_results_["params"][index]["lasso__alpha"]
+        model = make_pipeline(StandardScaler(), Lasso(alpha=alpha, max_iter=50_000))
+        model.fit(x_train, y_train)
+        if np.count_nonzero(model.named_steps["lasso"].coef_) <= MAX_FACTORS:
+            return model, float(np.sqrt(-scores[index]))
+
+    raise ValueError("当前网格内没有满足因子数量上限的模型，请增大 ALPHAS 的上界。")
+
+
+def evaluate(industry):
+    x, y, split, folds = industry_sample(industry)
+    model, validation_rmse = fit_sparse_lasso(x[:split], y[:split], folds)
+
+    pred = model.predict(x[split:])
+    test_mse = mean_squared_error(y[split:], pred)
+    baseline_mse = mean_squared_error(
+        y[split:], np.full_like(y[split:], y[:split].mean())
+    )
+    lasso = model.named_steps["lasso"]
+    metrics = {
+        "行业": industry,
+        "alpha": lasso.alpha,
+        "验证 RMSE（百分点）": 100 * validation_rmse,
+        "测试 RMSE（百分点）": 100 * np.sqrt(test_mse),
+        "基准 RMSE（百分点）": 100 * np.sqrt(baseline_mse),
+        "样本外 R²": 1 - test_mse / baseline_mse if baseline_mse > 0 else None,
+    }
+    return lasso.coef_, metrics

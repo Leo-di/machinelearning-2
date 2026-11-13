@@ -1,0 +1,1531 @@
+行业,训练阶段,变量,纳入候选,入选次数,重采样次数,入选频率,符号一致率,多数方向,系数绝对值中位数（百分点）,最终入选,最终系数（百分点）,处理结果
+durbl,完整训练期,factor_ff_mkt_excess,true,88,100,0.88,1.0,1,1.2650259760539186,true,0.43043866169968253,最终保留
+durbl,完整训练期,factor_ff_smb,true,0,100,0.0,,0,0.0,false,0.0,入选频率不足
+durbl,完整训练期,factor_ff_hml,true,0,100,0.0,,0,0.0,false,0.0,入选频率不足
+durbl,完整训练期,factor_q_year,false,0,100,,,0,,false,0.0,预先剔除非因子或重复市场项
+durbl,完整训练期,factor_q_f,false,0,100,,,0,,false,0.0,预先剔除非因子或重复市场项
+durbl,完整训练期,factor_q_mkt,false,0,100,,,0,,false,0.0,预先剔除非因子或重复市场项
+durbl,完整训练期,factor_q_me,true,1,100,0.01,1.0,1,0.0,false,0.0,入选频率不足
+durbl,完整训练期,factor_q_ia,true,0,100,0.0,,0,0.0,false,0.0,入选频率不足
+durbl,完整训练期,factor_q_roe,true,1,100,0.01,1.0,-1,0.0,false,0.0,入选频率不足
+durbl,完整训练期,factor_q_eg,true,0,100,0.0,,0,0.0,false,0.0,入选频率不足
+durbl,完整训练期,macro_dp,true,0,100,0.0,,0,0.0,false,0.0,入选频率不足
+durbl,完整训练期,macro_dy,true,0,100,0.0,,0,0.0,false,0.0,入选频率不足
+durbl,完整训练期,macro_ep,true,0,100,0.0,,0,0.0,false,0.0,入选频率不足
+durbl,完整训练期,macro_de,true,0,100,0.0,,0,0.0,false,0.0,入选频率不足
+durbl,完整训练期,macro_svar,true,0,100,0.0,,0,0.0,false,0.0,入选频率不足
+durbl,完整训练期,macro_b/m,true,0,100,0.0,,0,0.0,false,0.0,入选频率不足
+durbl,完整训练期,macro_ntis,true,0,100,0.0,,0,0.0,false,0.0,入选频率不足
+durbl,完整训练期,macro_tbl,true,0,100,0.0,,0,0.0,false,0.0,入选频率不足
+durbl,完整训练期,macro_lty,true,0,100,0.0,,0,0.0,false,0.0,入选频率不足
+durbl,完整训练期,macro_ltr,true,0,100,0.0,,0,0.0,false,0.0,入选频率不足
+durbl,完整训练期,macro_tms,true,0,100,0.0,,0,0.0,false,0.0,入选频率不足
+durbl,完整训练期,macro_dfy,true,0,100,0.0,,0,0.0,false,0.0,入选频率不足
+durbl,完整训练期,macro_infl,true,0,100,0.0,,0,0.0,false,0.0,入选频率不足
+durbl,完整训练期,macro_dp × factor_ff_mkt_excess,true,9,100,0.09,1.0,-1,0.0,false,0.0,入选频率不足
+durbl,完整训练期,macro_dp × factor_ff_smb,true,0,100,0.0,,0,0.0,false,0.0,入选频率不足
+durbl,完整训练期,macro_dp × factor_ff_hml,true,4,100,0.04,1.0,-1,0.0,false,0.0,入选频率不足
+durbl,完整训练期,macro_dp × factor_q_year,false,0,100,,,0,,false,0.0,预先剔除非因子或重复市场项
+durbl,完整训练期,macro_dp × factor_q_f,false,0,100,,,0,,false,0.0,预先剔除非因子或重复市场项
+durbl,完整训练期,macro_dp × factor_q_mkt,false,0,100,,,0,,false,0.0,预先剔除非因子或重复市场项
+durbl,完整训练期,macro_dp × factor_q_me,true,1,100,0.01,1.0,-1,0.0,false,0.0,入选频率不足
+durbl,完整训练期,macro_dp × factor_q_ia,true,0,100,0.0,,0,0.0,false,0.0,入选频率不足
+durbl,完整训练期,macro_dp × factor_q_roe,true,0,100,0.0,,0,0.0,false,0.0,入选频率不足
+durbl,完整训练期,macro_dp × factor_q_eg,true,0,100,0.0,,0,0.0,false,0.0,入选频率不足
+durbl,完整训练期,macro_dy × factor_ff_mkt_excess,true,4,100,0.04,1.0,1,0.0,false,0.0,入选频率不足
+durbl,完整训练期,macro_dy × factor_ff_smb,true,1,100,0.01,1.0,1,0.0,false,0.0,入选频率不足
+durbl,完整训练期,macro_dy × factor_ff_hml,true,0,100,0.0,,0,0.0,false,0.0,入选频率不足
+durbl,完整训练期,macro_dy × factor_q_year,false,0,100,,,0,,false,0.0,预先剔除非因子或重复市场项
+durbl,完整训练期,macro_dy × factor_q_f,false,0,100,,,0,,false,0.0,预先剔除非因子或重复市场项
+durbl,完整训练期,macro_dy × factor_q_mkt,false,0,100,,,0,,false,0.0,预先剔除非因子或重复市场项
+durbl,完整训练期,macro_dy × factor_q_me,true,1,100,0.01,1.0,1,0.0,false,0.0,入选频率不足
+durbl,完整训练期,macro_dy × factor_q_ia,true,11,100,0.11,1.0,-1,0.0,false,0.0,入选频率不足
+durbl,完整训练期,macro_dy × factor_q_roe,true,2,100,0.02,1.0,1,0.0,false,0.0,入选频率不足
+durbl,完整训练期,macro_dy × factor_q_eg,true,2,100,0.02,1.0,-1,0.0,false,0.0,入选频率不足
+durbl,完整训练期,macro_ep × factor_ff_mkt_excess,true,84,100,0.84,1.0,-1,1.8595373857308202,true,-2.67586675044453,最终保留
+durbl,完整训练期,macro_ep × factor_ff_smb,true,0,100,0.0,,0,0.0,false,0.0,入选频率不足
+durbl,完整训练期,macro_ep × factor_ff_hml,true,25,100,0.25,1.0,-1,0.0,false,0.0,入选频率不足
+durbl,完整训练期,macro_ep × factor_q_year,false,0,100,,,0,,false,0.0,预先剔除非因子或重复市场项
+durbl,完整训练期,macro_ep × factor_q_f,false,0,100,,,0,,false,0.0,预先剔除非因子或重复市场项
+durbl,完整训练期,macro_ep × factor_q_mkt,false,0,100,,,0,,false,0.0,预先剔除非因子或重复市场项
+durbl,完整训练期,macro_ep × factor_q_me,true,4,100,0.04,1.0,-1,0.0,false,0.0,入选频率不足
+durbl,完整训练期,macro_ep × factor_q_ia,true,0,100,0.0,,0,0.0,false,0.0,入选频率不足
+durbl,完整训练期,macro_ep × factor_q_roe,true,1,100,0.01,1.0,1,0.0,false,0.0,入选频率不足
+durbl,完整训练期,macro_ep × factor_q_eg,true,0,100,0.0,,0,0.0,false,0.0,入选频率不足
+durbl,完整训练期,macro_de × factor_ff_mkt_excess,true,1,100,0.01,1.0,-1,0.0,false,0.0,入选频率不足
+durbl,完整训练期,macro_de × factor_ff_smb,true,0,100,0.0,,0,0.0,false,0.0,入选频率不足
+durbl,完整训练期,macro_de × factor_ff_hml,true,1,100,0.01,1.0,-1,0.0,false,0.0,入选频率不足
+durbl,完整训练期,macro_de × factor_q_year,false,0,100,,,0,,false,0.0,预先剔除非因子或重复市场项
+durbl,完整训练期,macro_de × factor_q_f,false,0,100,,,0,,false,0.0,预先剔除非因子或重复市场项
+durbl,完整训练期,macro_de × factor_q_mkt,false,0,100,,,0,,false,0.0,预先剔除非因子或重复市场项
+durbl,完整训练期,macro_de × factor_q_me,true,3,100,0.03,1.0,-1,0.0,false,0.0,入选频率不足
+durbl,完整训练期,macro_de × factor_q_ia,true,0,100,0.0,,0,0.0,false,0.0,入选频率不足
+durbl,完整训练期,macro_de × factor_q_roe,true,3,100,0.03,1.0,-1,0.0,false,0.0,入选频率不足
+durbl,完整训练期,macro_de × factor_q_eg,true,1,100,0.01,1.0,1,0.0,false,0.0,入选频率不足
+durbl,完整训练期,macro_svar × factor_ff_mkt_excess,true,0,100,0.0,,0,0.0,false,0.0,入选频率不足
+durbl,完整训练期,macro_svar × factor_ff_smb,true,3,100,0.03,1.0,1,0.0,false,0.0,入选频率不足
+durbl,完整训练期,macro_svar × factor_ff_hml,true,1,100,0.01,1.0,1,0.0,false,0.0,入选频率不足
+durbl,完整训练期,macro_svar × factor_q_year,false,0,100,,,0,,false,0.0,预先剔除非因子或重复市场项
+durbl,完整训练期,macro_svar × factor_q_f,false,0,100,,,0,,false,0.0,预先剔除非因子或重复市场项
+durbl,完整训练期,macro_svar × factor_q_mkt,false,0,100,,,0,,false,0.0,预先剔除非因子或重复市场项
+durbl,完整训练期,macro_svar × factor_q_me,true,1,100,0.01,1.0,1,0.0,false,0.0,入选频率不足
+durbl,完整训练期,macro_svar × factor_q_ia,true,1,100,0.01,1.0,1,0.0,false,0.0,入选频率不足
+durbl,完整训练期,macro_svar × factor_q_roe,true,1,100,0.01,1.0,-1,0.0,false,0.0,入选频率不足
+durbl,完整训练期,macro_svar × factor_q_eg,true,1,100,0.01,1.0,-1,0.0,false,0.0,入选频率不足
+durbl,完整训练期,macro_b/m × factor_ff_mkt_excess,true,1,100,0.01,1.0,1,0.0,false,0.0,入选频率不足
+durbl,完整训练期,macro_b/m × factor_ff_smb,true,0,100,0.0,,0,0.0,false,0.0,入选频率不足
+durbl,完整训练期,macro_b/m × factor_ff_hml,true,0,100,0.0,,0,0.0,false,0.0,入选频率不足
+durbl,完整训练期,macro_b/m × factor_q_year,false,0,100,,,0,,false,0.0,预先剔除非因子或重复市场项
+durbl,完整训练期,macro_b/m × factor_q_f,false,0,100,,,0,,false,0.0,预先剔除非因子或重复市场项
+durbl,完整训练期,macro_b/m × factor_q_mkt,false,0,100,,,0,,false,0.0,预先剔除非因子或重复市场项
+durbl,完整训练期,macro_b/m × factor_q_me,true,1,100,0.01,1.0,1,0.0,false,0.0,入选频率不足
+durbl,完整训练期,macro_b/m × factor_q_ia,true,0,100,0.0,,0,0.0,false,0.0,入选频率不足
+durbl,完整训练期,macro_b/m × factor_q_roe,true,4,100,0.04,1.0,-1,0.0,false,0.0,入选频率不足
+durbl,完整训练期,macro_b/m × factor_q_eg,true,0,100,0.0,,0,0.0,false,0.0,入选频率不足
+durbl,完整训练期,macro_ntis × factor_ff_mkt_excess,true,0,100,0.0,,0,0.0,false,0.0,入选频率不足
+durbl,完整训练期,macro_ntis × factor_ff_smb,true,0,100,0.0,,0,0.0,false,0.0,入选频率不足
+durbl,完整训练期,macro_ntis × factor_ff_hml,true,2,100,0.02,1.0,1,0.0,false,0.0,入选频率不足
+durbl,完整训练期,macro_ntis × factor_q_year,false,0,100,,,0,,false,0.0,预先剔除非因子或重复市场项
+durbl,完整训练期,macro_ntis × factor_q_f,false,0,100,,,0,,false,0.0,预先剔除非因子或重复市场项
+durbl,完整训练期,macro_ntis × factor_q_mkt,false,0,100,,,0,,false,0.0,预先剔除非因子或重复市场项
+durbl,完整训练期,macro_ntis × factor_q_me,true,0,100,0.0,,0,0.0,false,0.0,入选频率不足
+durbl,完整训练期,macro_ntis × factor_q_ia,true,0,100,0.0,,0,0.0,false,0.0,入选频率不足
+durbl,完整训练期,macro_ntis × factor_q_roe,true,3,100,0.03,1.0,1,0.0,false,0.0,入选频率不足
+durbl,完整训练期,macro_ntis × factor_q_eg,true,0,100,0.0,,0,0.0,false,0.0,入选频率不足
+durbl,完整训练期,macro_tbl × factor_ff_mkt_excess,true,0,100,0.0,,0,0.0,false,0.0,入选频率不足
+durbl,完整训练期,macro_tbl × factor_ff_smb,true,0,100,0.0,,0,0.0,false,0.0,入选频率不足
+durbl,完整训练期,macro_tbl × factor_ff_hml,true,0,100,0.0,,0,0.0,false,0.0,入选频率不足
+durbl,完整训练期,macro_tbl × factor_q_year,false,0,100,,,0,,false,0.0,预先剔除非因子或重复市场项
+durbl,完整训练期,macro_tbl × factor_q_f,false,0,100,,,0,,false,0.0,预先剔除非因子或重复市场项
+durbl,完整训练期,macro_tbl × factor_q_mkt,false,0,100,,,0,,false,0.0,预先剔除非因子或重复市场项
+durbl,完整训练期,macro_tbl × factor_q_me,true,0,100,0.0,,0,0.0,false,0.0,入选频率不足
+durbl,完整训练期,macro_tbl × factor_q_ia,true,0,100,0.0,,0,0.0,false,0.0,入选频率不足
+durbl,完整训练期,macro_tbl × factor_q_roe,true,0,100,0.0,,0,0.0,false,0.0,入选频率不足
+durbl,完整训练期,macro_tbl × factor_q_eg,true,0,100,0.0,,0,0.0,false,0.0,入选频率不足
+durbl,完整训练期,macro_lty × factor_ff_mkt_excess,true,0,100,0.0,,0,0.0,false,0.0,入选频率不足
+durbl,完整训练期,macro_lty × factor_ff_smb,true,0,100,0.0,,0,0.0,false,0.0,入选频率不足
+durbl,完整训练期,macro_lty × factor_ff_hml,true,0,100,0.0,,0,0.0,false,0.0,入选频率不足
+durbl,完整训练期,macro_lty × factor_q_year,false,0,100,,,0,,false,0.0,预先剔除非因子或重复市场项
+durbl,完整训练期,macro_lty × factor_q_f,false,0,100,,,0,,false,0.0,预先剔除非因子或重复市场项
+durbl,完整训练期,macro_lty × factor_q_mkt,false,0,100,,,0,,false,0.0,预先剔除非因子或重复市场项
+durbl,完整训练期,macro_lty × factor_q_me,true,0,100,0.0,,0,0.0,false,0.0,入选频率不足
+durbl,完整训练期,macro_lty × factor_q_ia,true,0,100,0.0,,0,0.0,false,0.0,入选频率不足
+durbl,完整训练期,macro_lty × factor_q_roe,true,0,100,0.0,,0,0.0,false,0.0,入选频率不足
+durbl,完整训练期,macro_lty × factor_q_eg,true,0,100,0.0,,0,0.0,false,0.0,入选频率不足
+durbl,完整训练期,macro_ltr × factor_ff_mkt_excess,true,0,100,0.0,,0,0.0,false,0.0,入选频率不足
+durbl,完整训练期,macro_ltr × factor_ff_smb,true,12,100,0.12,1.0,-1,0.0,false,0.0,入选频率不足
+durbl,完整训练期,macro_ltr × factor_ff_hml,true,2,100,0.02,1.0,1,0.0,false,0.0,入选频率不足
+durbl,完整训练期,macro_ltr × factor_q_year,false,0,100,,,0,,false,0.0,预先剔除非因子或重复市场项
+durbl,完整训练期,macro_ltr × factor_q_f,false,0,100,,,0,,false,0.0,预先剔除非因子或重复市场项
+durbl,完整训练期,macro_ltr × factor_q_mkt,false,0,100,,,0,,false,0.0,预先剔除非因子或重复市场项
+durbl,完整训练期,macro_ltr × factor_q_me,true,2,100,0.02,1.0,-1,0.0,false,0.0,入选频率不足
+durbl,完整训练期,macro_ltr × factor_q_ia,true,0,100,0.0,,0,0.0,false,0.0,入选频率不足
+durbl,完整训练期,macro_ltr × factor_q_roe,true,13,100,0.13,1.0,1,0.0,false,0.0,入选频率不足
+durbl,完整训练期,macro_ltr × factor_q_eg,true,0,100,0.0,,0,0.0,false,0.0,入选频率不足
+durbl,完整训练期,macro_tms × factor_ff_mkt_excess,true,90,100,0.9,1.0,1,0.41816350699227184,true,0.3754453275175075,最终保留
+durbl,完整训练期,macro_tms × factor_ff_smb,true,0,100,0.0,,0,0.0,false,0.0,入选频率不足
+durbl,完整训练期,macro_tms × factor_ff_hml,true,4,100,0.04,1.0,1,0.0,false,0.0,入选频率不足
+durbl,完整训练期,macro_tms × factor_q_year,false,0,100,,,0,,false,0.0,预先剔除非因子或重复市场项
+durbl,完整训练期,macro_tms × factor_q_f,false,0,100,,,0,,false,0.0,预先剔除非因子或重复市场项
+durbl,完整训练期,macro_tms × factor_q_mkt,false,0,100,,,0,,false,0.0,预先剔除非因子或重复市场项
+durbl,完整训练期,macro_tms × factor_q_me,true,1,100,0.01,1.0,1,0.0,false,0.0,入选频率不足
+durbl,完整训练期,macro_tms × factor_q_ia,true,11,100,0.11,1.0,1,0.0,false,0.0,入选频率不足
+durbl,完整训练期,macro_tms × factor_q_roe,true,2,100,0.02,1.0,-1,0.0,false,0.0,入选频率不足
+durbl,完整训练期,macro_tms × factor_q_eg,true,0,100,0.0,,0,0.0,false,0.0,入选频率不足
+durbl,完整训练期,macro_dfy × factor_ff_mkt_excess,true,89,100,0.89,1.0,1,0.7853435651343357,true,1.0541629719962695,最终保留
+durbl,完整训练期,macro_dfy × factor_ff_smb,true,0,100,0.0,,0,0.0,false,0.0,入选频率不足
+durbl,完整训练期,macro_dfy × factor_ff_hml,true,0,100,0.0,,0,0.0,false,0.0,入选频率不足
+durbl,完整训练期,macro_dfy × factor_q_year,false,0,100,,,0,,false,0.0,预先剔除非因子或重复市场项
+durbl,完整训练期,macro_dfy × factor_q_f,false,0,100,,,0,,false,0.0,预先剔除非因子或重复市场项
+durbl,完整训练期,macro_dfy × factor_q_mkt,false,0,100,,,0,,false,0.0,预先剔除非因子或重复市场项
+durbl,完整训练期,macro_dfy × factor_q_me,true,26,100,0.26,1.0,1,0.0,false,0.0,入选频率不足
+durbl,完整训练期,macro_dfy × factor_q_ia,true,1,100,0.01,1.0,1,0.0,false,0.0,入选频率不足
+durbl,完整训练期,macro_dfy × factor_q_roe,true,60,100,0.6,1.0,-1,0.16464937392655063,false,0.0,入选频率不足
+durbl,完整训练期,macro_dfy × factor_q_eg,true,0,100,0.0,,0,0.0,false,0.0,入选频率不足
+durbl,完整训练期,macro_infl × factor_ff_mkt_excess,true,0,100,0.0,,0,0.0,false,0.0,入选频率不足
+durbl,完整训练期,macro_infl × factor_ff_smb,true,0,100,0.0,,0,0.0,false,0.0,入选频率不足
+durbl,完整训练期,macro_infl × factor_ff_hml,true,0,100,0.0,,0,0.0,false,0.0,入选频率不足
+durbl,完整训练期,macro_infl × factor_q_year,false,0,100,,,0,,false,0.0,预先剔除非因子或重复市场项
+durbl,完整训练期,macro_infl × factor_q_f,false,0,100,,,0,,false,0.0,预先剔除非因子或重复市场项
+durbl,完整训练期,macro_infl × factor_q_mkt,false,0,100,,,0,,false,0.0,预先剔除非因子或重复市场项
+durbl,完整训练期,macro_infl × factor_q_me,true,0,100,0.0,,0,0.0,false,0.0,入选频率不足
+durbl,完整训练期,macro_infl × factor_q_ia,true,0,100,0.0,,0,0.0,false,0.0,入选频率不足
+durbl,完整训练期,macro_infl × factor_q_roe,true,0,100,0.0,,0,0.0,false,0.0,入选频率不足
+durbl,完整训练期,macro_infl × factor_q_eg,true,0,100,0.0,,0,0.0,false,0.0,入选频率不足
+enrgy,完整训练期,factor_ff_mkt_excess,true,96,100,0.96,1.0,1,1.564158073366817,true,1.8974628111590701,最终保留
+enrgy,完整训练期,factor_ff_smb,true,0,100,0.0,,0,0.0,false,0.0,入选频率不足
+enrgy,完整训练期,factor_ff_hml,true,0,100,0.0,,0,0.0,false,0.0,入选频率不足
+enrgy,完整训练期,factor_q_year,false,0,100,,,0,,false,0.0,预先剔除非因子或重复市场项
+enrgy,完整训练期,factor_q_f,false,0,100,,,0,,false,0.0,预先剔除非因子或重复市场项
+enrgy,完整训练期,factor_q_mkt,false,0,100,,,0,,false,0.0,预先剔除非因子或重复市场项
+enrgy,完整训练期,factor_q_me,true,0,100,0.0,,0,0.0,false,0.0,入选频率不足
+enrgy,完整训练期,factor_q_ia,true,0,100,0.0,,0,0.0,false,0.0,入选频率不足
+enrgy,完整训练期,factor_q_roe,true,0,100,0.0,,0,0.0,false,0.0,入选频率不足
+enrgy,完整训练期,factor_q_eg,true,0,100,0.0,,0,0.0,false,0.0,入选频率不足
+enrgy,完整训练期,macro_dp,true,1,100,0.01,1.0,-1,0.0,false,0.0,入选频率不足
+enrgy,完整训练期,macro_dy,true,0,100,0.0,,0,0.0,false,0.0,入选频率不足
+enrgy,完整训练期,macro_ep,true,0,100,0.0,,0,0.0,false,0.0,入选频率不足
+enrgy,完整训练期,macro_de,true,0,100,0.0,,0,0.0,false,0.0,入选频率不足
+enrgy,完整训练期,macro_svar,true,0,100,0.0,,0,0.0,false,0.0,入选频率不足
+enrgy,完整训练期,macro_b/m,true,0,100,0.0,,0,0.0,false,0.0,入选频率不足
+enrgy,完整训练期,macro_ntis,true,0,100,0.0,,0,0.0,false,0.0,入选频率不足
+enrgy,完整训练期,macro_tbl,true,0,100,0.0,,0,0.0,false,0.0,入选频率不足
+enrgy,完整训练期,macro_lty,true,0,100,0.0,,0,0.0,false,0.0,入选频率不足
+enrgy,完整训练期,macro_ltr,true,0,100,0.0,,0,0.0,false,0.0,入选频率不足
+enrgy,完整训练期,macro_tms,true,0,100,0.0,,0,0.0,false,0.0,入选频率不足
+enrgy,完整训练期,macro_dfy,true,0,100,0.0,,0,0.0,false,0.0,入选频率不足
+enrgy,完整训练期,macro_infl,true,0,100,0.0,,0,0.0,false,0.0,入选频率不足
+enrgy,完整训练期,macro_dp × factor_ff_mkt_excess,true,2,100,0.02,1.0,-1,0.0,false,0.0,入选频率不足
+enrgy,完整训练期,macro_dp × factor_ff_smb,true,0,100,0.0,,0,0.0,false,0.0,入选频率不足
+enrgy,完整训练期,macro_dp × factor_ff_hml,true,0,100,0.0,,0,0.0,false,0.0,入选频率不足
+enrgy,完整训练期,macro_dp × factor_q_year,false,0,100,,,0,,false,0.0,预先剔除非因子或重复市场项
+enrgy,完整训练期,macro_dp × factor_q_f,false,0,100,,,0,,false,0.0,预先剔除非因子或重复市场项
+enrgy,完整训练期,macro_dp × factor_q_mkt,false,0,100,,,0,,false,0.0,预先剔除非因子或重复市场项
+enrgy,完整训练期,macro_dp × factor_q_me,true,0,100,0.0,,0,0.0,false,0.0,入选频率不足
+enrgy,完整训练期,macro_dp × factor_q_ia,true,0,100,0.0,,0,0.0,false,0.0,入选频率不足
+enrgy,完整训练期,macro_dp × factor_q_roe,true,0,100,0.0,,0,0.0,false,0.0,入选频率不足
+enrgy,完整训练期,macro_dp × factor_q_eg,true,0,100,0.0,,0,0.0,false,0.0,入选频率不足
+enrgy,完整训练期,macro_dy × factor_ff_mkt_excess,true,2,100,0.02,1.0,1,0.0,false,0.0,入选频率不足
+enrgy,完整训练期,macro_dy × factor_ff_smb,true,0,100,0.0,,0,0.0,false,0.0,入选频率不足
+enrgy,完整训练期,macro_dy × factor_ff_hml,true,0,100,0.0,,0,0.0,false,0.0,入选频率不足
+enrgy,完整训练期,macro_dy × factor_q_year,false,0,100,,,0,,false,0.0,预先剔除非因子或重复市场项
+enrgy,完整训练期,macro_dy × factor_q_f,false,0,100,,,0,,false,0.0,预先剔除非因子或重复市场项
+enrgy,完整训练期,macro_dy × factor_q_mkt,false,0,100,,,0,,false,0.0,预先剔除非因子或重复市场项
+enrgy,完整训练期,macro_dy × factor_q_me,true,0,100,0.0,,0,0.0,false,0.0,入选频率不足
+enrgy,完整训练期,macro_dy × factor_q_ia,true,0,100,0.0,,0,0.0,false,0.0,入选频率不足
+enrgy,完整训练期,macro_dy × factor_q_roe,true,0,100,0.0,,0,0.0,false,0.0,入选频率不足
+enrgy,完整训练期,macro_dy × factor_q_eg,true,0,100,0.0,,0,0.0,false,0.0,入选频率不足
+enrgy,完整训练期,macro_ep × factor_ff_mkt_excess,true,0,100,0.0,,0,0.0,false,0.0,入选频率不足
+enrgy,完整训练期,macro_ep × factor_ff_smb,true,0,100,0.0,,0,0.0,false,0.0,入选频率不足
+enrgy,完整训练期,macro_ep × factor_ff_hml,true,1,100,0.01,1.0,-1,0.0,false,0.0,入选频率不足
+enrgy,完整训练期,macro_ep × factor_q_year,false,0,100,,,0,,false,0.0,预先剔除非因子或重复市场项
+enrgy,完整训练期,macro_ep × factor_q_f,false,0,100,,,0,,false,0.0,预先剔除非因子或重复市场项
+enrgy,完整训练期,macro_ep × factor_q_mkt,false,0,100,,,0,,false,0.0,预先剔除非因子或重复市场项
+enrgy,完整训练期,macro_ep × factor_q_me,true,1,100,0.01,1.0,1,0.0,false,0.0,入选频率不足
+enrgy,完整训练期,macro_ep × factor_q_ia,true,0,100,0.0,,0,0.0,false,0.0,入选频率不足
+enrgy,完整训练期,macro_ep × factor_q_roe,true,0,100,0.0,,0,0.0,false,0.0,入选频率不足
+enrgy,完整训练期,macro_ep × factor_q_eg,true,0,100,0.0,,0,0.0,false,0.0,入选频率不足
+enrgy,完整训练期,macro_de × factor_ff_mkt_excess,true,14,100,0.14,1.0,-1,0.0,false,0.0,入选频率不足
+enrgy,完整训练期,macro_de × factor_ff_smb,true,0,100,0.0,,0,0.0,false,0.0,入选频率不足
+enrgy,完整训练期,macro_de × factor_ff_hml,true,0,100,0.0,,0,0.0,false,0.0,入选频率不足
+enrgy,完整训练期,macro_de × factor_q_year,false,0,100,,,0,,false,0.0,预先剔除非因子或重复市场项
+enrgy,完整训练期,macro_de × factor_q_f,false,0,100,,,0,,false,0.0,预先剔除非因子或重复市场项
+enrgy,完整训练期,macro_de × factor_q_mkt,false,0,100,,,0,,false,0.0,预先剔除非因子或重复市场项
+enrgy,完整训练期,macro_de × factor_q_me,true,0,100,0.0,,0,0.0,false,0.0,入选频率不足
+enrgy,完整训练期,macro_de × factor_q_ia,true,0,100,0.0,,0,0.0,false,0.0,入选频率不足
+enrgy,完整训练期,macro_de × factor_q_roe,true,0,100,0.0,,0,0.0,false,0.0,入选频率不足
+enrgy,完整训练期,macro_de × factor_q_eg,true,0,100,0.0,,0,0.0,false,0.0,入选频率不足
+enrgy,完整训练期,macro_svar × factor_ff_mkt_excess,true,0,100,0.0,,0,0.0,false,0.0,入选频率不足
+enrgy,完整训练期,macro_svar × factor_ff_smb,true,0,100,0.0,,0,0.0,false,0.0,入选频率不足
+enrgy,完整训练期,macro_svar × factor_ff_hml,true,0,100,0.0,,0,0.0,false,0.0,入选频率不足
+enrgy,完整训练期,macro_svar × factor_q_year,false,0,100,,,0,,false,0.0,预先剔除非因子或重复市场项
+enrgy,完整训练期,macro_svar × factor_q_f,false,0,100,,,0,,false,0.0,预先剔除非因子或重复市场项
+enrgy,完整训练期,macro_svar × factor_q_mkt,false,0,100,,,0,,false,0.0,预先剔除非因子或重复市场项
+enrgy,完整训练期,macro_svar × factor_q_me,true,0,100,0.0,,0,0.0,false,0.0,入选频率不足
+enrgy,完整训练期,macro_svar × factor_q_ia,true,0,100,0.0,,0,0.0,false,0.0,入选频率不足
+enrgy,完整训练期,macro_svar × factor_q_roe,true,0,100,0.0,,0,0.0,false,0.0,入选频率不足
+enrgy,完整训练期,macro_svar × factor_q_eg,true,0,100,0.0,,0,0.0,false,0.0,入选频率不足
+enrgy,完整训练期,macro_b/m × factor_ff_mkt_excess,true,82,100,0.82,1.0,1,0.5159913669245887,true,0.9097857016978529,最终保留
+enrgy,完整训练期,macro_b/m × factor_ff_smb,true,0,100,0.0,,0,0.0,false,0.0,入选频率不足
+enrgy,完整训练期,macro_b/m × factor_ff_hml,true,0,100,0.0,,0,0.0,false,0.0,入选频率不足
+enrgy,完整训练期,macro_b/m × factor_q_year,false,0,100,,,0,,false,0.0,预先剔除非因子或重复市场项
+enrgy,完整训练期,macro_b/m × factor_q_f,false,0,100,,,0,,false,0.0,预先剔除非因子或重复市场项
+enrgy,完整训练期,macro_b/m × factor_q_mkt,false,0,100,,,0,,false,0.0,预先剔除非因子或重复市场项
+enrgy,完整训练期,macro_b/m × factor_q_me,true,0,100,0.0,,0,0.0,false,0.0,入选频率不足
+enrgy,完整训练期,macro_b/m × factor_q_ia,true,0,100,0.0,,0,0.0,false,0.0,入选频率不足
+enrgy,完整训练期,macro_b/m × factor_q_roe,true,0,100,0.0,,0,0.0,false,0.0,入选频率不足
+enrgy,完整训练期,macro_b/m × factor_q_eg,true,0,100,0.0,,0,0.0,false,0.0,入选频率不足
+enrgy,完整训练期,macro_ntis × factor_ff_mkt_excess,true,6,100,0.06,1.0,1,0.0,false,0.0,入选频率不足
+enrgy,完整训练期,macro_ntis × factor_ff_smb,true,0,100,0.0,,0,0.0,false,0.0,入选频率不足
+enrgy,完整训练期,macro_ntis × factor_ff_hml,true,9,100,0.09,1.0,1,0.0,false,0.0,入选频率不足
+enrgy,完整训练期,macro_ntis × factor_q_year,false,0,100,,,0,,false,0.0,预先剔除非因子或重复市场项
+enrgy,完整训练期,macro_ntis × factor_q_f,false,0,100,,,0,,false,0.0,预先剔除非因子或重复市场项
+enrgy,完整训练期,macro_ntis × factor_q_mkt,false,0,100,,,0,,false,0.0,预先剔除非因子或重复市场项
+enrgy,完整训练期,macro_ntis × factor_q_me,true,0,100,0.0,,0,0.0,false,0.0,入选频率不足
+enrgy,完整训练期,macro_ntis × factor_q_ia,true,3,100,0.03,1.0,1,0.0,false,0.0,入选频率不足
+enrgy,完整训练期,macro_ntis × factor_q_roe,true,0,100,0.0,,0,0.0,false,0.0,入选频率不足
+enrgy,完整训练期,macro_ntis × factor_q_eg,true,0,100,0.0,,0,0.0,false,0.0,入选频率不足
+enrgy,完整训练期,macro_tbl × factor_ff_mkt_excess,true,42,100,0.42,1.0,1,0.0,false,0.0,入选频率不足
+enrgy,完整训练期,macro_tbl × factor_ff_smb,true,3,100,0.03,1.0,-1,0.0,false,0.0,入选频率不足
+enrgy,完整训练期,macro_tbl × factor_ff_hml,true,2,100,0.02,1.0,1,0.0,false,0.0,入选频率不足
+enrgy,完整训练期,macro_tbl × factor_q_year,false,0,100,,,0,,false,0.0,预先剔除非因子或重复市场项
+enrgy,完整训练期,macro_tbl × factor_q_f,false,0,100,,,0,,false,0.0,预先剔除非因子或重复市场项
+enrgy,完整训练期,macro_tbl × factor_q_mkt,false,0,100,,,0,,false,0.0,预先剔除非因子或重复市场项
+enrgy,完整训练期,macro_tbl × factor_q_me,true,15,100,0.15,1.0,-1,0.0,false,0.0,入选频率不足
+enrgy,完整训练期,macro_tbl × factor_q_ia,true,0,100,0.0,,0,0.0,false,0.0,入选频率不足
+enrgy,完整训练期,macro_tbl × factor_q_roe,true,3,100,0.03,1.0,1,0.0,false,0.0,入选频率不足
+enrgy,完整训练期,macro_tbl × factor_q_eg,true,0,100,0.0,,0,0.0,false,0.0,入选频率不足
+enrgy,完整训练期,macro_lty × factor_ff_mkt_excess,true,37,100,0.37,1.0,1,0.0,false,0.0,入选频率不足
+enrgy,完整训练期,macro_lty × factor_ff_smb,true,0,100,0.0,,0,0.0,false,0.0,入选频率不足
+enrgy,完整训练期,macro_lty × factor_ff_hml,true,0,100,0.0,,0,0.0,false,0.0,入选频率不足
+enrgy,完整训练期,macro_lty × factor_q_year,false,0,100,,,0,,false,0.0,预先剔除非因子或重复市场项
+enrgy,完整训练期,macro_lty × factor_q_f,false,0,100,,,0,,false,0.0,预先剔除非因子或重复市场项
+enrgy,完整训练期,macro_lty × factor_q_mkt,false,0,100,,,0,,false,0.0,预先剔除非因子或重复市场项
+enrgy,完整训练期,macro_lty × factor_q_me,true,2,100,0.02,1.0,-1,0.0,false,0.0,入选频率不足
+enrgy,完整训练期,macro_lty × factor_q_ia,true,0,100,0.0,,0,0.0,false,0.0,入选频率不足
+enrgy,完整训练期,macro_lty × factor_q_roe,true,0,100,0.0,,0,0.0,false,0.0,入选频率不足
+enrgy,完整训练期,macro_lty × factor_q_eg,true,0,100,0.0,,0,0.0,false,0.0,入选频率不足
+enrgy,完整训练期,macro_ltr × factor_ff_mkt_excess,true,0,100,0.0,,0,0.0,false,0.0,入选频率不足
+enrgy,完整训练期,macro_ltr × factor_ff_smb,true,0,100,0.0,,0,0.0,false,0.0,入选频率不足
+enrgy,完整训练期,macro_ltr × factor_ff_hml,true,0,100,0.0,,0,0.0,false,0.0,入选频率不足
+enrgy,完整训练期,macro_ltr × factor_q_year,false,0,100,,,0,,false,0.0,预先剔除非因子或重复市场项
+enrgy,完整训练期,macro_ltr × factor_q_f,false,0,100,,,0,,false,0.0,预先剔除非因子或重复市场项
+enrgy,完整训练期,macro_ltr × factor_q_mkt,false,0,100,,,0,,false,0.0,预先剔除非因子或重复市场项
+enrgy,完整训练期,macro_ltr × factor_q_me,true,0,100,0.0,,0,0.0,false,0.0,入选频率不足
+enrgy,完整训练期,macro_ltr × factor_q_ia,true,0,100,0.0,,0,0.0,false,0.0,入选频率不足
+enrgy,完整训练期,macro_ltr × factor_q_roe,true,1,100,0.01,1.0,-1,0.0,false,0.0,入选频率不足
+enrgy,完整训练期,macro_ltr × factor_q_eg,true,0,100,0.0,,0,0.0,false,0.0,入选频率不足
+enrgy,完整训练期,macro_tms × factor_ff_mkt_excess,true,1,100,0.01,1.0,1,0.0,false,0.0,入选频率不足
+enrgy,完整训练期,macro_tms × factor_ff_smb,true,0,100,0.0,,0,0.0,false,0.0,入选频率不足
+enrgy,完整训练期,macro_tms × factor_ff_hml,true,1,100,0.01,1.0,1,0.0,false,0.0,入选频率不足
+enrgy,完整训练期,macro_tms × factor_q_year,false,0,100,,,0,,false,0.0,预先剔除非因子或重复市场项
+enrgy,完整训练期,macro_tms × factor_q_f,false,0,100,,,0,,false,0.0,预先剔除非因子或重复市场项
+enrgy,完整训练期,macro_tms × factor_q_mkt,false,0,100,,,0,,false,0.0,预先剔除非因子或重复市场项
+enrgy,完整训练期,macro_tms × factor_q_me,true,0,100,0.0,,0,0.0,false,0.0,入选频率不足
+enrgy,完整训练期,macro_tms × factor_q_ia,true,0,100,0.0,,0,0.0,false,0.0,入选频率不足
+enrgy,完整训练期,macro_tms × factor_q_roe,true,1,100,0.01,1.0,-1,0.0,false,0.0,入选频率不足
+enrgy,完整训练期,macro_tms × factor_q_eg,true,0,100,0.0,,0,0.0,false,0.0,入选频率不足
+enrgy,完整训练期,macro_dfy × factor_ff_mkt_excess,true,21,100,0.21,1.0,1,0.0,false,0.0,入选频率不足
+enrgy,完整训练期,macro_dfy × factor_ff_smb,true,1,100,0.01,1.0,-1,0.0,false,0.0,入选频率不足
+enrgy,完整训练期,macro_dfy × factor_ff_hml,true,0,100,0.0,,0,0.0,false,0.0,入选频率不足
+enrgy,完整训练期,macro_dfy × factor_q_year,false,0,100,,,0,,false,0.0,预先剔除非因子或重复市场项
+enrgy,完整训练期,macro_dfy × factor_q_f,false,0,100,,,0,,false,0.0,预先剔除非因子或重复市场项
+enrgy,完整训练期,macro_dfy × factor_q_mkt,false,0,100,,,0,,false,0.0,预先剔除非因子或重复市场项
+enrgy,完整训练期,macro_dfy × factor_q_me,true,2,100,0.02,1.0,-1,0.0,false,0.0,入选频率不足
+enrgy,完整训练期,macro_dfy × factor_q_ia,true,0,100,0.0,,0,0.0,false,0.0,入选频率不足
+enrgy,完整训练期,macro_dfy × factor_q_roe,true,0,100,0.0,,0,0.0,false,0.0,入选频率不足
+enrgy,完整训练期,macro_dfy × factor_q_eg,true,0,100,0.0,,0,0.0,false,0.0,入选频率不足
+enrgy,完整训练期,macro_infl × factor_ff_mkt_excess,true,37,100,0.37,1.0,1,0.0,false,0.0,入选频率不足
+enrgy,完整训练期,macro_infl × factor_ff_smb,true,4,100,0.04,1.0,-1,0.0,false,0.0,入选频率不足
+enrgy,完整训练期,macro_infl × factor_ff_hml,true,1,100,0.01,1.0,1,0.0,false,0.0,入选频率不足
+enrgy,完整训练期,macro_infl × factor_q_year,false,0,100,,,0,,false,0.0,预先剔除非因子或重复市场项
+enrgy,完整训练期,macro_infl × factor_q_f,false,0,100,,,0,,false,0.0,预先剔除非因子或重复市场项
+enrgy,完整训练期,macro_infl × factor_q_mkt,false,0,100,,,0,,false,0.0,预先剔除非因子或重复市场项
+enrgy,完整训练期,macro_infl × factor_q_me,true,0,100,0.0,,0,0.0,false,0.0,入选频率不足
+enrgy,完整训练期,macro_infl × factor_q_ia,true,0,100,0.0,,0,0.0,false,0.0,入选频率不足
+enrgy,完整训练期,macro_infl × factor_q_roe,true,11,100,0.11,1.0,1,0.0,false,0.0,入选频率不足
+enrgy,完整训练期,macro_infl × factor_q_eg,true,0,100,0.0,,0,0.0,false,0.0,入选频率不足
+hitec,完整训练期,factor_ff_mkt_excess,true,1,100,0.01,1.0,1,0.0,false,0.0,入选频率不足
+hitec,完整训练期,factor_ff_smb,true,5,100,0.05,1.0,1,0.0,false,0.0,入选频率不足
+hitec,完整训练期,factor_ff_hml,true,0,100,0.0,,0,0.0,false,0.0,入选频率不足
+hitec,完整训练期,factor_q_year,false,0,100,,,0,,false,0.0,预先剔除非因子或重复市场项
+hitec,完整训练期,factor_q_f,false,0,100,,,0,,false,0.0,预先剔除非因子或重复市场项
+hitec,完整训练期,factor_q_mkt,false,0,100,,,0,,false,0.0,预先剔除非因子或重复市场项
+hitec,完整训练期,factor_q_me,true,0,100,0.0,,0,0.0,false,0.0,入选频率不足
+hitec,完整训练期,factor_q_ia,true,1,100,0.01,1.0,-1,0.0,false,0.0,入选频率不足
+hitec,完整训练期,factor_q_roe,true,0,100,0.0,,0,0.0,false,0.0,入选频率不足
+hitec,完整训练期,factor_q_eg,true,0,100,0.0,,0,0.0,false,0.0,入选频率不足
+hitec,完整训练期,macro_dp,true,0,100,0.0,,0,0.0,false,0.0,入选频率不足
+hitec,完整训练期,macro_dy,true,0,100,0.0,,0,0.0,false,0.0,入选频率不足
+hitec,完整训练期,macro_ep,true,0,100,0.0,,0,0.0,false,0.0,入选频率不足
+hitec,完整训练期,macro_de,true,0,100,0.0,,0,0.0,false,0.0,入选频率不足
+hitec,完整训练期,macro_svar,true,0,100,0.0,,0,0.0,false,0.0,入选频率不足
+hitec,完整训练期,macro_b/m,true,0,100,0.0,,0,0.0,false,0.0,入选频率不足
+hitec,完整训练期,macro_ntis,true,0,100,0.0,,0,0.0,false,0.0,入选频率不足
+hitec,完整训练期,macro_tbl,true,0,100,0.0,,0,0.0,false,0.0,入选频率不足
+hitec,完整训练期,macro_lty,true,0,100,0.0,,0,0.0,false,0.0,入选频率不足
+hitec,完整训练期,macro_ltr,true,0,100,0.0,,0,0.0,false,0.0,入选频率不足
+hitec,完整训练期,macro_tms,true,0,100,0.0,,0,0.0,false,0.0,入选频率不足
+hitec,完整训练期,macro_dfy,true,0,100,0.0,,0,0.0,false,0.0,入选频率不足
+hitec,完整训练期,macro_infl,true,0,100,0.0,,0,0.0,false,0.0,入选频率不足
+hitec,完整训练期,macro_dp × factor_ff_mkt_excess,true,99,100,0.99,1.0,-1,4.442952870956818,true,-4.538766483050199,最终保留
+hitec,完整训练期,macro_dp × factor_ff_smb,true,3,100,0.03,1.0,-1,0.0,false,0.0,入选频率不足
+hitec,完整训练期,macro_dp × factor_ff_hml,true,84,100,0.84,1.0,1,0.4698777289941541,true,0.6015991612947315,最终保留
+hitec,完整训练期,macro_dp × factor_q_year,false,0,100,,,0,,false,0.0,预先剔除非因子或重复市场项
+hitec,完整训练期,macro_dp × factor_q_f,false,0,100,,,0,,false,0.0,预先剔除非因子或重复市场项
+hitec,完整训练期,macro_dp × factor_q_mkt,false,0,100,,,0,,false,0.0,预先剔除非因子或重复市场项
+hitec,完整训练期,macro_dp × factor_q_me,true,0,100,0.0,,0,0.0,false,0.0,入选频率不足
+hitec,完整训练期,macro_dp × factor_q_ia,true,70,100,0.7,1.0,1,0.3224493630066818,true,0.6289050617532007,最终保留
+hitec,完整训练期,macro_dp × factor_q_roe,true,10,100,0.1,1.0,1,0.0,false,0.0,入选频率不足
+hitec,完整训练期,macro_dp × factor_q_eg,true,0,100,0.0,,0,0.0,false,0.0,入选频率不足
+hitec,完整训练期,macro_dy × factor_ff_mkt_excess,true,0,100,0.0,,0,0.0,false,0.0,入选频率不足
+hitec,完整训练期,macro_dy × factor_ff_smb,true,0,100,0.0,,0,0.0,false,0.0,入选频率不足
+hitec,完整训练期,macro_dy × factor_ff_hml,true,1,100,0.01,1.0,-1,0.0,false,0.0,入选频率不足
+hitec,完整训练期,macro_dy × factor_q_year,false,0,100,,,0,,false,0.0,预先剔除非因子或重复市场项
+hitec,完整训练期,macro_dy × factor_q_f,false,0,100,,,0,,false,0.0,预先剔除非因子或重复市场项
+hitec,完整训练期,macro_dy × factor_q_mkt,false,0,100,,,0,,false,0.0,预先剔除非因子或重复市场项
+hitec,完整训练期,macro_dy × factor_q_me,true,0,100,0.0,,0,0.0,false,0.0,入选频率不足
+hitec,完整训练期,macro_dy × factor_q_ia,true,0,100,0.0,,0,0.0,false,0.0,入选频率不足
+hitec,完整训练期,macro_dy × factor_q_roe,true,0,100,0.0,,0,0.0,false,0.0,入选频率不足
+hitec,完整训练期,macro_dy × factor_q_eg,true,0,100,0.0,,0,0.0,false,0.0,入选频率不足
+hitec,完整训练期,macro_ep × factor_ff_mkt_excess,true,13,100,0.13,1.0,-1,0.0,false,0.0,入选频率不足
+hitec,完整训练期,macro_ep × factor_ff_smb,true,23,100,0.23,1.0,-1,0.0,false,0.0,入选频率不足
+hitec,完整训练期,macro_ep × factor_ff_hml,true,8,100,0.08,1.0,1,0.0,false,0.0,入选频率不足
+hitec,完整训练期,macro_ep × factor_q_year,false,0,100,,,0,,false,0.0,预先剔除非因子或重复市场项
+hitec,完整训练期,macro_ep × factor_q_f,false,0,100,,,0,,false,0.0,预先剔除非因子或重复市场项
+hitec,完整训练期,macro_ep × factor_q_mkt,false,0,100,,,0,,false,0.0,预先剔除非因子或重复市场项
+hitec,完整训练期,macro_ep × factor_q_me,true,0,100,0.0,,0,0.0,false,0.0,入选频率不足
+hitec,完整训练期,macro_ep × factor_q_ia,true,21,100,0.21,1.0,1,0.0,false,0.0,入选频率不足
+hitec,完整训练期,macro_ep × factor_q_roe,true,12,100,0.12,1.0,1,0.0,false,0.0,入选频率不足
+hitec,完整训练期,macro_ep × factor_q_eg,true,0,100,0.0,,0,0.0,false,0.0,入选频率不足
+hitec,完整训练期,macro_de × factor_ff_mkt_excess,true,2,100,0.02,1.0,-1,0.0,false,0.0,入选频率不足
+hitec,完整训练期,macro_de × factor_ff_smb,true,0,100,0.0,,0,0.0,false,0.0,入选频率不足
+hitec,完整训练期,macro_de × factor_ff_hml,true,29,100,0.29,1.0,1,0.0,false,0.0,入选频率不足
+hitec,完整训练期,macro_de × factor_q_year,false,0,100,,,0,,false,0.0,预先剔除非因子或重复市场项
+hitec,完整训练期,macro_de × factor_q_f,false,0,100,,,0,,false,0.0,预先剔除非因子或重复市场项
+hitec,完整训练期,macro_de × factor_q_mkt,false,0,100,,,0,,false,0.0,预先剔除非因子或重复市场项
+hitec,完整训练期,macro_de × factor_q_me,true,0,100,0.0,,0,0.0,false,0.0,入选频率不足
+hitec,完整训练期,macro_de × factor_q_ia,true,36,100,0.36,1.0,1,0.0,false,0.0,入选频率不足
+hitec,完整训练期,macro_de × factor_q_roe,true,0,100,0.0,,0,0.0,false,0.0,入选频率不足
+hitec,完整训练期,macro_de × factor_q_eg,true,0,100,0.0,,0,0.0,false,0.0,入选频率不足
+hitec,完整训练期,macro_svar × factor_ff_mkt_excess,true,0,100,0.0,,0,0.0,false,0.0,入选频率不足
+hitec,完整训练期,macro_svar × factor_ff_smb,true,0,100,0.0,,0,0.0,false,0.0,入选频率不足
+hitec,完整训练期,macro_svar × factor_ff_hml,true,0,100,0.0,,0,0.0,false,0.0,入选频率不足
+hitec,完整训练期,macro_svar × factor_q_year,false,0,100,,,0,,false,0.0,预先剔除非因子或重复市场项
+hitec,完整训练期,macro_svar × factor_q_f,false,0,100,,,0,,false,0.0,预先剔除非因子或重复市场项
+hitec,完整训练期,macro_svar × factor_q_mkt,false,0,100,,,0,,false,0.0,预先剔除非因子或重复市场项
+hitec,完整训练期,macro_svar × factor_q_me,true,0,100,0.0,,0,0.0,false,0.0,入选频率不足
+hitec,完整训练期,macro_svar × factor_q_ia,true,0,100,0.0,,0,0.0,false,0.0,入选频率不足
+hitec,完整训练期,macro_svar × factor_q_roe,true,0,100,0.0,,0,0.0,false,0.0,入选频率不足
+hitec,完整训练期,macro_svar × factor_q_eg,true,0,100,0.0,,0,0.0,false,0.0,入选频率不足
+hitec,完整训练期,macro_b/m × factor_ff_mkt_excess,true,0,100,0.0,,0,0.0,false,0.0,入选频率不足
+hitec,完整训练期,macro_b/m × factor_ff_smb,true,0,100,0.0,,0,0.0,false,0.0,入选频率不足
+hitec,完整训练期,macro_b/m × factor_ff_hml,true,0,100,0.0,,0,0.0,false,0.0,入选频率不足
+hitec,完整训练期,macro_b/m × factor_q_year,false,0,100,,,0,,false,0.0,预先剔除非因子或重复市场项
+hitec,完整训练期,macro_b/m × factor_q_f,false,0,100,,,0,,false,0.0,预先剔除非因子或重复市场项
+hitec,完整训练期,macro_b/m × factor_q_mkt,false,0,100,,,0,,false,0.0,预先剔除非因子或重复市场项
+hitec,完整训练期,macro_b/m × factor_q_me,true,0,100,0.0,,0,0.0,false,0.0,入选频率不足
+hitec,完整训练期,macro_b/m × factor_q_ia,true,0,100,0.0,,0,0.0,false,0.0,入选频率不足
+hitec,完整训练期,macro_b/m × factor_q_roe,true,0,100,0.0,,0,0.0,false,0.0,入选频率不足
+hitec,完整训练期,macro_b/m × factor_q_eg,true,0,100,0.0,,0,0.0,false,0.0,入选频率不足
+hitec,完整训练期,macro_ntis × factor_ff_mkt_excess,true,0,100,0.0,,0,0.0,false,0.0,入选频率不足
+hitec,完整训练期,macro_ntis × factor_ff_smb,true,0,100,0.0,,0,0.0,false,0.0,入选频率不足
+hitec,完整训练期,macro_ntis × factor_ff_hml,true,0,100,0.0,,0,0.0,false,0.0,入选频率不足
+hitec,完整训练期,macro_ntis × factor_q_year,false,0,100,,,0,,false,0.0,预先剔除非因子或重复市场项
+hitec,完整训练期,macro_ntis × factor_q_f,false,0,100,,,0,,false,0.0,预先剔除非因子或重复市场项
+hitec,完整训练期,macro_ntis × factor_q_mkt,false,0,100,,,0,,false,0.0,预先剔除非因子或重复市场项
+hitec,完整训练期,macro_ntis × factor_q_me,true,0,100,0.0,,0,0.0,false,0.0,入选频率不足
+hitec,完整训练期,macro_ntis × factor_q_ia,true,0,100,0.0,,0,0.0,false,0.0,入选频率不足
+hitec,完整训练期,macro_ntis × factor_q_roe,true,0,100,0.0,,0,0.0,false,0.0,入选频率不足
+hitec,完整训练期,macro_ntis × factor_q_eg,true,0,100,0.0,,0,0.0,false,0.0,入选频率不足
+hitec,完整训练期,macro_tbl × factor_ff_mkt_excess,true,0,100,0.0,,0,0.0,false,0.0,入选频率不足
+hitec,完整训练期,macro_tbl × factor_ff_smb,true,0,100,0.0,,0,0.0,false,0.0,入选频率不足
+hitec,完整训练期,macro_tbl × factor_ff_hml,true,2,100,0.02,1.0,-1,0.0,false,0.0,入选频率不足
+hitec,完整训练期,macro_tbl × factor_q_year,false,0,100,,,0,,false,0.0,预先剔除非因子或重复市场项
+hitec,完整训练期,macro_tbl × factor_q_f,false,0,100,,,0,,false,0.0,预先剔除非因子或重复市场项
+hitec,完整训练期,macro_tbl × factor_q_mkt,false,0,100,,,0,,false,0.0,预先剔除非因子或重复市场项
+hitec,完整训练期,macro_tbl × factor_q_me,true,0,100,0.0,,0,0.0,false,0.0,入选频率不足
+hitec,完整训练期,macro_tbl × factor_q_ia,true,30,100,0.3,1.0,-1,0.0,false,0.0,入选频率不足
+hitec,完整训练期,macro_tbl × factor_q_roe,true,0,100,0.0,,0,0.0,false,0.0,入选频率不足
+hitec,完整训练期,macro_tbl × factor_q_eg,true,0,100,0.0,,0,0.0,false,0.0,入选频率不足
+hitec,完整训练期,macro_lty × factor_ff_mkt_excess,true,2,100,0.02,1.0,1,0.0,false,0.0,入选频率不足
+hitec,完整训练期,macro_lty × factor_ff_smb,true,5,100,0.05,1.0,1,0.0,false,0.0,入选频率不足
+hitec,完整训练期,macro_lty × factor_ff_hml,true,1,100,0.01,1.0,-1,0.0,false,0.0,入选频率不足
+hitec,完整训练期,macro_lty × factor_q_year,false,0,100,,,0,,false,0.0,预先剔除非因子或重复市场项
+hitec,完整训练期,macro_lty × factor_q_f,false,0,100,,,0,,false,0.0,预先剔除非因子或重复市场项
+hitec,完整训练期,macro_lty × factor_q_mkt,false,0,100,,,0,,false,0.0,预先剔除非因子或重复市场项
+hitec,完整训练期,macro_lty × factor_q_me,true,0,100,0.0,,0,0.0,false,0.0,入选频率不足
+hitec,完整训练期,macro_lty × factor_q_ia,true,3,100,0.03,1.0,-1,0.0,false,0.0,入选频率不足
+hitec,完整训练期,macro_lty × factor_q_roe,true,0,100,0.0,,0,0.0,false,0.0,入选频率不足
+hitec,完整训练期,macro_lty × factor_q_eg,true,0,100,0.0,,0,0.0,false,0.0,入选频率不足
+hitec,完整训练期,macro_ltr × factor_ff_mkt_excess,true,0,100,0.0,,0,0.0,false,0.0,入选频率不足
+hitec,完整训练期,macro_ltr × factor_ff_smb,true,0,100,0.0,,0,0.0,false,0.0,入选频率不足
+hitec,完整训练期,macro_ltr × factor_ff_hml,true,0,100,0.0,,0,0.0,false,0.0,入选频率不足
+hitec,完整训练期,macro_ltr × factor_q_year,false,0,100,,,0,,false,0.0,预先剔除非因子或重复市场项
+hitec,完整训练期,macro_ltr × factor_q_f,false,0,100,,,0,,false,0.0,预先剔除非因子或重复市场项
+hitec,完整训练期,macro_ltr × factor_q_mkt,false,0,100,,,0,,false,0.0,预先剔除非因子或重复市场项
+hitec,完整训练期,macro_ltr × factor_q_me,true,0,100,0.0,,0,0.0,false,0.0,入选频率不足
+hitec,完整训练期,macro_ltr × factor_q_ia,true,0,100,0.0,,0,0.0,false,0.0,入选频率不足
+hitec,完整训练期,macro_ltr × factor_q_roe,true,0,100,0.0,,0,0.0,false,0.0,入选频率不足
+hitec,完整训练期,macro_ltr × factor_q_eg,true,0,100,0.0,,0,0.0,false,0.0,入选频率不足
+hitec,完整训练期,macro_tms × factor_ff_mkt_excess,true,23,100,0.23,1.0,1,0.0,false,0.0,入选频率不足
+hitec,完整训练期,macro_tms × factor_ff_smb,true,11,100,0.11,1.0,1,0.0,false,0.0,入选频率不足
+hitec,完整训练期,macro_tms × factor_ff_hml,true,0,100,0.0,,0,0.0,false,0.0,入选频率不足
+hitec,完整训练期,macro_tms × factor_q_year,false,0,100,,,0,,false,0.0,预先剔除非因子或重复市场项
+hitec,完整训练期,macro_tms × factor_q_f,false,0,100,,,0,,false,0.0,预先剔除非因子或重复市场项
+hitec,完整训练期,macro_tms × factor_q_mkt,false,0,100,,,0,,false,0.0,预先剔除非因子或重复市场项
+hitec,完整训练期,macro_tms × factor_q_me,true,0,100,0.0,,0,0.0,false,0.0,入选频率不足
+hitec,完整训练期,macro_tms × factor_q_ia,true,0,100,0.0,,0,0.0,false,0.0,入选频率不足
+hitec,完整训练期,macro_tms × factor_q_roe,true,9,100,0.09,1.0,-1,0.0,false,0.0,入选频率不足
+hitec,完整训练期,macro_tms × factor_q_eg,true,0,100,0.0,,0,0.0,false,0.0,入选频率不足
+hitec,完整训练期,macro_dfy × factor_ff_mkt_excess,true,8,100,0.08,1.0,1,0.0,false,0.0,入选频率不足
+hitec,完整训练期,macro_dfy × factor_ff_smb,true,7,100,0.07,1.0,1,0.0,false,0.0,入选频率不足
+hitec,完整训练期,macro_dfy × factor_ff_hml,true,0,100,0.0,,0,0.0,false,0.0,入选频率不足
+hitec,完整训练期,macro_dfy × factor_q_year,false,0,100,,,0,,false,0.0,预先剔除非因子或重复市场项
+hitec,完整训练期,macro_dfy × factor_q_f,false,0,100,,,0,,false,0.0,预先剔除非因子或重复市场项
+hitec,完整训练期,macro_dfy × factor_q_mkt,false,0,100,,,0,,false,0.0,预先剔除非因子或重复市场项
+hitec,完整训练期,macro_dfy × factor_q_me,true,0,100,0.0,,0,0.0,false,0.0,入选频率不足
+hitec,完整训练期,macro_dfy × factor_q_ia,true,0,100,0.0,,0,0.0,false,0.0,入选频率不足
+hitec,完整训练期,macro_dfy × factor_q_roe,true,0,100,0.0,,0,0.0,false,0.0,入选频率不足
+hitec,完整训练期,macro_dfy × factor_q_eg,true,0,100,0.0,,0,0.0,false,0.0,入选频率不足
+hitec,完整训练期,macro_infl × factor_ff_mkt_excess,true,0,100,0.0,,0,0.0,false,0.0,入选频率不足
+hitec,完整训练期,macro_infl × factor_ff_smb,true,0,100,0.0,,0,0.0,false,0.0,入选频率不足
+hitec,完整训练期,macro_infl × factor_ff_hml,true,0,100,0.0,,0,0.0,false,0.0,入选频率不足
+hitec,完整训练期,macro_infl × factor_q_year,false,0,100,,,0,,false,0.0,预先剔除非因子或重复市场项
+hitec,完整训练期,macro_infl × factor_q_f,false,0,100,,,0,,false,0.0,预先剔除非因子或重复市场项
+hitec,完整训练期,macro_infl × factor_q_mkt,false,0,100,,,0,,false,0.0,预先剔除非因子或重复市场项
+hitec,完整训练期,macro_infl × factor_q_me,true,0,100,0.0,,0,0.0,false,0.0,入选频率不足
+hitec,完整训练期,macro_infl × factor_q_ia,true,0,100,0.0,,0,0.0,false,0.0,入选频率不足
+hitec,完整训练期,macro_infl × factor_q_roe,true,0,100,0.0,,0,0.0,false,0.0,入选频率不足
+hitec,完整训练期,macro_infl × factor_q_eg,true,0,100,0.0,,0,0.0,false,0.0,入选频率不足
+hlth,完整训练期,factor_ff_mkt_excess,true,99,100,0.99,1.0,1,2.3104061745149758,true,2.480483050019852,最终保留
+hlth,完整训练期,factor_ff_smb,true,0,100,0.0,,0,0.0,false,0.0,入选频率不足
+hlth,完整训练期,factor_ff_hml,true,9,100,0.09,1.0,-1,0.0,false,0.0,入选频率不足
+hlth,完整训练期,factor_q_year,false,0,100,,,0,,false,0.0,预先剔除非因子或重复市场项
+hlth,完整训练期,factor_q_f,false,0,100,,,0,,false,0.0,预先剔除非因子或重复市场项
+hlth,完整训练期,factor_q_mkt,false,0,100,,,0,,false,0.0,预先剔除非因子或重复市场项
+hlth,完整训练期,factor_q_me,true,0,100,0.0,,0,0.0,false,0.0,入选频率不足
+hlth,完整训练期,factor_q_ia,true,0,100,0.0,,0,0.0,false,0.0,入选频率不足
+hlth,完整训练期,factor_q_roe,true,14,100,0.14,1.0,1,0.0,false,0.0,入选频率不足
+hlth,完整训练期,factor_q_eg,true,0,100,0.0,,0,0.0,false,0.0,入选频率不足
+hlth,完整训练期,macro_dp,true,0,100,0.0,,0,0.0,false,0.0,入选频率不足
+hlth,完整训练期,macro_dy,true,0,100,0.0,,0,0.0,false,0.0,入选频率不足
+hlth,完整训练期,macro_ep,true,0,100,0.0,,0,0.0,false,0.0,入选频率不足
+hlth,完整训练期,macro_de,true,0,100,0.0,,0,0.0,false,0.0,入选频率不足
+hlth,完整训练期,macro_svar,true,0,100,0.0,,0,0.0,false,0.0,入选频率不足
+hlth,完整训练期,macro_b/m,true,0,100,0.0,,0,0.0,false,0.0,入选频率不足
+hlth,完整训练期,macro_ntis,true,0,100,0.0,,0,0.0,false,0.0,入选频率不足
+hlth,完整训练期,macro_tbl,true,0,100,0.0,,0,0.0,false,0.0,入选频率不足
+hlth,完整训练期,macro_lty,true,0,100,0.0,,0,0.0,false,0.0,入选频率不足
+hlth,完整训练期,macro_ltr,true,1,100,0.01,1.0,1,0.0,false,0.0,入选频率不足
+hlth,完整训练期,macro_tms,true,0,100,0.0,,0,0.0,false,0.0,入选频率不足
+hlth,完整训练期,macro_dfy,true,0,100,0.0,,0,0.0,false,0.0,入选频率不足
+hlth,完整训练期,macro_infl,true,0,100,0.0,,0,0.0,false,0.0,入选频率不足
+hlth,完整训练期,macro_dp × factor_ff_mkt_excess,true,0,100,0.0,,0,0.0,false,0.0,入选频率不足
+hlth,完整训练期,macro_dp × factor_ff_smb,true,0,100,0.0,,0,0.0,false,0.0,入选频率不足
+hlth,完整训练期,macro_dp × factor_ff_hml,true,0,100,0.0,,0,0.0,false,0.0,入选频率不足
+hlth,完整训练期,macro_dp × factor_q_year,false,0,100,,,0,,false,0.0,预先剔除非因子或重复市场项
+hlth,完整训练期,macro_dp × factor_q_f,false,0,100,,,0,,false,0.0,预先剔除非因子或重复市场项
+hlth,完整训练期,macro_dp × factor_q_mkt,false,0,100,,,0,,false,0.0,预先剔除非因子或重复市场项
+hlth,完整训练期,macro_dp × factor_q_me,true,0,100,0.0,,0,0.0,false,0.0,入选频率不足
+hlth,完整训练期,macro_dp × factor_q_ia,true,0,100,0.0,,0,0.0,false,0.0,入选频率不足
+hlth,完整训练期,macro_dp × factor_q_roe,true,2,100,0.02,1.0,-1,0.0,false,0.0,入选频率不足
+hlth,完整训练期,macro_dp × factor_q_eg,true,0,100,0.0,,0,0.0,false,0.0,入选频率不足
+hlth,完整训练期,macro_dy × factor_ff_mkt_excess,true,3,100,0.03,1.0,1,0.0,false,0.0,入选频率不足
+hlth,完整训练期,macro_dy × factor_ff_smb,true,0,100,0.0,,0,0.0,false,0.0,入选频率不足
+hlth,完整训练期,macro_dy × factor_ff_hml,true,11,100,0.11,1.0,-1,0.0,false,0.0,入选频率不足
+hlth,完整训练期,macro_dy × factor_q_year,false,0,100,,,0,,false,0.0,预先剔除非因子或重复市场项
+hlth,完整训练期,macro_dy × factor_q_f,false,0,100,,,0,,false,0.0,预先剔除非因子或重复市场项
+hlth,完整训练期,macro_dy × factor_q_mkt,false,0,100,,,0,,false,0.0,预先剔除非因子或重复市场项
+hlth,完整训练期,macro_dy × factor_q_me,true,0,100,0.0,,0,0.0,false,0.0,入选频率不足
+hlth,完整训练期,macro_dy × factor_q_ia,true,2,100,0.02,1.0,-1,0.0,false,0.0,入选频率不足
+hlth,完整训练期,macro_dy × factor_q_roe,true,0,100,0.0,,0,0.0,false,0.0,入选频率不足
+hlth,完整训练期,macro_dy × factor_q_eg,true,0,100,0.0,,0,0.0,false,0.0,入选频率不足
+hlth,完整训练期,macro_ep × factor_ff_mkt_excess,true,0,100,0.0,,0,0.0,false,0.0,入选频率不足
+hlth,完整训练期,macro_ep × factor_ff_smb,true,0,100,0.0,,0,0.0,false,0.0,入选频率不足
+hlth,完整训练期,macro_ep × factor_ff_hml,true,0,100,0.0,,0,0.0,false,0.0,入选频率不足
+hlth,完整训练期,macro_ep × factor_q_year,false,0,100,,,0,,false,0.0,预先剔除非因子或重复市场项
+hlth,完整训练期,macro_ep × factor_q_f,false,0,100,,,0,,false,0.0,预先剔除非因子或重复市场项
+hlth,完整训练期,macro_ep × factor_q_mkt,false,0,100,,,0,,false,0.0,预先剔除非因子或重复市场项
+hlth,完整训练期,macro_ep × factor_q_me,true,0,100,0.0,,0,0.0,false,0.0,入选频率不足
+hlth,完整训练期,macro_ep × factor_q_ia,true,0,100,0.0,,0,0.0,false,0.0,入选频率不足
+hlth,完整训练期,macro_ep × factor_q_roe,true,0,100,0.0,,0,0.0,false,0.0,入选频率不足
+hlth,完整训练期,macro_ep × factor_q_eg,true,0,100,0.0,,0,0.0,false,0.0,入选频率不足
+hlth,完整训练期,macro_de × factor_ff_mkt_excess,true,0,100,0.0,,0,0.0,false,0.0,入选频率不足
+hlth,完整训练期,macro_de × factor_ff_smb,true,0,100,0.0,,0,0.0,false,0.0,入选频率不足
+hlth,完整训练期,macro_de × factor_ff_hml,true,0,100,0.0,,0,0.0,false,0.0,入选频率不足
+hlth,完整训练期,macro_de × factor_q_year,false,0,100,,,0,,false,0.0,预先剔除非因子或重复市场项
+hlth,完整训练期,macro_de × factor_q_f,false,0,100,,,0,,false,0.0,预先剔除非因子或重复市场项
+hlth,完整训练期,macro_de × factor_q_mkt,false,0,100,,,0,,false,0.0,预先剔除非因子或重复市场项
+hlth,完整训练期,macro_de × factor_q_me,true,0,100,0.0,,0,0.0,false,0.0,入选频率不足
+hlth,完整训练期,macro_de × factor_q_ia,true,0,100,0.0,,0,0.0,false,0.0,入选频率不足
+hlth,完整训练期,macro_de × factor_q_roe,true,6,100,0.06,1.0,-1,0.0,false,0.0,入选频率不足
+hlth,完整训练期,macro_de × factor_q_eg,true,0,100,0.0,,0,0.0,false,0.0,入选频率不足
+hlth,完整训练期,macro_svar × factor_ff_mkt_excess,true,1,100,0.01,1.0,1,0.0,false,0.0,入选频率不足
+hlth,完整训练期,macro_svar × factor_ff_smb,true,0,100,0.0,,0,0.0,false,0.0,入选频率不足
+hlth,完整训练期,macro_svar × factor_ff_hml,true,1,100,0.01,1.0,-1,0.0,false,0.0,入选频率不足
+hlth,完整训练期,macro_svar × factor_q_year,false,0,100,,,0,,false,0.0,预先剔除非因子或重复市场项
+hlth,完整训练期,macro_svar × factor_q_f,false,0,100,,,0,,false,0.0,预先剔除非因子或重复市场项
+hlth,完整训练期,macro_svar × factor_q_mkt,false,0,100,,,0,,false,0.0,预先剔除非因子或重复市场项
+hlth,完整训练期,macro_svar × factor_q_me,true,0,100,0.0,,0,0.0,false,0.0,入选频率不足
+hlth,完整训练期,macro_svar × factor_q_ia,true,0,100,0.0,,0,0.0,false,0.0,入选频率不足
+hlth,完整训练期,macro_svar × factor_q_roe,true,1,100,0.01,1.0,1,0.0,false,0.0,入选频率不足
+hlth,完整训练期,macro_svar × factor_q_eg,true,0,100,0.0,,0,0.0,false,0.0,入选频率不足
+hlth,完整训练期,macro_b/m × factor_ff_mkt_excess,true,76,100,0.76,1.0,1,0.3246150722506662,true,0.42347085123168504,最终保留
+hlth,完整训练期,macro_b/m × factor_ff_smb,true,0,100,0.0,,0,0.0,false,0.0,入选频率不足
+hlth,完整训练期,macro_b/m × factor_ff_hml,true,89,100,0.89,1.0,-1,0.46449621026777593,true,-0.581988388519826,最终保留
+hlth,完整训练期,macro_b/m × factor_q_year,false,0,100,,,0,,false,0.0,预先剔除非因子或重复市场项
+hlth,完整训练期,macro_b/m × factor_q_f,false,0,100,,,0,,false,0.0,预先剔除非因子或重复市场项
+hlth,完整训练期,macro_b/m × factor_q_mkt,false,0,100,,,0,,false,0.0,预先剔除非因子或重复市场项
+hlth,完整训练期,macro_b/m × factor_q_me,true,0,100,0.0,,0,0.0,false,0.0,入选频率不足
+hlth,完整训练期,macro_b/m × factor_q_ia,true,0,100,0.0,,0,0.0,false,0.0,入选频率不足
+hlth,完整训练期,macro_b/m × factor_q_roe,true,5,100,0.05,1.0,1,0.0,false,0.0,入选频率不足
+hlth,完整训练期,macro_b/m × factor_q_eg,true,0,100,0.0,,0,0.0,false,0.0,入选频率不足
+hlth,完整训练期,macro_ntis × factor_ff_mkt_excess,true,0,100,0.0,,0,0.0,false,0.0,入选频率不足
+hlth,完整训练期,macro_ntis × factor_ff_smb,true,0,100,0.0,,0,0.0,false,0.0,入选频率不足
+hlth,完整训练期,macro_ntis × factor_ff_hml,true,15,100,0.15,1.0,-1,0.0,false,0.0,入选频率不足
+hlth,完整训练期,macro_ntis × factor_q_year,false,0,100,,,0,,false,0.0,预先剔除非因子或重复市场项
+hlth,完整训练期,macro_ntis × factor_q_f,false,0,100,,,0,,false,0.0,预先剔除非因子或重复市场项
+hlth,完整训练期,macro_ntis × factor_q_mkt,false,0,100,,,0,,false,0.0,预先剔除非因子或重复市场项
+hlth,完整训练期,macro_ntis × factor_q_me,true,0,100,0.0,,0,0.0,false,0.0,入选频率不足
+hlth,完整训练期,macro_ntis × factor_q_ia,true,1,100,0.01,1.0,-1,0.0,false,0.0,入选频率不足
+hlth,完整训练期,macro_ntis × factor_q_roe,true,0,100,0.0,,0,0.0,false,0.0,入选频率不足
+hlth,完整训练期,macro_ntis × factor_q_eg,true,0,100,0.0,,0,0.0,false,0.0,入选频率不足
+hlth,完整训练期,macro_tbl × factor_ff_mkt_excess,true,0,100,0.0,,0,0.0,false,0.0,入选频率不足
+hlth,完整训练期,macro_tbl × factor_ff_smb,true,0,100,0.0,,0,0.0,false,0.0,入选频率不足
+hlth,完整训练期,macro_tbl × factor_ff_hml,true,1,100,0.01,1.0,-1,0.0,false,0.0,入选频率不足
+hlth,完整训练期,macro_tbl × factor_q_year,false,0,100,,,0,,false,0.0,预先剔除非因子或重复市场项
+hlth,完整训练期,macro_tbl × factor_q_f,false,0,100,,,0,,false,0.0,预先剔除非因子或重复市场项
+hlth,完整训练期,macro_tbl × factor_q_mkt,false,0,100,,,0,,false,0.0,预先剔除非因子或重复市场项
+hlth,完整训练期,macro_tbl × factor_q_me,true,0,100,0.0,,0,0.0,false,0.0,入选频率不足
+hlth,完整训练期,macro_tbl × factor_q_ia,true,0,100,0.0,,0,0.0,false,0.0,入选频率不足
+hlth,完整训练期,macro_tbl × factor_q_roe,true,17,100,0.17,1.0,1,0.0,false,0.0,入选频率不足
+hlth,完整训练期,macro_tbl × factor_q_eg,true,0,100,0.0,,0,0.0,false,0.0,入选频率不足
+hlth,完整训练期,macro_lty × factor_ff_mkt_excess,true,43,100,0.43,1.0,1,0.0,false,0.0,入选频率不足
+hlth,完整训练期,macro_lty × factor_ff_smb,true,0,100,0.0,,0,0.0,false,0.0,入选频率不足
+hlth,完整训练期,macro_lty × factor_ff_hml,true,0,100,0.0,,0,0.0,false,0.0,入选频率不足
+hlth,完整训练期,macro_lty × factor_q_year,false,0,100,,,0,,false,0.0,预先剔除非因子或重复市场项
+hlth,完整训练期,macro_lty × factor_q_f,false,0,100,,,0,,false,0.0,预先剔除非因子或重复市场项
+hlth,完整训练期,macro_lty × factor_q_mkt,false,0,100,,,0,,false,0.0,预先剔除非因子或重复市场项
+hlth,完整训练期,macro_lty × factor_q_me,true,0,100,0.0,,0,0.0,false,0.0,入选频率不足
+hlth,完整训练期,macro_lty × factor_q_ia,true,0,100,0.0,,0,0.0,false,0.0,入选频率不足
+hlth,完整训练期,macro_lty × factor_q_roe,true,2,100,0.02,1.0,1,0.0,false,0.0,入选频率不足
+hlth,完整训练期,macro_lty × factor_q_eg,true,0,100,0.0,,0,0.0,false,0.0,入选频率不足
+hlth,完整训练期,macro_ltr × factor_ff_mkt_excess,true,4,100,0.04,1.0,1,0.0,false,0.0,入选频率不足
+hlth,完整训练期,macro_ltr × factor_ff_smb,true,0,100,0.0,,0,0.0,false,0.0,入选频率不足
+hlth,完整训练期,macro_ltr × factor_ff_hml,true,0,100,0.0,,0,0.0,false,0.0,入选频率不足
+hlth,完整训练期,macro_ltr × factor_q_year,false,0,100,,,0,,false,0.0,预先剔除非因子或重复市场项
+hlth,完整训练期,macro_ltr × factor_q_f,false,0,100,,,0,,false,0.0,预先剔除非因子或重复市场项
+hlth,完整训练期,macro_ltr × factor_q_mkt,false,0,100,,,0,,false,0.0,预先剔除非因子或重复市场项
+hlth,完整训练期,macro_ltr × factor_q_me,true,0,100,0.0,,0,0.0,false,0.0,入选频率不足
+hlth,完整训练期,macro_ltr × factor_q_ia,true,0,100,0.0,,0,0.0,false,0.0,入选频率不足
+hlth,完整训练期,macro_ltr × factor_q_roe,true,0,100,0.0,,0,0.0,false,0.0,入选频率不足
+hlth,完整训练期,macro_ltr × factor_q_eg,true,0,100,0.0,,0,0.0,false,0.0,入选频率不足
+hlth,完整训练期,macro_tms × factor_ff_mkt_excess,true,35,100,0.35,1.0,1,0.0,false,0.0,入选频率不足
+hlth,完整训练期,macro_tms × factor_ff_smb,true,3,100,0.03,1.0,-1,0.0,false,0.0,入选频率不足
+hlth,完整训练期,macro_tms × factor_ff_hml,true,9,100,0.09,1.0,-1,0.0,false,0.0,入选频率不足
+hlth,完整训练期,macro_tms × factor_q_year,false,0,100,,,0,,false,0.0,预先剔除非因子或重复市场项
+hlth,完整训练期,macro_tms × factor_q_f,false,0,100,,,0,,false,0.0,预先剔除非因子或重复市场项
+hlth,完整训练期,macro_tms × factor_q_mkt,false,0,100,,,0,,false,0.0,预先剔除非因子或重复市场项
+hlth,完整训练期,macro_tms × factor_q_me,true,1,100,0.01,1.0,-1,0.0,false,0.0,入选频率不足
+hlth,完整训练期,macro_tms × factor_q_ia,true,0,100,0.0,,0,0.0,false,0.0,入选频率不足
+hlth,完整训练期,macro_tms × factor_q_roe,true,0,100,0.0,,0,0.0,false,0.0,入选频率不足
+hlth,完整训练期,macro_tms × factor_q_eg,true,0,100,0.0,,0,0.0,false,0.0,入选频率不足
+hlth,完整训练期,macro_dfy × factor_ff_mkt_excess,true,1,100,0.01,1.0,1,0.0,false,0.0,入选频率不足
+hlth,完整训练期,macro_dfy × factor_ff_smb,true,0,100,0.0,,0,0.0,false,0.0,入选频率不足
+hlth,完整训练期,macro_dfy × factor_ff_hml,true,0,100,0.0,,0,0.0,false,0.0,入选频率不足
+hlth,完整训练期,macro_dfy × factor_q_year,false,0,100,,,0,,false,0.0,预先剔除非因子或重复市场项
+hlth,完整训练期,macro_dfy × factor_q_f,false,0,100,,,0,,false,0.0,预先剔除非因子或重复市场项
+hlth,完整训练期,macro_dfy × factor_q_mkt,false,0,100,,,0,,false,0.0,预先剔除非因子或重复市场项
+hlth,完整训练期,macro_dfy × factor_q_me,true,0,100,0.0,,0,0.0,false,0.0,入选频率不足
+hlth,完整训练期,macro_dfy × factor_q_ia,true,0,100,0.0,,0,0.0,false,0.0,入选频率不足
+hlth,完整训练期,macro_dfy × factor_q_roe,true,0,100,0.0,,0,0.0,false,0.0,入选频率不足
+hlth,完整训练期,macro_dfy × factor_q_eg,true,0,100,0.0,,0,0.0,false,0.0,入选频率不足
+hlth,完整训练期,macro_infl × factor_ff_mkt_excess,true,5,100,0.05,1.0,1,0.0,false,0.0,入选频率不足
+hlth,完整训练期,macro_infl × factor_ff_smb,true,0,100,0.0,,0,0.0,false,0.0,入选频率不足
+hlth,完整训练期,macro_infl × factor_ff_hml,true,37,100,0.37,1.0,-1,0.0,false,0.0,入选频率不足
+hlth,完整训练期,macro_infl × factor_q_year,false,0,100,,,0,,false,0.0,预先剔除非因子或重复市场项
+hlth,完整训练期,macro_infl × factor_q_f,false,0,100,,,0,,false,0.0,预先剔除非因子或重复市场项
+hlth,完整训练期,macro_infl × factor_q_mkt,false,0,100,,,0,,false,0.0,预先剔除非因子或重复市场项
+hlth,完整训练期,macro_infl × factor_q_me,true,0,100,0.0,,0,0.0,false,0.0,入选频率不足
+hlth,完整训练期,macro_infl × factor_q_ia,true,0,100,0.0,,0,0.0,false,0.0,入选频率不足
+hlth,完整训练期,macro_infl × factor_q_roe,true,6,100,0.06,1.0,1,0.0,false,0.0,入选频率不足
+hlth,完整训练期,macro_infl × factor_q_eg,true,0,100,0.0,,0,0.0,false,0.0,入选频率不足
+manuf,完整训练期,factor_ff_mkt_excess,true,100,100,1.0,1.0,1,3.8318078142446144,true,3.7553020801921293,最终保留
+manuf,完整训练期,factor_ff_smb,true,0,100,0.0,,0,0.0,false,0.0,入选频率不足
+manuf,完整训练期,factor_ff_hml,true,0,100,0.0,,0,0.0,false,0.0,入选频率不足
+manuf,完整训练期,factor_q_year,false,0,100,,,0,,false,0.0,预先剔除非因子或重复市场项
+manuf,完整训练期,factor_q_f,false,0,100,,,0,,false,0.0,预先剔除非因子或重复市场项
+manuf,完整训练期,factor_q_mkt,false,0,100,,,0,,false,0.0,预先剔除非因子或重复市场项
+manuf,完整训练期,factor_q_me,true,0,100,0.0,,0,0.0,false,0.0,入选频率不足
+manuf,完整训练期,factor_q_ia,true,0,100,0.0,,0,0.0,false,0.0,入选频率不足
+manuf,完整训练期,factor_q_roe,true,0,100,0.0,,0,0.0,false,0.0,入选频率不足
+manuf,完整训练期,factor_q_eg,true,0,100,0.0,,0,0.0,false,0.0,入选频率不足
+manuf,完整训练期,macro_dp,true,8,100,0.08,1.0,-1,0.0,false,0.0,入选频率不足
+manuf,完整训练期,macro_dy,true,0,100,0.0,,0,0.0,false,0.0,入选频率不足
+manuf,完整训练期,macro_ep,true,1,100,0.01,1.0,-1,0.0,false,0.0,入选频率不足
+manuf,完整训练期,macro_de,true,0,100,0.0,,0,0.0,false,0.0,入选频率不足
+manuf,完整训练期,macro_svar,true,30,100,0.3,1.0,-1,0.0,false,0.0,入选频率不足
+manuf,完整训练期,macro_b/m,true,0,100,0.0,,0,0.0,false,0.0,入选频率不足
+manuf,完整训练期,macro_ntis,true,0,100,0.0,,0,0.0,false,0.0,入选频率不足
+manuf,完整训练期,macro_tbl,true,2,100,0.02,1.0,-1,0.0,false,0.0,入选频率不足
+manuf,完整训练期,macro_lty,true,0,100,0.0,,0,0.0,false,0.0,入选频率不足
+manuf,完整训练期,macro_ltr,true,4,100,0.04,1.0,-1,0.0,false,0.0,入选频率不足
+manuf,完整训练期,macro_tms,true,0,100,0.0,,0,0.0,false,0.0,入选频率不足
+manuf,完整训练期,macro_dfy,true,0,100,0.0,,0,0.0,false,0.0,入选频率不足
+manuf,完整训练期,macro_infl,true,4,100,0.04,1.0,-1,0.0,false,0.0,入选频率不足
+manuf,完整训练期,macro_dp × factor_ff_mkt_excess,true,0,100,0.0,,0,0.0,false,0.0,入选频率不足
+manuf,完整训练期,macro_dp × factor_ff_smb,true,0,100,0.0,,0,0.0,false,0.0,入选频率不足
+manuf,完整训练期,macro_dp × factor_ff_hml,true,8,100,0.08,1.0,-1,0.0,false,0.0,入选频率不足
+manuf,完整训练期,macro_dp × factor_q_year,false,0,100,,,0,,false,0.0,预先剔除非因子或重复市场项
+manuf,完整训练期,macro_dp × factor_q_f,false,0,100,,,0,,false,0.0,预先剔除非因子或重复市场项
+manuf,完整训练期,macro_dp × factor_q_mkt,false,0,100,,,0,,false,0.0,预先剔除非因子或重复市场项
+manuf,完整训练期,macro_dp × factor_q_me,true,0,100,0.0,,0,0.0,false,0.0,入选频率不足
+manuf,完整训练期,macro_dp × factor_q_ia,true,1,100,0.01,1.0,-1,0.0,false,0.0,入选频率不足
+manuf,完整训练期,macro_dp × factor_q_roe,true,0,100,0.0,,0,0.0,false,0.0,入选频率不足
+manuf,完整训练期,macro_dp × factor_q_eg,true,0,100,0.0,,0,0.0,false,0.0,入选频率不足
+manuf,完整训练期,macro_dy × factor_ff_mkt_excess,true,11,100,0.11,1.0,1,0.0,false,0.0,入选频率不足
+manuf,完整训练期,macro_dy × factor_ff_smb,true,1,100,0.01,1.0,1,0.0,false,0.0,入选频率不足
+manuf,完整训练期,macro_dy × factor_ff_hml,true,8,100,0.08,1.0,-1,0.0,false,0.0,入选频率不足
+manuf,完整训练期,macro_dy × factor_q_year,false,0,100,,,0,,false,0.0,预先剔除非因子或重复市场项
+manuf,完整训练期,macro_dy × factor_q_f,false,0,100,,,0,,false,0.0,预先剔除非因子或重复市场项
+manuf,完整训练期,macro_dy × factor_q_mkt,false,0,100,,,0,,false,0.0,预先剔除非因子或重复市场项
+manuf,完整训练期,macro_dy × factor_q_me,true,1,100,0.01,1.0,1,0.0,false,0.0,入选频率不足
+manuf,完整训练期,macro_dy × factor_q_ia,true,27,100,0.27,1.0,-1,0.0,false,0.0,入选频率不足
+manuf,完整训练期,macro_dy × factor_q_roe,true,10,100,0.1,1.0,1,0.0,false,0.0,入选频率不足
+manuf,完整训练期,macro_dy × factor_q_eg,true,4,100,0.04,1.0,-1,0.0,false,0.0,入选频率不足
+manuf,完整训练期,macro_ep × factor_ff_mkt_excess,true,6,100,0.06,1.0,-1,0.0,false,0.0,入选频率不足
+manuf,完整训练期,macro_ep × factor_ff_smb,true,1,100,0.01,1.0,-1,0.0,false,0.0,入选频率不足
+manuf,完整训练期,macro_ep × factor_ff_hml,true,24,100,0.24,1.0,-1,0.0,false,0.0,入选频率不足
+manuf,完整训练期,macro_ep × factor_q_year,false,0,100,,,0,,false,0.0,预先剔除非因子或重复市场项
+manuf,完整训练期,macro_ep × factor_q_f,false,0,100,,,0,,false,0.0,预先剔除非因子或重复市场项
+manuf,完整训练期,macro_ep × factor_q_mkt,false,0,100,,,0,,false,0.0,预先剔除非因子或重复市场项
+manuf,完整训练期,macro_ep × factor_q_me,true,3,100,0.03,1.0,-1,0.0,false,0.0,入选频率不足
+manuf,完整训练期,macro_ep × factor_q_ia,true,6,100,0.06,1.0,-1,0.0,false,0.0,入选频率不足
+manuf,完整训练期,macro_ep × factor_q_roe,true,0,100,0.0,,0,0.0,false,0.0,入选频率不足
+manuf,完整训练期,macro_ep × factor_q_eg,true,0,100,0.0,,0,0.0,false,0.0,入选频率不足
+manuf,完整训练期,macro_de × factor_ff_mkt_excess,true,1,100,0.01,1.0,-1,0.0,false,0.0,入选频率不足
+manuf,完整训练期,macro_de × factor_ff_smb,true,1,100,0.01,1.0,1,0.0,false,0.0,入选频率不足
+manuf,完整训练期,macro_de × factor_ff_hml,true,2,100,0.02,1.0,-1,0.0,false,0.0,入选频率不足
+manuf,完整训练期,macro_de × factor_q_year,false,0,100,,,0,,false,0.0,预先剔除非因子或重复市场项
+manuf,完整训练期,macro_de × factor_q_f,false,0,100,,,0,,false,0.0,预先剔除非因子或重复市场项
+manuf,完整训练期,macro_de × factor_q_mkt,false,0,100,,,0,,false,0.0,预先剔除非因子或重复市场项
+manuf,完整训练期,macro_de × factor_q_me,true,0,100,0.0,,0,0.0,false,0.0,入选频率不足
+manuf,完整训练期,macro_de × factor_q_ia,true,0,100,0.0,,0,0.0,false,0.0,入选频率不足
+manuf,完整训练期,macro_de × factor_q_roe,true,67,100,0.67,1.0,-1,0.08389198133469397,false,0.0,入选频率不足
+manuf,完整训练期,macro_de × factor_q_eg,true,0,100,0.0,,0,0.0,false,0.0,入选频率不足
+manuf,完整训练期,macro_svar × factor_ff_mkt_excess,true,3,100,0.03,1.0,1,0.0,false,0.0,入选频率不足
+manuf,完整训练期,macro_svar × factor_ff_smb,true,5,100,0.05,1.0,1,0.0,false,0.0,入选频率不足
+manuf,完整训练期,macro_svar × factor_ff_hml,true,3,100,0.03,1.0,1,0.0,false,0.0,入选频率不足
+manuf,完整训练期,macro_svar × factor_q_year,false,0,100,,,0,,false,0.0,预先剔除非因子或重复市场项
+manuf,完整训练期,macro_svar × factor_q_f,false,0,100,,,0,,false,0.0,预先剔除非因子或重复市场项
+manuf,完整训练期,macro_svar × factor_q_mkt,false,0,100,,,0,,false,0.0,预先剔除非因子或重复市场项
+manuf,完整训练期,macro_svar × factor_q_me,true,7,100,0.07,1.0,1,0.0,false,0.0,入选频率不足
+manuf,完整训练期,macro_svar × factor_q_ia,true,1,100,0.01,1.0,-1,0.0,false,0.0,入选频率不足
+manuf,完整训练期,macro_svar × factor_q_roe,true,2,100,0.02,1.0,1,0.0,false,0.0,入选频率不足
+manuf,完整训练期,macro_svar × factor_q_eg,true,0,100,0.0,,0,0.0,false,0.0,入选频率不足
+manuf,完整训练期,macro_b/m × factor_ff_mkt_excess,true,90,100,0.9,1.0,1,0.3579246135400754,true,0.48300365742452417,最终保留
+manuf,完整训练期,macro_b/m × factor_ff_smb,true,0,100,0.0,,0,0.0,false,0.0,入选频率不足
+manuf,完整训练期,macro_b/m × factor_ff_hml,true,0,100,0.0,,0,0.0,false,0.0,入选频率不足
+manuf,完整训练期,macro_b/m × factor_q_year,false,0,100,,,0,,false,0.0,预先剔除非因子或重复市场项
+manuf,完整训练期,macro_b/m × factor_q_f,false,0,100,,,0,,false,0.0,预先剔除非因子或重复市场项
+manuf,完整训练期,macro_b/m × factor_q_mkt,false,0,100,,,0,,false,0.0,预先剔除非因子或重复市场项
+manuf,完整训练期,macro_b/m × factor_q_me,true,0,100,0.0,,0,0.0,false,0.0,入选频率不足
+manuf,完整训练期,macro_b/m × factor_q_ia,true,0,100,0.0,,0,0.0,false,0.0,入选频率不足
+manuf,完整训练期,macro_b/m × factor_q_roe,true,0,100,0.0,,0,0.0,false,0.0,入选频率不足
+manuf,完整训练期,macro_b/m × factor_q_eg,true,7,100,0.07,1.0,-1,0.0,false,0.0,入选频率不足
+manuf,完整训练期,macro_ntis × factor_ff_mkt_excess,true,0,100,0.0,,0,0.0,false,0.0,入选频率不足
+manuf,完整训练期,macro_ntis × factor_ff_smb,true,0,100,0.0,,0,0.0,false,0.0,入选频率不足
+manuf,完整训练期,macro_ntis × factor_ff_hml,true,2,100,0.02,1.0,1,0.0,false,0.0,入选频率不足
+manuf,完整训练期,macro_ntis × factor_q_year,false,0,100,,,0,,false,0.0,预先剔除非因子或重复市场项
+manuf,完整训练期,macro_ntis × factor_q_f,false,0,100,,,0,,false,0.0,预先剔除非因子或重复市场项
+manuf,完整训练期,macro_ntis × factor_q_mkt,false,0,100,,,0,,false,0.0,预先剔除非因子或重复市场项
+manuf,完整训练期,macro_ntis × factor_q_me,true,0,100,0.0,,0,0.0,false,0.0,入选频率不足
+manuf,完整训练期,macro_ntis × factor_q_ia,true,2,100,0.02,1.0,1,0.0,false,0.0,入选频率不足
+manuf,完整训练期,macro_ntis × factor_q_roe,true,0,100,0.0,,0,0.0,false,0.0,入选频率不足
+manuf,完整训练期,macro_ntis × factor_q_eg,true,0,100,0.0,,0,0.0,false,0.0,入选频率不足
+manuf,完整训练期,macro_tbl × factor_ff_mkt_excess,true,0,100,0.0,,0,0.0,false,0.0,入选频率不足
+manuf,完整训练期,macro_tbl × factor_ff_smb,true,0,100,0.0,,0,0.0,false,0.0,入选频率不足
+manuf,完整训练期,macro_tbl × factor_ff_hml,true,0,100,0.0,,0,0.0,false,0.0,入选频率不足
+manuf,完整训练期,macro_tbl × factor_q_year,false,0,100,,,0,,false,0.0,预先剔除非因子或重复市场项
+manuf,完整训练期,macro_tbl × factor_q_f,false,0,100,,,0,,false,0.0,预先剔除非因子或重复市场项
+manuf,完整训练期,macro_tbl × factor_q_mkt,false,0,100,,,0,,false,0.0,预先剔除非因子或重复市场项
+manuf,完整训练期,macro_tbl × factor_q_me,true,0,100,0.0,,0,0.0,false,0.0,入选频率不足
+manuf,完整训练期,macro_tbl × factor_q_ia,true,0,100,0.0,,0,0.0,false,0.0,入选频率不足
+manuf,完整训练期,macro_tbl × factor_q_roe,true,0,100,0.0,,0,0.0,false,0.0,入选频率不足
+manuf,完整训练期,macro_tbl × factor_q_eg,true,0,100,0.0,,0,0.0,false,0.0,入选频率不足
+manuf,完整训练期,macro_lty × factor_ff_mkt_excess,true,23,100,0.23,1.0,1,0.0,false,0.0,入选频率不足
+manuf,完整训练期,macro_lty × factor_ff_smb,true,1,100,0.01,1.0,1,0.0,false,0.0,入选频率不足
+manuf,完整训练期,macro_lty × factor_ff_hml,true,0,100,0.0,,0,0.0,false,0.0,入选频率不足
+manuf,完整训练期,macro_lty × factor_q_year,false,0,100,,,0,,false,0.0,预先剔除非因子或重复市场项
+manuf,完整训练期,macro_lty × factor_q_f,false,0,100,,,0,,false,0.0,预先剔除非因子或重复市场项
+manuf,完整训练期,macro_lty × factor_q_mkt,false,0,100,,,0,,false,0.0,预先剔除非因子或重复市场项
+manuf,完整训练期,macro_lty × factor_q_me,true,0,100,0.0,,0,0.0,false,0.0,入选频率不足
+manuf,完整训练期,macro_lty × factor_q_ia,true,0,100,0.0,,0,0.0,false,0.0,入选频率不足
+manuf,完整训练期,macro_lty × factor_q_roe,true,0,100,0.0,,0,0.0,false,0.0,入选频率不足
+manuf,完整训练期,macro_lty × factor_q_eg,true,0,100,0.0,,0,0.0,false,0.0,入选频率不足
+manuf,完整训练期,macro_ltr × factor_ff_mkt_excess,true,1,100,0.01,1.0,-1,0.0,false,0.0,入选频率不足
+manuf,完整训练期,macro_ltr × factor_ff_smb,true,10,100,0.1,1.0,-1,0.0,false,0.0,入选频率不足
+manuf,完整训练期,macro_ltr × factor_ff_hml,true,1,100,0.01,1.0,1,0.0,false,0.0,入选频率不足
+manuf,完整训练期,macro_ltr × factor_q_year,false,0,100,,,0,,false,0.0,预先剔除非因子或重复市场项
+manuf,完整训练期,macro_ltr × factor_q_f,false,0,100,,,0,,false,0.0,预先剔除非因子或重复市场项
+manuf,完整训练期,macro_ltr × factor_q_mkt,false,0,100,,,0,,false,0.0,预先剔除非因子或重复市场项
+manuf,完整训练期,macro_ltr × factor_q_me,true,2,100,0.02,1.0,-1,0.0,false,0.0,入选频率不足
+manuf,完整训练期,macro_ltr × factor_q_ia,true,1,100,0.01,1.0,1,0.0,false,0.0,入选频率不足
+manuf,完整训练期,macro_ltr × factor_q_roe,true,33,100,0.33,1.0,1,0.0,false,0.0,入选频率不足
+manuf,完整训练期,macro_ltr × factor_q_eg,true,0,100,0.0,,0,0.0,false,0.0,入选频率不足
+manuf,完整训练期,macro_tms × factor_ff_mkt_excess,true,92,100,0.92,1.0,1,0.2999576317234662,true,0.3662388310388817,最终保留
+manuf,完整训练期,macro_tms × factor_ff_smb,true,1,100,0.01,1.0,1,0.0,false,0.0,入选频率不足
+manuf,完整训练期,macro_tms × factor_ff_hml,true,0,100,0.0,,0,0.0,false,0.0,入选频率不足
+manuf,完整训练期,macro_tms × factor_q_year,false,0,100,,,0,,false,0.0,预先剔除非因子或重复市场项
+manuf,完整训练期,macro_tms × factor_q_f,false,0,100,,,0,,false,0.0,预先剔除非因子或重复市场项
+manuf,完整训练期,macro_tms × factor_q_mkt,false,0,100,,,0,,false,0.0,预先剔除非因子或重复市场项
+manuf,完整训练期,macro_tms × factor_q_me,true,1,100,0.01,1.0,1,0.0,false,0.0,入选频率不足
+manuf,完整训练期,macro_tms × factor_q_ia,true,0,100,0.0,,0,0.0,false,0.0,入选频率不足
+manuf,完整训练期,macro_tms × factor_q_roe,true,0,100,0.0,,0,0.0,false,0.0,入选频率不足
+manuf,完整训练期,macro_tms × factor_q_eg,true,2,100,0.02,1.0,-1,0.0,false,0.0,入选频率不足
+manuf,完整训练期,macro_dfy × factor_ff_mkt_excess,true,53,100,0.53,1.0,1,0.028592789588191343,false,0.0,入选频率不足
+manuf,完整训练期,macro_dfy × factor_ff_smb,true,3,100,0.03,1.0,1,0.0,false,0.0,入选频率不足
+manuf,完整训练期,macro_dfy × factor_ff_hml,true,0,100,0.0,,0,0.0,false,0.0,入选频率不足
+manuf,完整训练期,macro_dfy × factor_q_year,false,0,100,,,0,,false,0.0,预先剔除非因子或重复市场项
+manuf,完整训练期,macro_dfy × factor_q_f,false,0,100,,,0,,false,0.0,预先剔除非因子或重复市场项
+manuf,完整训练期,macro_dfy × factor_q_mkt,false,0,100,,,0,,false,0.0,预先剔除非因子或重复市场项
+manuf,完整训练期,macro_dfy × factor_q_me,true,3,100,0.03,1.0,1,0.0,false,0.0,入选频率不足
+manuf,完整训练期,macro_dfy × factor_q_ia,true,0,100,0.0,,0,0.0,false,0.0,入选频率不足
+manuf,完整训练期,macro_dfy × factor_q_roe,true,1,100,0.01,1.0,-1,0.0,false,0.0,入选频率不足
+manuf,完整训练期,macro_dfy × factor_q_eg,true,0,100,0.0,,0,0.0,false,0.0,入选频率不足
+manuf,完整训练期,macro_infl × factor_ff_mkt_excess,true,1,100,0.01,1.0,1,0.0,false,0.0,入选频率不足
+manuf,完整训练期,macro_infl × factor_ff_smb,true,0,100,0.0,,0,0.0,false,0.0,入选频率不足
+manuf,完整训练期,macro_infl × factor_ff_hml,true,0,100,0.0,,0,0.0,false,0.0,入选频率不足
+manuf,完整训练期,macro_infl × factor_q_year,false,0,100,,,0,,false,0.0,预先剔除非因子或重复市场项
+manuf,完整训练期,macro_infl × factor_q_f,false,0,100,,,0,,false,0.0,预先剔除非因子或重复市场项
+manuf,完整训练期,macro_infl × factor_q_mkt,false,0,100,,,0,,false,0.0,预先剔除非因子或重复市场项
+manuf,完整训练期,macro_infl × factor_q_me,true,0,100,0.0,,0,0.0,false,0.0,入选频率不足
+manuf,完整训练期,macro_infl × factor_q_ia,true,0,100,0.0,,0,0.0,false,0.0,入选频率不足
+manuf,完整训练期,macro_infl × factor_q_roe,true,0,100,0.0,,0,0.0,false,0.0,入选频率不足
+manuf,完整训练期,macro_infl × factor_q_eg,true,0,100,0.0,,0,0.0,false,0.0,入选频率不足
+nodur,完整训练期,factor_ff_mkt_excess,true,100,100,1.0,1.0,1,2.1258320470293897,true,2.176284512175817,最终保留
+nodur,完整训练期,factor_ff_smb,true,0,100,0.0,,0,0.0,false,0.0,入选频率不足
+nodur,完整训练期,factor_ff_hml,true,0,100,0.0,,0,0.0,false,0.0,入选频率不足
+nodur,完整训练期,factor_q_year,false,0,100,,,0,,false,0.0,预先剔除非因子或重复市场项
+nodur,完整训练期,factor_q_f,false,0,100,,,0,,false,0.0,预先剔除非因子或重复市场项
+nodur,完整训练期,factor_q_mkt,false,0,100,,,0,,false,0.0,预先剔除非因子或重复市场项
+nodur,完整训练期,factor_q_me,true,0,100,0.0,,0,0.0,false,0.0,入选频率不足
+nodur,完整训练期,factor_q_ia,true,0,100,0.0,,0,0.0,false,0.0,入选频率不足
+nodur,完整训练期,factor_q_roe,true,0,100,0.0,,0,0.0,false,0.0,入选频率不足
+nodur,完整训练期,factor_q_eg,true,0,100,0.0,,0,0.0,false,0.0,入选频率不足
+nodur,完整训练期,macro_dp,true,0,100,0.0,,0,0.0,false,0.0,入选频率不足
+nodur,完整训练期,macro_dy,true,0,100,0.0,,0,0.0,false,0.0,入选频率不足
+nodur,完整训练期,macro_ep,true,0,100,0.0,,0,0.0,false,0.0,入选频率不足
+nodur,完整训练期,macro_de,true,0,100,0.0,,0,0.0,false,0.0,入选频率不足
+nodur,完整训练期,macro_svar,true,0,100,0.0,,0,0.0,false,0.0,入选频率不足
+nodur,完整训练期,macro_b/m,true,0,100,0.0,,0,0.0,false,0.0,入选频率不足
+nodur,完整训练期,macro_ntis,true,0,100,0.0,,0,0.0,false,0.0,入选频率不足
+nodur,完整训练期,macro_tbl,true,0,100,0.0,,0,0.0,false,0.0,入选频率不足
+nodur,完整训练期,macro_lty,true,0,100,0.0,,0,0.0,false,0.0,入选频率不足
+nodur,完整训练期,macro_ltr,true,1,100,0.01,1.0,1,0.0,false,0.0,入选频率不足
+nodur,完整训练期,macro_tms,true,0,100,0.0,,0,0.0,false,0.0,入选频率不足
+nodur,完整训练期,macro_dfy,true,0,100,0.0,,0,0.0,false,0.0,入选频率不足
+nodur,完整训练期,macro_infl,true,0,100,0.0,,0,0.0,false,0.0,入选频率不足
+nodur,完整训练期,macro_dp × factor_ff_mkt_excess,true,0,100,0.0,,0,0.0,false,0.0,入选频率不足
+nodur,完整训练期,macro_dp × factor_ff_smb,true,0,100,0.0,,0,0.0,false,0.0,入选频率不足
+nodur,完整训练期,macro_dp × factor_ff_hml,true,0,100,0.0,,0,0.0,false,0.0,入选频率不足
+nodur,完整训练期,macro_dp × factor_q_year,false,0,100,,,0,,false,0.0,预先剔除非因子或重复市场项
+nodur,完整训练期,macro_dp × factor_q_f,false,0,100,,,0,,false,0.0,预先剔除非因子或重复市场项
+nodur,完整训练期,macro_dp × factor_q_mkt,false,0,100,,,0,,false,0.0,预先剔除非因子或重复市场项
+nodur,完整训练期,macro_dp × factor_q_me,true,0,100,0.0,,0,0.0,false,0.0,入选频率不足
+nodur,完整训练期,macro_dp × factor_q_ia,true,0,100,0.0,,0,0.0,false,0.0,入选频率不足
+nodur,完整训练期,macro_dp × factor_q_roe,true,3,100,0.03,1.0,-1,0.0,false,0.0,入选频率不足
+nodur,完整训练期,macro_dp × factor_q_eg,true,0,100,0.0,,0,0.0,false,0.0,入选频率不足
+nodur,完整训练期,macro_dy × factor_ff_mkt_excess,true,9,100,0.09,1.0,1,0.0,false,0.0,入选频率不足
+nodur,完整训练期,macro_dy × factor_ff_smb,true,0,100,0.0,,0,0.0,false,0.0,入选频率不足
+nodur,完整训练期,macro_dy × factor_ff_hml,true,0,100,0.0,,0,0.0,false,0.0,入选频率不足
+nodur,完整训练期,macro_dy × factor_q_year,false,0,100,,,0,,false,0.0,预先剔除非因子或重复市场项
+nodur,完整训练期,macro_dy × factor_q_f,false,0,100,,,0,,false,0.0,预先剔除非因子或重复市场项
+nodur,完整训练期,macro_dy × factor_q_mkt,false,0,100,,,0,,false,0.0,预先剔除非因子或重复市场项
+nodur,完整训练期,macro_dy × factor_q_me,true,0,100,0.0,,0,0.0,false,0.0,入选频率不足
+nodur,完整训练期,macro_dy × factor_q_ia,true,0,100,0.0,,0,0.0,false,0.0,入选频率不足
+nodur,完整训练期,macro_dy × factor_q_roe,true,0,100,0.0,,0,0.0,false,0.0,入选频率不足
+nodur,完整训练期,macro_dy × factor_q_eg,true,0,100,0.0,,0,0.0,false,0.0,入选频率不足
+nodur,完整训练期,macro_ep × factor_ff_mkt_excess,true,0,100,0.0,,0,0.0,false,0.0,入选频率不足
+nodur,完整训练期,macro_ep × factor_ff_smb,true,0,100,0.0,,0,0.0,false,0.0,入选频率不足
+nodur,完整训练期,macro_ep × factor_ff_hml,true,0,100,0.0,,0,0.0,false,0.0,入选频率不足
+nodur,完整训练期,macro_ep × factor_q_year,false,0,100,,,0,,false,0.0,预先剔除非因子或重复市场项
+nodur,完整训练期,macro_ep × factor_q_f,false,0,100,,,0,,false,0.0,预先剔除非因子或重复市场项
+nodur,完整训练期,macro_ep × factor_q_mkt,false,0,100,,,0,,false,0.0,预先剔除非因子或重复市场项
+nodur,完整训练期,macro_ep × factor_q_me,true,0,100,0.0,,0,0.0,false,0.0,入选频率不足
+nodur,完整训练期,macro_ep × factor_q_ia,true,0,100,0.0,,0,0.0,false,0.0,入选频率不足
+nodur,完整训练期,macro_ep × factor_q_roe,true,0,100,0.0,,0,0.0,false,0.0,入选频率不足
+nodur,完整训练期,macro_ep × factor_q_eg,true,0,100,0.0,,0,0.0,false,0.0,入选频率不足
+nodur,完整训练期,macro_de × factor_ff_mkt_excess,true,0,100,0.0,,0,0.0,false,0.0,入选频率不足
+nodur,完整训练期,macro_de × factor_ff_smb,true,0,100,0.0,,0,0.0,false,0.0,入选频率不足
+nodur,完整训练期,macro_de × factor_ff_hml,true,1,100,0.01,1.0,-1,0.0,false,0.0,入选频率不足
+nodur,完整训练期,macro_de × factor_q_year,false,0,100,,,0,,false,0.0,预先剔除非因子或重复市场项
+nodur,完整训练期,macro_de × factor_q_f,false,0,100,,,0,,false,0.0,预先剔除非因子或重复市场项
+nodur,完整训练期,macro_de × factor_q_mkt,false,0,100,,,0,,false,0.0,预先剔除非因子或重复市场项
+nodur,完整训练期,macro_de × factor_q_me,true,0,100,0.0,,0,0.0,false,0.0,入选频率不足
+nodur,完整训练期,macro_de × factor_q_ia,true,0,100,0.0,,0,0.0,false,0.0,入选频率不足
+nodur,完整训练期,macro_de × factor_q_roe,true,1,100,0.01,1.0,-1,0.0,false,0.0,入选频率不足
+nodur,完整训练期,macro_de × factor_q_eg,true,0,100,0.0,,0,0.0,false,0.0,入选频率不足
+nodur,完整训练期,macro_svar × factor_ff_mkt_excess,true,0,100,0.0,,0,0.0,false,0.0,入选频率不足
+nodur,完整训练期,macro_svar × factor_ff_smb,true,0,100,0.0,,0,0.0,false,0.0,入选频率不足
+nodur,完整训练期,macro_svar × factor_ff_hml,true,0,100,0.0,,0,0.0,false,0.0,入选频率不足
+nodur,完整训练期,macro_svar × factor_q_year,false,0,100,,,0,,false,0.0,预先剔除非因子或重复市场项
+nodur,完整训练期,macro_svar × factor_q_f,false,0,100,,,0,,false,0.0,预先剔除非因子或重复市场项
+nodur,完整训练期,macro_svar × factor_q_mkt,false,0,100,,,0,,false,0.0,预先剔除非因子或重复市场项
+nodur,完整训练期,macro_svar × factor_q_me,true,0,100,0.0,,0,0.0,false,0.0,入选频率不足
+nodur,完整训练期,macro_svar × factor_q_ia,true,0,100,0.0,,0,0.0,false,0.0,入选频率不足
+nodur,完整训练期,macro_svar × factor_q_roe,true,0,100,0.0,,0,0.0,false,0.0,入选频率不足
+nodur,完整训练期,macro_svar × factor_q_eg,true,0,100,0.0,,0,0.0,false,0.0,入选频率不足
+nodur,完整训练期,macro_b/m × factor_ff_mkt_excess,true,98,100,0.98,1.0,1,0.8488629921787483,true,0.8612912195310728,最终保留
+nodur,完整训练期,macro_b/m × factor_ff_smb,true,0,100,0.0,,0,0.0,false,0.0,入选频率不足
+nodur,完整训练期,macro_b/m × factor_ff_hml,true,0,100,0.0,,0,0.0,false,0.0,入选频率不足
+nodur,完整训练期,macro_b/m × factor_q_year,false,0,100,,,0,,false,0.0,预先剔除非因子或重复市场项
+nodur,完整训练期,macro_b/m × factor_q_f,false,0,100,,,0,,false,0.0,预先剔除非因子或重复市场项
+nodur,完整训练期,macro_b/m × factor_q_mkt,false,0,100,,,0,,false,0.0,预先剔除非因子或重复市场项
+nodur,完整训练期,macro_b/m × factor_q_me,true,0,100,0.0,,0,0.0,false,0.0,入选频率不足
+nodur,完整训练期,macro_b/m × factor_q_ia,true,0,100,0.0,,0,0.0,false,0.0,入选频率不足
+nodur,完整训练期,macro_b/m × factor_q_roe,true,0,100,0.0,,0,0.0,false,0.0,入选频率不足
+nodur,完整训练期,macro_b/m × factor_q_eg,true,0,100,0.0,,0,0.0,false,0.0,入选频率不足
+nodur,完整训练期,macro_ntis × factor_ff_mkt_excess,true,2,100,0.02,1.0,1,0.0,false,0.0,入选频率不足
+nodur,完整训练期,macro_ntis × factor_ff_smb,true,0,100,0.0,,0,0.0,false,0.0,入选频率不足
+nodur,完整训练期,macro_ntis × factor_ff_hml,true,0,100,0.0,,0,0.0,false,0.0,入选频率不足
+nodur,完整训练期,macro_ntis × factor_q_year,false,0,100,,,0,,false,0.0,预先剔除非因子或重复市场项
+nodur,完整训练期,macro_ntis × factor_q_f,false,0,100,,,0,,false,0.0,预先剔除非因子或重复市场项
+nodur,完整训练期,macro_ntis × factor_q_mkt,false,0,100,,,0,,false,0.0,预先剔除非因子或重复市场项
+nodur,完整训练期,macro_ntis × factor_q_me,true,0,100,0.0,,0,0.0,false,0.0,入选频率不足
+nodur,完整训练期,macro_ntis × factor_q_ia,true,0,100,0.0,,0,0.0,false,0.0,入选频率不足
+nodur,完整训练期,macro_ntis × factor_q_roe,true,0,100,0.0,,0,0.0,false,0.0,入选频率不足
+nodur,完整训练期,macro_ntis × factor_q_eg,true,0,100,0.0,,0,0.0,false,0.0,入选频率不足
+nodur,完整训练期,macro_tbl × factor_ff_mkt_excess,true,0,100,0.0,,0,0.0,false,0.0,入选频率不足
+nodur,完整训练期,macro_tbl × factor_ff_smb,true,0,100,0.0,,0,0.0,false,0.0,入选频率不足
+nodur,完整训练期,macro_tbl × factor_ff_hml,true,0,100,0.0,,0,0.0,false,0.0,入选频率不足
+nodur,完整训练期,macro_tbl × factor_q_year,false,0,100,,,0,,false,0.0,预先剔除非因子或重复市场项
+nodur,完整训练期,macro_tbl × factor_q_f,false,0,100,,,0,,false,0.0,预先剔除非因子或重复市场项
+nodur,完整训练期,macro_tbl × factor_q_mkt,false,0,100,,,0,,false,0.0,预先剔除非因子或重复市场项
+nodur,完整训练期,macro_tbl × factor_q_me,true,0,100,0.0,,0,0.0,false,0.0,入选频率不足
+nodur,完整训练期,macro_tbl × factor_q_ia,true,0,100,0.0,,0,0.0,false,0.0,入选频率不足
+nodur,完整训练期,macro_tbl × factor_q_roe,true,9,100,0.09,1.0,1,0.0,false,0.0,入选频率不足
+nodur,完整训练期,macro_tbl × factor_q_eg,true,0,100,0.0,,0,0.0,false,0.0,入选频率不足
+nodur,完整训练期,macro_lty × factor_ff_mkt_excess,true,28,100,0.28,1.0,1,0.0,false,0.0,入选频率不足
+nodur,完整训练期,macro_lty × factor_ff_smb,true,0,100,0.0,,0,0.0,false,0.0,入选频率不足
+nodur,完整训练期,macro_lty × factor_ff_hml,true,0,100,0.0,,0,0.0,false,0.0,入选频率不足
+nodur,完整训练期,macro_lty × factor_q_year,false,0,100,,,0,,false,0.0,预先剔除非因子或重复市场项
+nodur,完整训练期,macro_lty × factor_q_f,false,0,100,,,0,,false,0.0,预先剔除非因子或重复市场项
+nodur,完整训练期,macro_lty × factor_q_mkt,false,0,100,,,0,,false,0.0,预先剔除非因子或重复市场项
+nodur,完整训练期,macro_lty × factor_q_me,true,0,100,0.0,,0,0.0,false,0.0,入选频率不足
+nodur,完整训练期,macro_lty × factor_q_ia,true,0,100,0.0,,0,0.0,false,0.0,入选频率不足
+nodur,完整训练期,macro_lty × factor_q_roe,true,0,100,0.0,,0,0.0,false,0.0,入选频率不足
+nodur,完整训练期,macro_lty × factor_q_eg,true,0,100,0.0,,0,0.0,false,0.0,入选频率不足
+nodur,完整训练期,macro_ltr × factor_ff_mkt_excess,true,0,100,0.0,,0,0.0,false,0.0,入选频率不足
+nodur,完整训练期,macro_ltr × factor_ff_smb,true,0,100,0.0,,0,0.0,false,0.0,入选频率不足
+nodur,完整训练期,macro_ltr × factor_ff_hml,true,0,100,0.0,,0,0.0,false,0.0,入选频率不足
+nodur,完整训练期,macro_ltr × factor_q_year,false,0,100,,,0,,false,0.0,预先剔除非因子或重复市场项
+nodur,完整训练期,macro_ltr × factor_q_f,false,0,100,,,0,,false,0.0,预先剔除非因子或重复市场项
+nodur,完整训练期,macro_ltr × factor_q_mkt,false,0,100,,,0,,false,0.0,预先剔除非因子或重复市场项
+nodur,完整训练期,macro_ltr × factor_q_me,true,0,100,0.0,,0,0.0,false,0.0,入选频率不足
+nodur,完整训练期,macro_ltr × factor_q_ia,true,0,100,0.0,,0,0.0,false,0.0,入选频率不足
+nodur,完整训练期,macro_ltr × factor_q_roe,true,0,100,0.0,,0,0.0,false,0.0,入选频率不足
+nodur,完整训练期,macro_ltr × factor_q_eg,true,0,100,0.0,,0,0.0,false,0.0,入选频率不足
+nodur,完整训练期,macro_tms × factor_ff_mkt_excess,true,35,100,0.35,1.0,1,0.0,false,0.0,入选频率不足
+nodur,完整训练期,macro_tms × factor_ff_smb,true,0,100,0.0,,0,0.0,false,0.0,入选频率不足
+nodur,完整训练期,macro_tms × factor_ff_hml,true,0,100,0.0,,0,0.0,false,0.0,入选频率不足
+nodur,完整训练期,macro_tms × factor_q_year,false,0,100,,,0,,false,0.0,预先剔除非因子或重复市场项
+nodur,完整训练期,macro_tms × factor_q_f,false,0,100,,,0,,false,0.0,预先剔除非因子或重复市场项
+nodur,完整训练期,macro_tms × factor_q_mkt,false,0,100,,,0,,false,0.0,预先剔除非因子或重复市场项
+nodur,完整训练期,macro_tms × factor_q_me,true,0,100,0.0,,0,0.0,false,0.0,入选频率不足
+nodur,完整训练期,macro_tms × factor_q_ia,true,0,100,0.0,,0,0.0,false,0.0,入选频率不足
+nodur,完整训练期,macro_tms × factor_q_roe,true,0,100,0.0,,0,0.0,false,0.0,入选频率不足
+nodur,完整训练期,macro_tms × factor_q_eg,true,0,100,0.0,,0,0.0,false,0.0,入选频率不足
+nodur,完整训练期,macro_dfy × factor_ff_mkt_excess,true,2,100,0.02,1.0,1,0.0,false,0.0,入选频率不足
+nodur,完整训练期,macro_dfy × factor_ff_smb,true,0,100,0.0,,0,0.0,false,0.0,入选频率不足
+nodur,完整训练期,macro_dfy × factor_ff_hml,true,0,100,0.0,,0,0.0,false,0.0,入选频率不足
+nodur,完整训练期,macro_dfy × factor_q_year,false,0,100,,,0,,false,0.0,预先剔除非因子或重复市场项
+nodur,完整训练期,macro_dfy × factor_q_f,false,0,100,,,0,,false,0.0,预先剔除非因子或重复市场项
+nodur,完整训练期,macro_dfy × factor_q_mkt,false,0,100,,,0,,false,0.0,预先剔除非因子或重复市场项
+nodur,完整训练期,macro_dfy × factor_q_me,true,0,100,0.0,,0,0.0,false,0.0,入选频率不足
+nodur,完整训练期,macro_dfy × factor_q_ia,true,0,100,0.0,,0,0.0,false,0.0,入选频率不足
+nodur,完整训练期,macro_dfy × factor_q_roe,true,0,100,0.0,,0,0.0,false,0.0,入选频率不足
+nodur,完整训练期,macro_dfy × factor_q_eg,true,0,100,0.0,,0,0.0,false,0.0,入选频率不足
+nodur,完整训练期,macro_infl × factor_ff_mkt_excess,true,0,100,0.0,,0,0.0,false,0.0,入选频率不足
+nodur,完整训练期,macro_infl × factor_ff_smb,true,0,100,0.0,,0,0.0,false,0.0,入选频率不足
+nodur,完整训练期,macro_infl × factor_ff_hml,true,0,100,0.0,,0,0.0,false,0.0,入选频率不足
+nodur,完整训练期,macro_infl × factor_q_year,false,0,100,,,0,,false,0.0,预先剔除非因子或重复市场项
+nodur,完整训练期,macro_infl × factor_q_f,false,0,100,,,0,,false,0.0,预先剔除非因子或重复市场项
+nodur,完整训练期,macro_infl × factor_q_mkt,false,0,100,,,0,,false,0.0,预先剔除非因子或重复市场项
+nodur,完整训练期,macro_infl × factor_q_me,true,0,100,0.0,,0,0.0,false,0.0,入选频率不足
+nodur,完整训练期,macro_infl × factor_q_ia,true,0,100,0.0,,0,0.0,false,0.0,入选频率不足
+nodur,完整训练期,macro_infl × factor_q_roe,true,0,100,0.0,,0,0.0,false,0.0,入选频率不足
+nodur,完整训练期,macro_infl × factor_q_eg,true,0,100,0.0,,0,0.0,false,0.0,入选频率不足
+other,完整训练期,factor_ff_mkt_excess,true,100,100,1.0,1.0,1,4.291245715046002,true,4.485698565137831,最终保留
+other,完整训练期,factor_ff_smb,true,0,100,0.0,,0,0.0,false,0.0,入选频率不足
+other,完整训练期,factor_ff_hml,true,0,100,0.0,,0,0.0,false,0.0,入选频率不足
+other,完整训练期,factor_q_year,false,0,100,,,0,,false,0.0,预先剔除非因子或重复市场项
+other,完整训练期,factor_q_f,false,0,100,,,0,,false,0.0,预先剔除非因子或重复市场项
+other,完整训练期,factor_q_mkt,false,0,100,,,0,,false,0.0,预先剔除非因子或重复市场项
+other,完整训练期,factor_q_me,true,2,100,0.02,1.0,1,0.0,false,0.0,入选频率不足
+other,完整训练期,factor_q_ia,true,0,100,0.0,,0,0.0,false,0.0,入选频率不足
+other,完整训练期,factor_q_roe,true,0,100,0.0,,0,0.0,false,0.0,入选频率不足
+other,完整训练期,factor_q_eg,true,4,100,0.04,1.0,-1,0.0,false,0.0,入选频率不足
+other,完整训练期,macro_dp,true,0,100,0.0,,0,0.0,false,0.0,入选频率不足
+other,完整训练期,macro_dy,true,0,100,0.0,,0,0.0,false,0.0,入选频率不足
+other,完整训练期,macro_ep,true,0,100,0.0,,0,0.0,false,0.0,入选频率不足
+other,完整训练期,macro_de,true,0,100,0.0,,0,0.0,false,0.0,入选频率不足
+other,完整训练期,macro_svar,true,0,100,0.0,,0,0.0,false,0.0,入选频率不足
+other,完整训练期,macro_b/m,true,0,100,0.0,,0,0.0,false,0.0,入选频率不足
+other,完整训练期,macro_ntis,true,0,100,0.0,,0,0.0,false,0.0,入选频率不足
+other,完整训练期,macro_tbl,true,0,100,0.0,,0,0.0,false,0.0,入选频率不足
+other,完整训练期,macro_lty,true,0,100,0.0,,0,0.0,false,0.0,入选频率不足
+other,完整训练期,macro_ltr,true,1,100,0.01,1.0,1,0.0,false,0.0,入选频率不足
+other,完整训练期,macro_tms,true,0,100,0.0,,0,0.0,false,0.0,入选频率不足
+other,完整训练期,macro_dfy,true,0,100,0.0,,0,0.0,false,0.0,入选频率不足
+other,完整训练期,macro_infl,true,0,100,0.0,,0,0.0,false,0.0,入选频率不足
+other,完整训练期,macro_dp × factor_ff_mkt_excess,true,0,100,0.0,,0,0.0,false,0.0,入选频率不足
+other,完整训练期,macro_dp × factor_ff_smb,true,0,100,0.0,,0,0.0,false,0.0,入选频率不足
+other,完整训练期,macro_dp × factor_ff_hml,true,16,100,0.16,1.0,-1,0.0,false,0.0,入选频率不足
+other,完整训练期,macro_dp × factor_q_year,false,0,100,,,0,,false,0.0,预先剔除非因子或重复市场项
+other,完整训练期,macro_dp × factor_q_f,false,0,100,,,0,,false,0.0,预先剔除非因子或重复市场项
+other,完整训练期,macro_dp × factor_q_mkt,false,0,100,,,0,,false,0.0,预先剔除非因子或重复市场项
+other,完整训练期,macro_dp × factor_q_me,true,0,100,0.0,,0,0.0,false,0.0,入选频率不足
+other,完整训练期,macro_dp × factor_q_ia,true,0,100,0.0,,0,0.0,false,0.0,入选频率不足
+other,完整训练期,macro_dp × factor_q_roe,true,0,100,0.0,,0,0.0,false,0.0,入选频率不足
+other,完整训练期,macro_dp × factor_q_eg,true,0,100,0.0,,0,0.0,false,0.0,入选频率不足
+other,完整训练期,macro_dy × factor_ff_mkt_excess,true,0,100,0.0,,0,0.0,false,0.0,入选频率不足
+other,完整训练期,macro_dy × factor_ff_smb,true,0,100,0.0,,0,0.0,false,0.0,入选频率不足
+other,完整训练期,macro_dy × factor_ff_hml,true,0,100,0.0,,0,0.0,false,0.0,入选频率不足
+other,完整训练期,macro_dy × factor_q_year,false,0,100,,,0,,false,0.0,预先剔除非因子或重复市场项
+other,完整训练期,macro_dy × factor_q_f,false,0,100,,,0,,false,0.0,预先剔除非因子或重复市场项
+other,完整训练期,macro_dy × factor_q_mkt,false,0,100,,,0,,false,0.0,预先剔除非因子或重复市场项
+other,完整训练期,macro_dy × factor_q_me,true,0,100,0.0,,0,0.0,false,0.0,入选频率不足
+other,完整训练期,macro_dy × factor_q_ia,true,0,100,0.0,,0,0.0,false,0.0,入选频率不足
+other,完整训练期,macro_dy × factor_q_roe,true,0,100,0.0,,0,0.0,false,0.0,入选频率不足
+other,完整训练期,macro_dy × factor_q_eg,true,0,100,0.0,,0,0.0,false,0.0,入选频率不足
+other,完整训练期,macro_ep × factor_ff_mkt_excess,true,37,100,0.37,1.0,-1,0.0,false,0.0,入选频率不足
+other,完整训练期,macro_ep × factor_ff_smb,true,0,100,0.0,,0,0.0,false,0.0,入选频率不足
+other,完整训练期,macro_ep × factor_ff_hml,true,79,100,0.79,1.0,-1,0.4907881450940217,true,-0.61638998923779,最终保留
+other,完整训练期,macro_ep × factor_q_year,false,0,100,,,0,,false,0.0,预先剔除非因子或重复市场项
+other,完整训练期,macro_ep × factor_q_f,false,0,100,,,0,,false,0.0,预先剔除非因子或重复市场项
+other,完整训练期,macro_ep × factor_q_mkt,false,0,100,,,0,,false,0.0,预先剔除非因子或重复市场项
+other,完整训练期,macro_ep × factor_q_me,true,2,100,0.02,1.0,-1,0.0,false,0.0,入选频率不足
+other,完整训练期,macro_ep × factor_q_ia,true,0,100,0.0,,0,0.0,false,0.0,入选频率不足
+other,完整训练期,macro_ep × factor_q_roe,true,0,100,0.0,,0,0.0,false,0.0,入选频率不足
+other,完整训练期,macro_ep × factor_q_eg,true,1,100,0.01,1.0,1,0.0,false,0.0,入选频率不足
+other,完整训练期,macro_de × factor_ff_mkt_excess,true,0,100,0.0,,0,0.0,false,0.0,入选频率不足
+other,完整训练期,macro_de × factor_ff_smb,true,10,100,0.1,1.0,1,0.0,false,0.0,入选频率不足
+other,完整训练期,macro_de × factor_ff_hml,true,13,100,0.13,1.0,-1,0.0,false,0.0,入选频率不足
+other,完整训练期,macro_de × factor_q_year,false,0,100,,,0,,false,0.0,预先剔除非因子或重复市场项
+other,完整训练期,macro_de × factor_q_f,false,0,100,,,0,,false,0.0,预先剔除非因子或重复市场项
+other,完整训练期,macro_de × factor_q_mkt,false,0,100,,,0,,false,0.0,预先剔除非因子或重复市场项
+other,完整训练期,macro_de × factor_q_me,true,0,100,0.0,,0,0.0,false,0.0,入选频率不足
+other,完整训练期,macro_de × factor_q_ia,true,0,100,0.0,,0,0.0,false,0.0,入选频率不足
+other,完整训练期,macro_de × factor_q_roe,true,5,100,0.05,1.0,-1,0.0,false,0.0,入选频率不足
+other,完整训练期,macro_de × factor_q_eg,true,0,100,0.0,,0,0.0,false,0.0,入选频率不足
+other,完整训练期,macro_svar × factor_ff_mkt_excess,true,0,100,0.0,,0,0.0,false,0.0,入选频率不足
+other,完整训练期,macro_svar × factor_ff_smb,true,1,100,0.01,1.0,-1,0.0,false,0.0,入选频率不足
+other,完整训练期,macro_svar × factor_ff_hml,true,1,100,0.01,1.0,1,0.0,false,0.0,入选频率不足
+other,完整训练期,macro_svar × factor_q_year,false,0,100,,,0,,false,0.0,预先剔除非因子或重复市场项
+other,完整训练期,macro_svar × factor_q_f,false,0,100,,,0,,false,0.0,预先剔除非因子或重复市场项
+other,完整训练期,macro_svar × factor_q_mkt,false,0,100,,,0,,false,0.0,预先剔除非因子或重复市场项
+other,完整训练期,macro_svar × factor_q_me,true,0,100,0.0,,0,0.0,false,0.0,入选频率不足
+other,完整训练期,macro_svar × factor_q_ia,true,0,100,0.0,,0,0.0,false,0.0,入选频率不足
+other,完整训练期,macro_svar × factor_q_roe,true,0,100,0.0,,0,0.0,false,0.0,入选频率不足
+other,完整训练期,macro_svar × factor_q_eg,true,0,100,0.0,,0,0.0,false,0.0,入选频率不足
+other,完整训练期,macro_b/m × factor_ff_mkt_excess,true,93,100,0.93,1.0,1,0.3682530463939839,true,0.3098564562106178,最终保留
+other,完整训练期,macro_b/m × factor_ff_smb,true,9,100,0.09,1.0,1,0.0,false,0.0,入选频率不足
+other,完整训练期,macro_b/m × factor_ff_hml,true,0,100,0.0,,0,0.0,false,0.0,入选频率不足
+other,完整训练期,macro_b/m × factor_q_year,false,0,100,,,0,,false,0.0,预先剔除非因子或重复市场项
+other,完整训练期,macro_b/m × factor_q_f,false,0,100,,,0,,false,0.0,预先剔除非因子或重复市场项
+other,完整训练期,macro_b/m × factor_q_mkt,false,0,100,,,0,,false,0.0,预先剔除非因子或重复市场项
+other,完整训练期,macro_b/m × factor_q_me,true,50,100,0.5,1.0,1,0.003332709960742523,false,0.0,入选频率不足
+other,完整训练期,macro_b/m × factor_q_ia,true,0,100,0.0,,0,0.0,false,0.0,入选频率不足
+other,完整训练期,macro_b/m × factor_q_roe,true,0,100,0.0,,0,0.0,false,0.0,入选频率不足
+other,完整训练期,macro_b/m × factor_q_eg,true,15,100,0.15,1.0,-1,0.0,false,0.0,入选频率不足
+other,完整训练期,macro_ntis × factor_ff_mkt_excess,true,8,100,0.08,1.0,1,0.0,false,0.0,入选频率不足
+other,完整训练期,macro_ntis × factor_ff_smb,true,1,100,0.01,1.0,1,0.0,false,0.0,入选频率不足
+other,完整训练期,macro_ntis × factor_ff_hml,true,2,100,0.02,1.0,-1,0.0,false,0.0,入选频率不足
+other,完整训练期,macro_ntis × factor_q_year,false,0,100,,,0,,false,0.0,预先剔除非因子或重复市场项
+other,完整训练期,macro_ntis × factor_q_f,false,0,100,,,0,,false,0.0,预先剔除非因子或重复市场项
+other,完整训练期,macro_ntis × factor_q_mkt,false,0,100,,,0,,false,0.0,预先剔除非因子或重复市场项
+other,完整训练期,macro_ntis × factor_q_me,true,1,100,0.01,1.0,1,0.0,false,0.0,入选频率不足
+other,完整训练期,macro_ntis × factor_q_ia,true,0,100,0.0,,0,0.0,false,0.0,入选频率不足
+other,完整训练期,macro_ntis × factor_q_roe,true,3,100,0.03,1.0,1,0.0,false,0.0,入选频率不足
+other,完整训练期,macro_ntis × factor_q_eg,true,4,100,0.04,1.0,-1,0.0,false,0.0,入选频率不足
+other,完整训练期,macro_tbl × factor_ff_mkt_excess,true,10,100,0.1,1.0,1,0.0,false,0.0,入选频率不足
+other,完整训练期,macro_tbl × factor_ff_smb,true,1,100,0.01,1.0,1,0.0,false,0.0,入选频率不足
+other,完整训练期,macro_tbl × factor_ff_hml,true,0,100,0.0,,0,0.0,false,0.0,入选频率不足
+other,完整训练期,macro_tbl × factor_q_year,false,0,100,,,0,,false,0.0,预先剔除非因子或重复市场项
+other,完整训练期,macro_tbl × factor_q_f,false,0,100,,,0,,false,0.0,预先剔除非因子或重复市场项
+other,完整训练期,macro_tbl × factor_q_mkt,false,0,100,,,0,,false,0.0,预先剔除非因子或重复市场项
+other,完整训练期,macro_tbl × factor_q_me,true,4,100,0.04,1.0,1,0.0,false,0.0,入选频率不足
+other,完整训练期,macro_tbl × factor_q_ia,true,0,100,0.0,,0,0.0,false,0.0,入选频率不足
+other,完整训练期,macro_tbl × factor_q_roe,true,0,100,0.0,,0,0.0,false,0.0,入选频率不足
+other,完整训练期,macro_tbl × factor_q_eg,true,2,100,0.02,1.0,-1,0.0,false,0.0,入选频率不足
+other,完整训练期,macro_lty × factor_ff_mkt_excess,true,8,100,0.08,1.0,1,0.0,false,0.0,入选频率不足
+other,完整训练期,macro_lty × factor_ff_smb,true,0,100,0.0,,0,0.0,false,0.0,入选频率不足
+other,完整训练期,macro_lty × factor_ff_hml,true,0,100,0.0,,0,0.0,false,0.0,入选频率不足
+other,完整训练期,macro_lty × factor_q_year,false,0,100,,,0,,false,0.0,预先剔除非因子或重复市场项
+other,完整训练期,macro_lty × factor_q_f,false,0,100,,,0,,false,0.0,预先剔除非因子或重复市场项
+other,完整训练期,macro_lty × factor_q_mkt,false,0,100,,,0,,false,0.0,预先剔除非因子或重复市场项
+other,完整训练期,macro_lty × factor_q_me,true,2,100,0.02,1.0,1,0.0,false,0.0,入选频率不足
+other,完整训练期,macro_lty × factor_q_ia,true,0,100,0.0,,0,0.0,false,0.0,入选频率不足
+other,完整训练期,macro_lty × factor_q_roe,true,0,100,0.0,,0,0.0,false,0.0,入选频率不足
+other,完整训练期,macro_lty × factor_q_eg,true,0,100,0.0,,0,0.0,false,0.0,入选频率不足
+other,完整训练期,macro_ltr × factor_ff_mkt_excess,true,0,100,0.0,,0,0.0,false,0.0,入选频率不足
+other,完整训练期,macro_ltr × factor_ff_smb,true,0,100,0.0,,0,0.0,false,0.0,入选频率不足
+other,完整训练期,macro_ltr × factor_ff_hml,true,0,100,0.0,,0,0.0,false,0.0,入选频率不足
+other,完整训练期,macro_ltr × factor_q_year,false,0,100,,,0,,false,0.0,预先剔除非因子或重复市场项
+other,完整训练期,macro_ltr × factor_q_f,false,0,100,,,0,,false,0.0,预先剔除非因子或重复市场项
+other,完整训练期,macro_ltr × factor_q_mkt,false,0,100,,,0,,false,0.0,预先剔除非因子或重复市场项
+other,完整训练期,macro_ltr × factor_q_me,true,0,100,0.0,,0,0.0,false,0.0,入选频率不足
+other,完整训练期,macro_ltr × factor_q_ia,true,0,100,0.0,,0,0.0,false,0.0,入选频率不足
+other,完整训练期,macro_ltr × factor_q_roe,true,0,100,0.0,,0,0.0,false,0.0,入选频率不足
+other,完整训练期,macro_ltr × factor_q_eg,true,0,100,0.0,,0,0.0,false,0.0,入选频率不足
+other,完整训练期,macro_tms × factor_ff_mkt_excess,true,0,100,0.0,,0,0.0,false,0.0,入选频率不足
+other,完整训练期,macro_tms × factor_ff_smb,true,0,100,0.0,,0,0.0,false,0.0,入选频率不足
+other,完整训练期,macro_tms × factor_ff_hml,true,9,100,0.09,1.0,1,0.0,false,0.0,入选频率不足
+other,完整训练期,macro_tms × factor_q_year,false,0,100,,,0,,false,0.0,预先剔除非因子或重复市场项
+other,完整训练期,macro_tms × factor_q_f,false,0,100,,,0,,false,0.0,预先剔除非因子或重复市场项
+other,完整训练期,macro_tms × factor_q_mkt,false,0,100,,,0,,false,0.0,预先剔除非因子或重复市场项
+other,完整训练期,macro_tms × factor_q_me,true,0,100,0.0,,0,0.0,false,0.0,入选频率不足
+other,完整训练期,macro_tms × factor_q_ia,true,0,100,0.0,,0,0.0,false,0.0,入选频率不足
+other,完整训练期,macro_tms × factor_q_roe,true,0,100,0.0,,0,0.0,false,0.0,入选频率不足
+other,完整训练期,macro_tms × factor_q_eg,true,0,100,0.0,,0,0.0,false,0.0,入选频率不足
+other,完整训练期,macro_dfy × factor_ff_mkt_excess,true,24,100,0.24,1.0,1,0.0,false,0.0,入选频率不足
+other,完整训练期,macro_dfy × factor_ff_smb,true,0,100,0.0,,0,0.0,false,0.0,入选频率不足
+other,完整训练期,macro_dfy × factor_ff_hml,true,7,100,0.07,1.0,1,0.0,false,0.0,入选频率不足
+other,完整训练期,macro_dfy × factor_q_year,false,0,100,,,0,,false,0.0,预先剔除非因子或重复市场项
+other,完整训练期,macro_dfy × factor_q_f,false,0,100,,,0,,false,0.0,预先剔除非因子或重复市场项
+other,完整训练期,macro_dfy × factor_q_mkt,false,0,100,,,0,,false,0.0,预先剔除非因子或重复市场项
+other,完整训练期,macro_dfy × factor_q_me,true,12,100,0.12,1.0,1,0.0,false,0.0,入选频率不足
+other,完整训练期,macro_dfy × factor_q_ia,true,0,100,0.0,,0,0.0,false,0.0,入选频率不足
+other,完整训练期,macro_dfy × factor_q_roe,true,0,100,0.0,,0,0.0,false,0.0,入选频率不足
+other,完整训练期,macro_dfy × factor_q_eg,true,1,100,0.01,1.0,-1,0.0,false,0.0,入选频率不足
+other,完整训练期,macro_infl × factor_ff_mkt_excess,true,4,100,0.04,1.0,1,0.0,false,0.0,入选频率不足
+other,完整训练期,macro_infl × factor_ff_smb,true,0,100,0.0,,0,0.0,false,0.0,入选频率不足
+other,完整训练期,macro_infl × factor_ff_hml,true,1,100,0.01,1.0,1,0.0,false,0.0,入选频率不足
+other,完整训练期,macro_infl × factor_q_year,false,0,100,,,0,,false,0.0,预先剔除非因子或重复市场项
+other,完整训练期,macro_infl × factor_q_f,false,0,100,,,0,,false,0.0,预先剔除非因子或重复市场项
+other,完整训练期,macro_infl × factor_q_mkt,false,0,100,,,0,,false,0.0,预先剔除非因子或重复市场项
+other,完整训练期,macro_infl × factor_q_me,true,0,100,0.0,,0,0.0,false,0.0,入选频率不足
+other,完整训练期,macro_infl × factor_q_ia,true,0,100,0.0,,0,0.0,false,0.0,入选频率不足
+other,完整训练期,macro_infl × factor_q_roe,true,0,100,0.0,,0,0.0,false,0.0,入选频率不足
+other,完整训练期,macro_infl × factor_q_eg,true,0,100,0.0,,0,0.0,false,0.0,入选频率不足
+shops,完整训练期,factor_ff_mkt_excess,true,100,100,1.0,1.0,1,3.2942330531794144,true,4.060591885422184,最终保留
+shops,完整训练期,factor_ff_smb,true,6,100,0.06,1.0,1,0.0,false,0.0,入选频率不足
+shops,完整训练期,factor_ff_hml,true,0,100,0.0,,0,0.0,false,0.0,入选频率不足
+shops,完整训练期,factor_q_year,false,0,100,,,0,,false,0.0,预先剔除非因子或重复市场项
+shops,完整训练期,factor_q_f,false,0,100,,,0,,false,0.0,预先剔除非因子或重复市场项
+shops,完整训练期,factor_q_mkt,false,0,100,,,0,,false,0.0,预先剔除非因子或重复市场项
+shops,完整训练期,factor_q_me,true,4,100,0.04,1.0,1,0.0,false,0.0,入选频率不足
+shops,完整训练期,factor_q_ia,true,0,100,0.0,,0,0.0,false,0.0,入选频率不足
+shops,完整训练期,factor_q_roe,true,0,100,0.0,,0,0.0,false,0.0,入选频率不足
+shops,完整训练期,factor_q_eg,true,1,100,0.01,1.0,-1,0.0,false,0.0,入选频率不足
+shops,完整训练期,macro_dp,true,0,100,0.0,,0,0.0,false,0.0,入选频率不足
+shops,完整训练期,macro_dy,true,0,100,0.0,,0,0.0,false,0.0,入选频率不足
+shops,完整训练期,macro_ep,true,0,100,0.0,,0,0.0,false,0.0,入选频率不足
+shops,完整训练期,macro_de,true,0,100,0.0,,0,0.0,false,0.0,入选频率不足
+shops,完整训练期,macro_svar,true,0,100,0.0,,0,0.0,false,0.0,入选频率不足
+shops,完整训练期,macro_b/m,true,0,100,0.0,,0,0.0,false,0.0,入选频率不足
+shops,完整训练期,macro_ntis,true,0,100,0.0,,0,0.0,false,0.0,入选频率不足
+shops,完整训练期,macro_tbl,true,0,100,0.0,,0,0.0,false,0.0,入选频率不足
+shops,完整训练期,macro_lty,true,0,100,0.0,,0,0.0,false,0.0,入选频率不足
+shops,完整训练期,macro_ltr,true,0,100,0.0,,0,0.0,false,0.0,入选频率不足
+shops,完整训练期,macro_tms,true,0,100,0.0,,0,0.0,false,0.0,入选频率不足
+shops,完整训练期,macro_dfy,true,1,100,0.01,1.0,1,0.0,false,0.0,入选频率不足
+shops,完整训练期,macro_infl,true,0,100,0.0,,0,0.0,false,0.0,入选频率不足
+shops,完整训练期,macro_dp × factor_ff_mkt_excess,true,0,100,0.0,,0,0.0,false,0.0,入选频率不足
+shops,完整训练期,macro_dp × factor_ff_smb,true,0,100,0.0,,0,0.0,false,0.0,入选频率不足
+shops,完整训练期,macro_dp × factor_ff_hml,true,0,100,0.0,,0,0.0,false,0.0,入选频率不足
+shops,完整训练期,macro_dp × factor_q_year,false,0,100,,,0,,false,0.0,预先剔除非因子或重复市场项
+shops,完整训练期,macro_dp × factor_q_f,false,0,100,,,0,,false,0.0,预先剔除非因子或重复市场项
+shops,完整训练期,macro_dp × factor_q_mkt,false,0,100,,,0,,false,0.0,预先剔除非因子或重复市场项
+shops,完整训练期,macro_dp × factor_q_me,true,1,100,0.01,1.0,-1,0.0,false,0.0,入选频率不足
+shops,完整训练期,macro_dp × factor_q_ia,true,0,100,0.0,,0,0.0,false,0.0,入选频率不足
+shops,完整训练期,macro_dp × factor_q_roe,true,2,100,0.02,1.0,-1,0.0,false,0.0,入选频率不足
+shops,完整训练期,macro_dp × factor_q_eg,true,0,100,0.0,,0,0.0,false,0.0,入选频率不足
+shops,完整训练期,macro_dy × factor_ff_mkt_excess,true,27,100,0.27,1.0,1,0.0,false,0.0,入选频率不足
+shops,完整训练期,macro_dy × factor_ff_smb,true,5,100,0.05,1.0,1,0.0,false,0.0,入选频率不足
+shops,完整训练期,macro_dy × factor_ff_hml,true,0,100,0.0,,0,0.0,false,0.0,入选频率不足
+shops,完整训练期,macro_dy × factor_q_year,false,0,100,,,0,,false,0.0,预先剔除非因子或重复市场项
+shops,完整训练期,macro_dy × factor_q_f,false,0,100,,,0,,false,0.0,预先剔除非因子或重复市场项
+shops,完整训练期,macro_dy × factor_q_mkt,false,0,100,,,0,,false,0.0,预先剔除非因子或重复市场项
+shops,完整训练期,macro_dy × factor_q_me,true,2,100,0.02,1.0,1,0.0,false,0.0,入选频率不足
+shops,完整训练期,macro_dy × factor_q_ia,true,3,100,0.03,1.0,-1,0.0,false,0.0,入选频率不足
+shops,完整训练期,macro_dy × factor_q_roe,true,0,100,0.0,,0,0.0,false,0.0,入选频率不足
+shops,完整训练期,macro_dy × factor_q_eg,true,33,100,0.33,1.0,-1,0.0,false,0.0,入选频率不足
+shops,完整训练期,macro_ep × factor_ff_mkt_excess,true,0,100,0.0,,0,0.0,false,0.0,入选频率不足
+shops,完整训练期,macro_ep × factor_ff_smb,true,0,100,0.0,,0,0.0,false,0.0,入选频率不足
+shops,完整训练期,macro_ep × factor_ff_hml,true,0,100,0.0,,0,0.0,false,0.0,入选频率不足
+shops,完整训练期,macro_ep × factor_q_year,false,0,100,,,0,,false,0.0,预先剔除非因子或重复市场项
+shops,完整训练期,macro_ep × factor_q_f,false,0,100,,,0,,false,0.0,预先剔除非因子或重复市场项
+shops,完整训练期,macro_ep × factor_q_mkt,false,0,100,,,0,,false,0.0,预先剔除非因子或重复市场项
+shops,完整训练期,macro_ep × factor_q_me,true,0,100,0.0,,0,0.0,false,0.0,入选频率不足
+shops,完整训练期,macro_ep × factor_q_ia,true,0,100,0.0,,0,0.0,false,0.0,入选频率不足
+shops,完整训练期,macro_ep × factor_q_roe,true,1,100,0.01,1.0,-1,0.0,false,0.0,入选频率不足
+shops,完整训练期,macro_ep × factor_q_eg,true,0,100,0.0,,0,0.0,false,0.0,入选频率不足
+shops,完整训练期,macro_de × factor_ff_mkt_excess,true,1,100,0.01,1.0,-1,0.0,false,0.0,入选频率不足
+shops,完整训练期,macro_de × factor_ff_smb,true,0,100,0.0,,0,0.0,false,0.0,入选频率不足
+shops,完整训练期,macro_de × factor_ff_hml,true,0,100,0.0,,0,0.0,false,0.0,入选频率不足
+shops,完整训练期,macro_de × factor_q_year,false,0,100,,,0,,false,0.0,预先剔除非因子或重复市场项
+shops,完整训练期,macro_de × factor_q_f,false,0,100,,,0,,false,0.0,预先剔除非因子或重复市场项
+shops,完整训练期,macro_de × factor_q_mkt,false,0,100,,,0,,false,0.0,预先剔除非因子或重复市场项
+shops,完整训练期,macro_de × factor_q_me,true,0,100,0.0,,0,0.0,false,0.0,入选频率不足
+shops,完整训练期,macro_de × factor_q_ia,true,0,100,0.0,,0,0.0,false,0.0,入选频率不足
+shops,完整训练期,macro_de × factor_q_roe,true,1,100,0.01,1.0,-1,0.0,false,0.0,入选频率不足
+shops,完整训练期,macro_de × factor_q_eg,true,13,100,0.13,1.0,1,0.0,false,0.0,入选频率不足
+shops,完整训练期,macro_svar × factor_ff_mkt_excess,true,0,100,0.0,,0,0.0,false,0.0,入选频率不足
+shops,完整训练期,macro_svar × factor_ff_smb,true,2,100,0.02,1.0,1,0.0,false,0.0,入选频率不足
+shops,完整训练期,macro_svar × factor_ff_hml,true,1,100,0.01,1.0,1,0.0,false,0.0,入选频率不足
+shops,完整训练期,macro_svar × factor_q_year,false,0,100,,,0,,false,0.0,预先剔除非因子或重复市场项
+shops,完整训练期,macro_svar × factor_q_f,false,0,100,,,0,,false,0.0,预先剔除非因子或重复市场项
+shops,完整训练期,macro_svar × factor_q_mkt,false,0,100,,,0,,false,0.0,预先剔除非因子或重复市场项
+shops,完整训练期,macro_svar × factor_q_me,true,0,100,0.0,,0,0.0,false,0.0,入选频率不足
+shops,完整训练期,macro_svar × factor_q_ia,true,0,100,0.0,,0,0.0,false,0.0,入选频率不足
+shops,完整训练期,macro_svar × factor_q_roe,true,0,100,0.0,,0,0.0,false,0.0,入选频率不足
+shops,完整训练期,macro_svar × factor_q_eg,true,0,100,0.0,,0,0.0,false,0.0,入选频率不足
+shops,完整训练期,macro_b/m × factor_ff_mkt_excess,true,57,100,0.57,1.0,1,0.08923545147124227,false,0.0,入选频率不足
+shops,完整训练期,macro_b/m × factor_ff_smb,true,27,100,0.27,1.0,1,0.0,false,0.0,入选频率不足
+shops,完整训练期,macro_b/m × factor_ff_hml,true,0,100,0.0,,0,0.0,false,0.0,入选频率不足
+shops,完整训练期,macro_b/m × factor_q_year,false,0,100,,,0,,false,0.0,预先剔除非因子或重复市场项
+shops,完整训练期,macro_b/m × factor_q_f,false,0,100,,,0,,false,0.0,预先剔除非因子或重复市场项
+shops,完整训练期,macro_b/m × factor_q_mkt,false,0,100,,,0,,false,0.0,预先剔除非因子或重复市场项
+shops,完整训练期,macro_b/m × factor_q_me,true,38,100,0.38,1.0,1,0.0,false,0.0,入选频率不足
+shops,完整训练期,macro_b/m × factor_q_ia,true,0,100,0.0,,0,0.0,false,0.0,入选频率不足
+shops,完整训练期,macro_b/m × factor_q_roe,true,0,100,0.0,,0,0.0,false,0.0,入选频率不足
+shops,完整训练期,macro_b/m × factor_q_eg,true,35,100,0.35,1.0,-1,0.0,false,0.0,入选频率不足
+shops,完整训练期,macro_ntis × factor_ff_mkt_excess,true,1,100,0.01,1.0,1,0.0,false,0.0,入选频率不足
+shops,完整训练期,macro_ntis × factor_ff_smb,true,0,100,0.0,,0,0.0,false,0.0,入选频率不足
+shops,完整训练期,macro_ntis × factor_ff_hml,true,2,100,0.02,1.0,-1,0.0,false,0.0,入选频率不足
+shops,完整训练期,macro_ntis × factor_q_year,false,0,100,,,0,,false,0.0,预先剔除非因子或重复市场项
+shops,完整训练期,macro_ntis × factor_q_f,false,0,100,,,0,,false,0.0,预先剔除非因子或重复市场项
+shops,完整训练期,macro_ntis × factor_q_mkt,false,0,100,,,0,,false,0.0,预先剔除非因子或重复市场项
+shops,完整训练期,macro_ntis × factor_q_me,true,0,100,0.0,,0,0.0,false,0.0,入选频率不足
+shops,完整训练期,macro_ntis × factor_q_ia,true,0,100,0.0,,0,0.0,false,0.0,入选频率不足
+shops,完整训练期,macro_ntis × factor_q_roe,true,0,100,0.0,,0,0.0,false,0.0,入选频率不足
+shops,完整训练期,macro_ntis × factor_q_eg,true,19,100,0.19,1.0,-1,0.0,false,0.0,入选频率不足
+shops,完整训练期,macro_tbl × factor_ff_mkt_excess,true,0,100,0.0,,0,0.0,false,0.0,入选频率不足
+shops,完整训练期,macro_tbl × factor_ff_smb,true,2,100,0.02,1.0,1,0.0,false,0.0,入选频率不足
+shops,完整训练期,macro_tbl × factor_ff_hml,true,0,100,0.0,,0,0.0,false,0.0,入选频率不足
+shops,完整训练期,macro_tbl × factor_q_year,false,0,100,,,0,,false,0.0,预先剔除非因子或重复市场项
+shops,完整训练期,macro_tbl × factor_q_f,false,0,100,,,0,,false,0.0,预先剔除非因子或重复市场项
+shops,完整训练期,macro_tbl × factor_q_mkt,false,0,100,,,0,,false,0.0,预先剔除非因子或重复市场项
+shops,完整训练期,macro_tbl × factor_q_me,true,7,100,0.07,1.0,1,0.0,false,0.0,入选频率不足
+shops,完整训练期,macro_tbl × factor_q_ia,true,0,100,0.0,,0,0.0,false,0.0,入选频率不足
+shops,完整训练期,macro_tbl × factor_q_roe,true,3,100,0.03,1.0,1,0.0,false,0.0,入选频率不足
+shops,完整训练期,macro_tbl × factor_q_eg,true,1,100,0.01,1.0,-1,0.0,false,0.0,入选频率不足
+shops,完整训练期,macro_lty × factor_ff_mkt_excess,true,65,100,0.65,1.0,1,0.2907632831452218,false,0.0,入选频率不足
+shops,完整训练期,macro_lty × factor_ff_smb,true,1,100,0.01,1.0,1,0.0,false,0.0,入选频率不足
+shops,完整训练期,macro_lty × factor_ff_hml,true,0,100,0.0,,0,0.0,false,0.0,入选频率不足
+shops,完整训练期,macro_lty × factor_q_year,false,0,100,,,0,,false,0.0,预先剔除非因子或重复市场项
+shops,完整训练期,macro_lty × factor_q_f,false,0,100,,,0,,false,0.0,预先剔除非因子或重复市场项
+shops,完整训练期,macro_lty × factor_q_mkt,false,0,100,,,0,,false,0.0,预先剔除非因子或重复市场项
+shops,完整训练期,macro_lty × factor_q_me,true,7,100,0.07,1.0,1,0.0,false,0.0,入选频率不足
+shops,完整训练期,macro_lty × factor_q_ia,true,0,100,0.0,,0,0.0,false,0.0,入选频率不足
+shops,完整训练期,macro_lty × factor_q_roe,true,0,100,0.0,,0,0.0,false,0.0,入选频率不足
+shops,完整训练期,macro_lty × factor_q_eg,true,0,100,0.0,,0,0.0,false,0.0,入选频率不足
+shops,完整训练期,macro_ltr × factor_ff_mkt_excess,true,0,100,0.0,,0,0.0,false,0.0,入选频率不足
+shops,完整训练期,macro_ltr × factor_ff_smb,true,0,100,0.0,,0,0.0,false,0.0,入选频率不足
+shops,完整训练期,macro_ltr × factor_ff_hml,true,2,100,0.02,1.0,1,0.0,false,0.0,入选频率不足
+shops,完整训练期,macro_ltr × factor_q_year,false,0,100,,,0,,false,0.0,预先剔除非因子或重复市场项
+shops,完整训练期,macro_ltr × factor_q_f,false,0,100,,,0,,false,0.0,预先剔除非因子或重复市场项
+shops,完整训练期,macro_ltr × factor_q_mkt,false,0,100,,,0,,false,0.0,预先剔除非因子或重复市场项
+shops,完整训练期,macro_ltr × factor_q_me,true,0,100,0.0,,0,0.0,false,0.0,入选频率不足
+shops,完整训练期,macro_ltr × factor_q_ia,true,0,100,0.0,,0,0.0,false,0.0,入选频率不足
+shops,完整训练期,macro_ltr × factor_q_roe,true,0,100,0.0,,0,0.0,false,0.0,入选频率不足
+shops,完整训练期,macro_ltr × factor_q_eg,true,0,100,0.0,,0,0.0,false,0.0,入选频率不足
+shops,完整训练期,macro_tms × factor_ff_mkt_excess,true,48,100,0.48,1.0,1,0.0,false,0.0,入选频率不足
+shops,完整训练期,macro_tms × factor_ff_smb,true,0,100,0.0,,0,0.0,false,0.0,入选频率不足
+shops,完整训练期,macro_tms × factor_ff_hml,true,0,100,0.0,,0,0.0,false,0.0,入选频率不足
+shops,完整训练期,macro_tms × factor_q_year,false,0,100,,,0,,false,0.0,预先剔除非因子或重复市场项
+shops,完整训练期,macro_tms × factor_q_f,false,0,100,,,0,,false,0.0,预先剔除非因子或重复市场项
+shops,完整训练期,macro_tms × factor_q_mkt,false,0,100,,,0,,false,0.0,预先剔除非因子或重复市场项
+shops,完整训练期,macro_tms × factor_q_me,true,0,100,0.0,,0,0.0,false,0.0,入选频率不足
+shops,完整训练期,macro_tms × factor_q_ia,true,0,100,0.0,,0,0.0,false,0.0,入选频率不足
+shops,完整训练期,macro_tms × factor_q_roe,true,0,100,0.0,,0,0.0,false,0.0,入选频率不足
+shops,完整训练期,macro_tms × factor_q_eg,true,0,100,0.0,,0,0.0,false,0.0,入选频率不足
+shops,完整训练期,macro_dfy × factor_ff_mkt_excess,true,8,100,0.08,1.0,1,0.0,false,0.0,入选频率不足
+shops,完整训练期,macro_dfy × factor_ff_smb,true,9,100,0.09,1.0,1,0.0,false,0.0,入选频率不足
+shops,完整训练期,macro_dfy × factor_ff_hml,true,0,100,0.0,,0,0.0,false,0.0,入选频率不足
+shops,完整训练期,macro_dfy × factor_q_year,false,0,100,,,0,,false,0.0,预先剔除非因子或重复市场项
+shops,完整训练期,macro_dfy × factor_q_f,false,0,100,,,0,,false,0.0,预先剔除非因子或重复市场项
+shops,完整训练期,macro_dfy × factor_q_mkt,false,0,100,,,0,,false,0.0,预先剔除非因子或重复市场项
+shops,完整训练期,macro_dfy × factor_q_me,true,30,100,0.3,1.0,1,0.0,false,0.0,入选频率不足
+shops,完整训练期,macro_dfy × factor_q_ia,true,0,100,0.0,,0,0.0,false,0.0,入选频率不足
+shops,完整训练期,macro_dfy × factor_q_roe,true,0,100,0.0,,0,0.0,false,0.0,入选频率不足
+shops,完整训练期,macro_dfy × factor_q_eg,true,0,100,0.0,,0,0.0,false,0.0,入选频率不足
+shops,完整训练期,macro_infl × factor_ff_mkt_excess,true,0,100,0.0,,0,0.0,false,0.0,入选频率不足
+shops,完整训练期,macro_infl × factor_ff_smb,true,0,100,0.0,,0,0.0,false,0.0,入选频率不足
+shops,完整训练期,macro_infl × factor_ff_hml,true,1,100,0.01,1.0,1,0.0,false,0.0,入选频率不足
+shops,完整训练期,macro_infl × factor_q_year,false,0,100,,,0,,false,0.0,预先剔除非因子或重复市场项
+shops,完整训练期,macro_infl × factor_q_f,false,0,100,,,0,,false,0.0,预先剔除非因子或重复市场项
+shops,完整训练期,macro_infl × factor_q_mkt,false,0,100,,,0,,false,0.0,预先剔除非因子或重复市场项
+shops,完整训练期,macro_infl × factor_q_me,true,0,100,0.0,,0,0.0,false,0.0,入选频率不足
+shops,完整训练期,macro_infl × factor_q_ia,true,0,100,0.0,,0,0.0,false,0.0,入选频率不足
+shops,完整训练期,macro_infl × factor_q_roe,true,0,100,0.0,,0,0.0,false,0.0,入选频率不足
+shops,完整训练期,macro_infl × factor_q_eg,true,9,100,0.09,1.0,-1,0.0,false,0.0,入选频率不足
+telcm,完整训练期,factor_ff_mkt_excess,true,1,100,0.01,1.0,1,0.0,false,0.0,入选频率不足
+telcm,完整训练期,factor_ff_smb,true,0,100,0.0,,0,0.0,false,0.0,入选频率不足
+telcm,完整训练期,factor_ff_hml,true,0,100,0.0,,0,0.0,false,0.0,入选频率不足
+telcm,完整训练期,factor_q_year,false,0,100,,,0,,false,0.0,预先剔除非因子或重复市场项
+telcm,完整训练期,factor_q_f,false,0,100,,,0,,false,0.0,预先剔除非因子或重复市场项
+telcm,完整训练期,factor_q_mkt,false,0,100,,,0,,false,0.0,预先剔除非因子或重复市场项
+telcm,完整训练期,factor_q_me,true,0,100,0.0,,0,0.0,false,0.0,入选频率不足
+telcm,完整训练期,factor_q_ia,true,0,100,0.0,,0,0.0,false,0.0,入选频率不足
+telcm,完整训练期,factor_q_roe,true,5,100,0.05,1.0,-1,0.0,false,0.0,入选频率不足
+telcm,完整训练期,factor_q_eg,true,0,100,0.0,,0,0.0,false,0.0,入选频率不足
+telcm,完整训练期,macro_dp,true,1,100,0.01,1.0,1,0.0,false,0.0,入选频率不足
+telcm,完整训练期,macro_dy,true,1,100,0.01,1.0,1,0.0,false,0.0,入选频率不足
+telcm,完整训练期,macro_ep,true,0,100,0.0,,0,0.0,false,0.0,入选频率不足
+telcm,完整训练期,macro_de,true,0,100,0.0,,0,0.0,false,0.0,入选频率不足
+telcm,完整训练期,macro_svar,true,0,100,0.0,,0,0.0,false,0.0,入选频率不足
+telcm,完整训练期,macro_b/m,true,0,100,0.0,,0,0.0,false,0.0,入选频率不足
+telcm,完整训练期,macro_ntis,true,0,100,0.0,,0,0.0,false,0.0,入选频率不足
+telcm,完整训练期,macro_tbl,true,0,100,0.0,,0,0.0,false,0.0,入选频率不足
+telcm,完整训练期,macro_lty,true,0,100,0.0,,0,0.0,false,0.0,入选频率不足
+telcm,完整训练期,macro_ltr,true,26,100,0.26,1.0,1,0.0,false,0.0,入选频率不足
+telcm,完整训练期,macro_tms,true,0,100,0.0,,0,0.0,false,0.0,入选频率不足
+telcm,完整训练期,macro_dfy,true,0,100,0.0,,0,0.0,false,0.0,入选频率不足
+telcm,完整训练期,macro_infl,true,0,100,0.0,,0,0.0,false,0.0,入选频率不足
+telcm,完整训练期,macro_dp × factor_ff_mkt_excess,true,83,100,0.83,1.0,-1,2.1616429015323915,true,-2.135739540914764,最终保留
+telcm,完整训练期,macro_dp × factor_ff_smb,true,0,100,0.0,,0,0.0,false,0.0,入选频率不足
+telcm,完整训练期,macro_dp × factor_ff_hml,true,0,100,0.0,,0,0.0,false,0.0,入选频率不足
+telcm,完整训练期,macro_dp × factor_q_year,false,0,100,,,0,,false,0.0,预先剔除非因子或重复市场项
+telcm,完整训练期,macro_dp × factor_q_f,false,0,100,,,0,,false,0.0,预先剔除非因子或重复市场项
+telcm,完整训练期,macro_dp × factor_q_mkt,false,0,100,,,0,,false,0.0,预先剔除非因子或重复市场项
+telcm,完整训练期,macro_dp × factor_q_me,true,3,100,0.03,1.0,1,0.0,false,0.0,入选频率不足
+telcm,完整训练期,macro_dp × factor_q_ia,true,0,100,0.0,,0,0.0,false,0.0,入选频率不足
+telcm,完整训练期,macro_dp × factor_q_roe,true,33,100,0.33,1.0,1,0.0,false,0.0,入选频率不足
+telcm,完整训练期,macro_dp × factor_q_eg,true,2,100,0.02,1.0,1,0.0,false,0.0,入选频率不足
+telcm,完整训练期,macro_dy × factor_ff_mkt_excess,true,1,100,0.01,1.0,1,0.0,false,0.0,入选频率不足
+telcm,完整训练期,macro_dy × factor_ff_smb,true,40,100,0.4,1.0,-1,0.0,false,0.0,入选频率不足
+telcm,完整训练期,macro_dy × factor_ff_hml,true,0,100,0.0,,0,0.0,false,0.0,入选频率不足
+telcm,完整训练期,macro_dy × factor_q_year,false,0,100,,,0,,false,0.0,预先剔除非因子或重复市场项
+telcm,完整训练期,macro_dy × factor_q_f,false,0,100,,,0,,false,0.0,预先剔除非因子或重复市场项
+telcm,完整训练期,macro_dy × factor_q_mkt,false,0,100,,,0,,false,0.0,预先剔除非因子或重复市场项
+telcm,完整训练期,macro_dy × factor_q_me,true,1,100,0.01,1.0,-1,0.0,false,0.0,入选频率不足
+telcm,完整训练期,macro_dy × factor_q_ia,true,0,100,0.0,,0,0.0,false,0.0,入选频率不足
+telcm,完整训练期,macro_dy × factor_q_roe,true,0,100,0.0,,0,0.0,false,0.0,入选频率不足
+telcm,完整训练期,macro_dy × factor_q_eg,true,0,100,0.0,,0,0.0,false,0.0,入选频率不足
+telcm,完整训练期,macro_ep × factor_ff_mkt_excess,true,81,100,0.81,1.0,-1,0.8128452482869083,true,-0.7383014389371666,最终保留
+telcm,完整训练期,macro_ep × factor_ff_smb,true,6,100,0.06,1.0,1,0.0,false,0.0,入选频率不足
+telcm,完整训练期,macro_ep × factor_ff_hml,true,0,100,0.0,,0,0.0,false,0.0,入选频率不足
+telcm,完整训练期,macro_ep × factor_q_year,false,0,100,,,0,,false,0.0,预先剔除非因子或重复市场项
+telcm,完整训练期,macro_ep × factor_q_f,false,0,100,,,0,,false,0.0,预先剔除非因子或重复市场项
+telcm,完整训练期,macro_ep × factor_q_mkt,false,0,100,,,0,,false,0.0,预先剔除非因子或重复市场项
+telcm,完整训练期,macro_ep × factor_q_me,true,6,100,0.06,1.0,1,0.0,false,0.0,入选频率不足
+telcm,完整训练期,macro_ep × factor_q_ia,true,0,100,0.0,,0,0.0,false,0.0,入选频率不足
+telcm,完整训练期,macro_ep × factor_q_roe,true,2,100,0.02,1.0,1,0.0,false,0.0,入选频率不足
+telcm,完整训练期,macro_ep × factor_q_eg,true,3,100,0.03,1.0,1,0.0,false,0.0,入选频率不足
+telcm,完整训练期,macro_de × factor_ff_mkt_excess,true,1,100,0.01,1.0,-1,0.0,false,0.0,入选频率不足
+telcm,完整训练期,macro_de × factor_ff_smb,true,0,100,0.0,,0,0.0,false,0.0,入选频率不足
+telcm,完整训练期,macro_de × factor_ff_hml,true,0,100,0.0,,0,0.0,false,0.0,入选频率不足
+telcm,完整训练期,macro_de × factor_q_year,false,0,100,,,0,,false,0.0,预先剔除非因子或重复市场项
+telcm,完整训练期,macro_de × factor_q_f,false,0,100,,,0,,false,0.0,预先剔除非因子或重复市场项
+telcm,完整训练期,macro_de × factor_q_mkt,false,0,100,,,0,,false,0.0,预先剔除非因子或重复市场项
+telcm,完整训练期,macro_de × factor_q_me,true,0,100,0.0,,0,0.0,false,0.0,入选频率不足
+telcm,完整训练期,macro_de × factor_q_ia,true,0,100,0.0,,0,0.0,false,0.0,入选频率不足
+telcm,完整训练期,macro_de × factor_q_roe,true,32,100,0.32,1.0,1,0.0,false,0.0,入选频率不足
+telcm,完整训练期,macro_de × factor_q_eg,true,0,100,0.0,,0,0.0,false,0.0,入选频率不足
+telcm,完整训练期,macro_svar × factor_ff_mkt_excess,true,3,100,0.03,1.0,1,0.0,false,0.0,入选频率不足
+telcm,完整训练期,macro_svar × factor_ff_smb,true,0,100,0.0,,0,0.0,false,0.0,入选频率不足
+telcm,完整训练期,macro_svar × factor_ff_hml,true,0,100,0.0,,0,0.0,false,0.0,入选频率不足
+telcm,完整训练期,macro_svar × factor_q_year,false,0,100,,,0,,false,0.0,预先剔除非因子或重复市场项
+telcm,完整训练期,macro_svar × factor_q_f,false,0,100,,,0,,false,0.0,预先剔除非因子或重复市场项
+telcm,完整训练期,macro_svar × factor_q_mkt,false,0,100,,,0,,false,0.0,预先剔除非因子或重复市场项
+telcm,完整训练期,macro_svar × factor_q_me,true,0,100,0.0,,0,0.0,false,0.0,入选频率不足
+telcm,完整训练期,macro_svar × factor_q_ia,true,1,100,0.01,1.0,-1,0.0,false,0.0,入选频率不足
+telcm,完整训练期,macro_svar × factor_q_roe,true,10,100,0.1,1.0,-1,0.0,false,0.0,入选频率不足
+telcm,完整训练期,macro_svar × factor_q_eg,true,0,100,0.0,,0,0.0,false,0.0,入选频率不足
+telcm,完整训练期,macro_b/m × factor_ff_mkt_excess,true,0,100,0.0,,0,0.0,false,0.0,入选频率不足
+telcm,完整训练期,macro_b/m × factor_ff_smb,true,0,100,0.0,,0,0.0,false,0.0,入选频率不足
+telcm,完整训练期,macro_b/m × factor_ff_hml,true,1,100,0.01,1.0,1,0.0,false,0.0,入选频率不足
+telcm,完整训练期,macro_b/m × factor_q_year,false,0,100,,,0,,false,0.0,预先剔除非因子或重复市场项
+telcm,完整训练期,macro_b/m × factor_q_f,false,0,100,,,0,,false,0.0,预先剔除非因子或重复市场项
+telcm,完整训练期,macro_b/m × factor_q_mkt,false,0,100,,,0,,false,0.0,预先剔除非因子或重复市场项
+telcm,完整训练期,macro_b/m × factor_q_me,true,0,100,0.0,,0,0.0,false,0.0,入选频率不足
+telcm,完整训练期,macro_b/m × factor_q_ia,true,0,100,0.0,,0,0.0,false,0.0,入选频率不足
+telcm,完整训练期,macro_b/m × factor_q_roe,true,1,100,0.01,1.0,-1,0.0,false,0.0,入选频率不足
+telcm,完整训练期,macro_b/m × factor_q_eg,true,0,100,0.0,,0,0.0,false,0.0,入选频率不足
+telcm,完整训练期,macro_ntis × factor_ff_mkt_excess,true,0,100,0.0,,0,0.0,false,0.0,入选频率不足
+telcm,完整训练期,macro_ntis × factor_ff_smb,true,2,100,0.02,1.0,-1,0.0,false,0.0,入选频率不足
+telcm,完整训练期,macro_ntis × factor_ff_hml,true,28,100,0.28,1.0,1,0.0,false,0.0,入选频率不足
+telcm,完整训练期,macro_ntis × factor_q_year,false,0,100,,,0,,false,0.0,预先剔除非因子或重复市场项
+telcm,完整训练期,macro_ntis × factor_q_f,false,0,100,,,0,,false,0.0,预先剔除非因子或重复市场项
+telcm,完整训练期,macro_ntis × factor_q_mkt,false,0,100,,,0,,false,0.0,预先剔除非因子或重复市场项
+telcm,完整训练期,macro_ntis × factor_q_me,true,0,100,0.0,,0,0.0,false,0.0,入选频率不足
+telcm,完整训练期,macro_ntis × factor_q_ia,true,0,100,0.0,,0,0.0,false,0.0,入选频率不足
+telcm,完整训练期,macro_ntis × factor_q_roe,true,19,100,0.19,1.0,-1,0.0,false,0.0,入选频率不足
+telcm,完整训练期,macro_ntis × factor_q_eg,true,0,100,0.0,,0,0.0,false,0.0,入选频率不足
+telcm,完整训练期,macro_tbl × factor_ff_mkt_excess,true,0,100,0.0,,0,0.0,false,0.0,入选频率不足
+telcm,完整训练期,macro_tbl × factor_ff_smb,true,0,100,0.0,,0,0.0,false,0.0,入选频率不足
+telcm,完整训练期,macro_tbl × factor_ff_hml,true,0,100,0.0,,0,0.0,false,0.0,入选频率不足
+telcm,完整训练期,macro_tbl × factor_q_year,false,0,100,,,0,,false,0.0,预先剔除非因子或重复市场项
+telcm,完整训练期,macro_tbl × factor_q_f,false,0,100,,,0,,false,0.0,预先剔除非因子或重复市场项
+telcm,完整训练期,macro_tbl × factor_q_mkt,false,0,100,,,0,,false,0.0,预先剔除非因子或重复市场项
+telcm,完整训练期,macro_tbl × factor_q_me,true,0,100,0.0,,0,0.0,false,0.0,入选频率不足
+telcm,完整训练期,macro_tbl × factor_q_ia,true,0,100,0.0,,0,0.0,false,0.0,入选频率不足
+telcm,完整训练期,macro_tbl × factor_q_roe,true,2,100,0.02,1.0,-1,0.0,false,0.0,入选频率不足
+telcm,完整训练期,macro_tbl × factor_q_eg,true,0,100,0.0,,0,0.0,false,0.0,入选频率不足
+telcm,完整训练期,macro_lty × factor_ff_mkt_excess,true,0,100,0.0,,0,0.0,false,0.0,入选频率不足
+telcm,完整训练期,macro_lty × factor_ff_smb,true,0,100,0.0,,0,0.0,false,0.0,入选频率不足
+telcm,完整训练期,macro_lty × factor_ff_hml,true,2,100,0.02,1.0,1,0.0,false,0.0,入选频率不足
+telcm,完整训练期,macro_lty × factor_q_year,false,0,100,,,0,,false,0.0,预先剔除非因子或重复市场项
+telcm,完整训练期,macro_lty × factor_q_f,false,0,100,,,0,,false,0.0,预先剔除非因子或重复市场项
+telcm,完整训练期,macro_lty × factor_q_mkt,false,0,100,,,0,,false,0.0,预先剔除非因子或重复市场项
+telcm,完整训练期,macro_lty × factor_q_me,true,0,100,0.0,,0,0.0,false,0.0,入选频率不足
+telcm,完整训练期,macro_lty × factor_q_ia,true,0,100,0.0,,0,0.0,false,0.0,入选频率不足
+telcm,完整训练期,macro_lty × factor_q_roe,true,0,100,0.0,,0,0.0,false,0.0,入选频率不足
+telcm,完整训练期,macro_lty × factor_q_eg,true,0,100,0.0,,0,0.0,false,0.0,入选频率不足
+telcm,完整训练期,macro_ltr × factor_ff_mkt_excess,true,0,100,0.0,,0,0.0,false,0.0,入选频率不足
+telcm,完整训练期,macro_ltr × factor_ff_smb,true,3,100,0.03,1.0,-1,0.0,false,0.0,入选频率不足
+telcm,完整训练期,macro_ltr × factor_ff_hml,true,0,100,0.0,,0,0.0,false,0.0,入选频率不足
+telcm,完整训练期,macro_ltr × factor_q_year,false,0,100,,,0,,false,0.0,预先剔除非因子或重复市场项
+telcm,完整训练期,macro_ltr × factor_q_f,false,0,100,,,0,,false,0.0,预先剔除非因子或重复市场项
+telcm,完整训练期,macro_ltr × factor_q_mkt,false,0,100,,,0,,false,0.0,预先剔除非因子或重复市场项
+telcm,完整训练期,macro_ltr × factor_q_me,true,9,100,0.09,1.0,-1,0.0,false,0.0,入选频率不足
+telcm,完整训练期,macro_ltr × factor_q_ia,true,0,100,0.0,,0,0.0,false,0.0,入选频率不足
+telcm,完整训练期,macro_ltr × factor_q_roe,true,0,100,0.0,,0,0.0,false,0.0,入选频率不足
+telcm,完整训练期,macro_ltr × factor_q_eg,true,1,100,0.01,1.0,-1,0.0,false,0.0,入选频率不足
+telcm,完整训练期,macro_tms × factor_ff_mkt_excess,true,88,100,0.88,1.0,1,0.2922944406757934,true,0.3707362520115333,最终保留
+telcm,完整训练期,macro_tms × factor_ff_smb,true,33,100,0.33,1.0,-1,0.0,false,0.0,入选频率不足
+telcm,完整训练期,macro_tms × factor_ff_hml,true,0,100,0.0,,0,0.0,false,0.0,入选频率不足
+telcm,完整训练期,macro_tms × factor_q_year,false,0,100,,,0,,false,0.0,预先剔除非因子或重复市场项
+telcm,完整训练期,macro_tms × factor_q_f,false,0,100,,,0,,false,0.0,预先剔除非因子或重复市场项
+telcm,完整训练期,macro_tms × factor_q_mkt,false,0,100,,,0,,false,0.0,预先剔除非因子或重复市场项
+telcm,完整训练期,macro_tms × factor_q_me,true,15,100,0.15,1.0,-1,0.0,false,0.0,入选频率不足
+telcm,完整训练期,macro_tms × factor_q_ia,true,0,100,0.0,,0,0.0,false,0.0,入选频率不足
+telcm,完整训练期,macro_tms × factor_q_roe,true,0,100,0.0,,0,0.0,false,0.0,入选频率不足
+telcm,完整训练期,macro_tms × factor_q_eg,true,0,100,0.0,,0,0.0,false,0.0,入选频率不足
+telcm,完整训练期,macro_dfy × factor_ff_mkt_excess,true,6,100,0.06,1.0,1,0.0,false,0.0,入选频率不足
+telcm,完整训练期,macro_dfy × factor_ff_smb,true,0,100,0.0,,0,0.0,false,0.0,入选频率不足
+telcm,完整训练期,macro_dfy × factor_ff_hml,true,0,100,0.0,,0,0.0,false,0.0,入选频率不足
+telcm,完整训练期,macro_dfy × factor_q_year,false,0,100,,,0,,false,0.0,预先剔除非因子或重复市场项
+telcm,完整训练期,macro_dfy × factor_q_f,false,0,100,,,0,,false,0.0,预先剔除非因子或重复市场项
+telcm,完整训练期,macro_dfy × factor_q_mkt,false,0,100,,,0,,false,0.0,预先剔除非因子或重复市场项
+telcm,完整训练期,macro_dfy × factor_q_me,true,0,100,0.0,,0,0.0,false,0.0,入选频率不足
+telcm,完整训练期,macro_dfy × factor_q_ia,true,0,100,0.0,,0,0.0,false,0.0,入选频率不足
+telcm,完整训练期,macro_dfy × factor_q_roe,true,4,100,0.04,1.0,-1,0.0,false,0.0,入选频率不足
+telcm,完整训练期,macro_dfy × factor_q_eg,true,1,100,0.01,1.0,-1,0.0,false,0.0,入选频率不足
+telcm,完整训练期,macro_infl × factor_ff_mkt_excess,true,0,100,0.0,,0,0.0,false,0.0,入选频率不足
+telcm,完整训练期,macro_infl × factor_ff_smb,true,0,100,0.0,,0,0.0,false,0.0,入选频率不足
+telcm,完整训练期,macro_infl × factor_ff_hml,true,2,100,0.02,1.0,1,0.0,false,0.0,入选频率不足
+telcm,完整训练期,macro_infl × factor_q_year,false,0,100,,,0,,false,0.0,预先剔除非因子或重复市场项
+telcm,完整训练期,macro_infl × factor_q_f,false,0,100,,,0,,false,0.0,预先剔除非因子或重复市场项
+telcm,完整训练期,macro_infl × factor_q_mkt,false,0,100,,,0,,false,0.0,预先剔除非因子或重复市场项
+telcm,完整训练期,macro_infl × factor_q_me,true,0,100,0.0,,0,0.0,false,0.0,入选频率不足
+telcm,完整训练期,macro_infl × factor_q_ia,true,0,100,0.0,,0,0.0,false,0.0,入选频率不足
+telcm,完整训练期,macro_infl × factor_q_roe,true,17,100,0.17,1.0,-1,0.0,false,0.0,入选频率不足
+telcm,完整训练期,macro_infl × factor_q_eg,true,0,100,0.0,,0,0.0,false,0.0,入选频率不足
+utils,完整训练期,factor_ff_mkt_excess,true,92,100,0.92,1.0,1,0.8279677145835795,true,0.9486758229183977,最终保留
+utils,完整训练期,factor_ff_smb,true,0,100,0.0,,0,0.0,false,0.0,入选频率不足
+utils,完整训练期,factor_ff_hml,true,0,100,0.0,,0,0.0,false,0.0,入选频率不足
+utils,完整训练期,factor_q_year,false,0,100,,,0,,false,0.0,预先剔除非因子或重复市场项
+utils,完整训练期,factor_q_f,false,0,100,,,0,,false,0.0,预先剔除非因子或重复市场项
+utils,完整训练期,factor_q_mkt,false,0,100,,,0,,false,0.0,预先剔除非因子或重复市场项
+utils,完整训练期,factor_q_me,true,0,100,0.0,,0,0.0,false,0.0,入选频率不足
+utils,完整训练期,factor_q_ia,true,0,100,0.0,,0,0.0,false,0.0,入选频率不足
+utils,完整训练期,factor_q_roe,true,0,100,0.0,,0,0.0,false,0.0,入选频率不足
+utils,完整训练期,factor_q_eg,true,0,100,0.0,,0,0.0,false,0.0,入选频率不足
+utils,完整训练期,macro_dp,true,0,100,0.0,,0,0.0,false,0.0,入选频率不足
+utils,完整训练期,macro_dy,true,0,100,0.0,,0,0.0,false,0.0,入选频率不足
+utils,完整训练期,macro_ep,true,0,100,0.0,,0,0.0,false,0.0,入选频率不足
+utils,完整训练期,macro_de,true,0,100,0.0,,0,0.0,false,0.0,入选频率不足
+utils,完整训练期,macro_svar,true,0,100,0.0,,0,0.0,false,0.0,入选频率不足
+utils,完整训练期,macro_b/m,true,0,100,0.0,,0,0.0,false,0.0,入选频率不足
+utils,完整训练期,macro_ntis,true,0,100,0.0,,0,0.0,false,0.0,入选频率不足
+utils,完整训练期,macro_tbl,true,0,100,0.0,,0,0.0,false,0.0,入选频率不足
+utils,完整训练期,macro_lty,true,0,100,0.0,,0,0.0,false,0.0,入选频率不足
+utils,完整训练期,macro_ltr,true,98,100,0.98,1.0,1,0.42194919585762947,true,0.41490230578665577,最终保留
+utils,完整训练期,macro_tms,true,0,100,0.0,,0,0.0,false,0.0,入选频率不足
+utils,完整训练期,macro_dfy,true,0,100,0.0,,0,0.0,false,0.0,入选频率不足
+utils,完整训练期,macro_infl,true,0,100,0.0,,0,0.0,false,0.0,入选频率不足
+utils,完整训练期,macro_dp × factor_ff_mkt_excess,true,2,100,0.02,1.0,-1,0.0,false,0.0,入选频率不足
+utils,完整训练期,macro_dp × factor_ff_smb,true,0,100,0.0,,0,0.0,false,0.0,入选频率不足
+utils,完整训练期,macro_dp × factor_ff_hml,true,34,100,0.34,1.0,-1,0.0,false,0.0,入选频率不足
+utils,完整训练期,macro_dp × factor_q_year,false,0,100,,,0,,false,0.0,预先剔除非因子或重复市场项
+utils,完整训练期,macro_dp × factor_q_f,false,0,100,,,0,,false,0.0,预先剔除非因子或重复市场项
+utils,完整训练期,macro_dp × factor_q_mkt,false,0,100,,,0,,false,0.0,预先剔除非因子或重复市场项
+utils,完整训练期,macro_dp × factor_q_me,true,0,100,0.0,,0,0.0,false,0.0,入选频率不足
+utils,完整训练期,macro_dp × factor_q_ia,true,0,100,0.0,,0,0.0,false,0.0,入选频率不足
+utils,完整训练期,macro_dp × factor_q_roe,true,0,100,0.0,,0,0.0,false,0.0,入选频率不足
+utils,完整训练期,macro_dp × factor_q_eg,true,0,100,0.0,,0,0.0,false,0.0,入选频率不足
+utils,完整训练期,macro_dy × factor_ff_mkt_excess,true,2,100,0.02,1.0,1,0.0,false,0.0,入选频率不足
+utils,完整训练期,macro_dy × factor_ff_smb,true,0,100,0.0,,0,0.0,false,0.0,入选频率不足
+utils,完整训练期,macro_dy × factor_ff_hml,true,0,100,0.0,,0,0.0,false,0.0,入选频率不足
+utils,完整训练期,macro_dy × factor_q_year,false,0,100,,,0,,false,0.0,预先剔除非因子或重复市场项
+utils,完整训练期,macro_dy × factor_q_f,false,0,100,,,0,,false,0.0,预先剔除非因子或重复市场项
+utils,完整训练期,macro_dy × factor_q_mkt,false,0,100,,,0,,false,0.0,预先剔除非因子或重复市场项
+utils,完整训练期,macro_dy × factor_q_me,true,0,100,0.0,,0,0.0,false,0.0,入选频率不足
+utils,完整训练期,macro_dy × factor_q_ia,true,1,100,0.01,1.0,-1,0.0,false,0.0,入选频率不足
+utils,完整训练期,macro_dy × factor_q_roe,true,1,100,0.01,1.0,-1,0.0,false,0.0,入选频率不足
+utils,完整训练期,macro_dy × factor_q_eg,true,0,100,0.0,,0,0.0,false,0.0,入选频率不足
+utils,完整训练期,macro_ep × factor_ff_mkt_excess,true,0,100,0.0,,0,0.0,false,0.0,入选频率不足
+utils,完整训练期,macro_ep × factor_ff_smb,true,0,100,0.0,,0,0.0,false,0.0,入选频率不足
+utils,完整训练期,macro_ep × factor_ff_hml,true,1,100,0.01,1.0,-1,0.0,false,0.0,入选频率不足
+utils,完整训练期,macro_ep × factor_q_year,false,0,100,,,0,,false,0.0,预先剔除非因子或重复市场项
+utils,完整训练期,macro_ep × factor_q_f,false,0,100,,,0,,false,0.0,预先剔除非因子或重复市场项
+utils,完整训练期,macro_ep × factor_q_mkt,false,0,100,,,0,,false,0.0,预先剔除非因子或重复市场项
+utils,完整训练期,macro_ep × factor_q_me,true,0,100,0.0,,0,0.0,false,0.0,入选频率不足
+utils,完整训练期,macro_ep × factor_q_ia,true,0,100,0.0,,0,0.0,false,0.0,入选频率不足
+utils,完整训练期,macro_ep × factor_q_roe,true,0,100,0.0,,0,0.0,false,0.0,入选频率不足
+utils,完整训练期,macro_ep × factor_q_eg,true,0,100,0.0,,0,0.0,false,0.0,入选频率不足
+utils,完整训练期,macro_de × factor_ff_mkt_excess,true,4,100,0.04,1.0,-1,0.0,false,0.0,入选频率不足
+utils,完整训练期,macro_de × factor_ff_smb,true,0,100,0.0,,0,0.0,false,0.0,入选频率不足
+utils,完整训练期,macro_de × factor_ff_hml,true,59,100,0.59,1.0,-1,0.051939342934338814,false,0.0,入选频率不足
+utils,完整训练期,macro_de × factor_q_year,false,0,100,,,0,,false,0.0,预先剔除非因子或重复市场项
+utils,完整训练期,macro_de × factor_q_f,false,0,100,,,0,,false,0.0,预先剔除非因子或重复市场项
+utils,完整训练期,macro_de × factor_q_mkt,false,0,100,,,0,,false,0.0,预先剔除非因子或重复市场项
+utils,完整训练期,macro_de × factor_q_me,true,0,100,0.0,,0,0.0,false,0.0,入选频率不足
+utils,完整训练期,macro_de × factor_q_ia,true,6,100,0.06,1.0,-1,0.0,false,0.0,入选频率不足
+utils,完整训练期,macro_de × factor_q_roe,true,0,100,0.0,,0,0.0,false,0.0,入选频率不足
+utils,完整训练期,macro_de × factor_q_eg,true,0,100,0.0,,0,0.0,false,0.0,入选频率不足
+utils,完整训练期,macro_svar × factor_ff_mkt_excess,true,0,100,0.0,,0,0.0,false,0.0,入选频率不足
+utils,完整训练期,macro_svar × factor_ff_smb,true,0,100,0.0,,0,0.0,false,0.0,入选频率不足
+utils,完整训练期,macro_svar × factor_ff_hml,true,0,100,0.0,,0,0.0,false,0.0,入选频率不足
+utils,完整训练期,macro_svar × factor_q_year,false,0,100,,,0,,false,0.0,预先剔除非因子或重复市场项
+utils,完整训练期,macro_svar × factor_q_f,false,0,100,,,0,,false,0.0,预先剔除非因子或重复市场项
+utils,完整训练期,macro_svar × factor_q_mkt,false,0,100,,,0,,false,0.0,预先剔除非因子或重复市场项
+utils,完整训练期,macro_svar × factor_q_me,true,0,100,0.0,,0,0.0,false,0.0,入选频率不足
+utils,完整训练期,macro_svar × factor_q_ia,true,0,100,0.0,,0,0.0,false,0.0,入选频率不足
+utils,完整训练期,macro_svar × factor_q_roe,true,0,100,0.0,,0,0.0,false,0.0,入选频率不足
+utils,完整训练期,macro_svar × factor_q_eg,true,0,100,0.0,,0,0.0,false,0.0,入选频率不足
+utils,完整训练期,macro_b/m × factor_ff_mkt_excess,true,98,100,0.98,1.0,1,0.6528125441408625,true,0.7673174074438409,最终保留
+utils,完整训练期,macro_b/m × factor_ff_smb,true,0,100,0.0,,0,0.0,false,0.0,入选频率不足
+utils,完整训练期,macro_b/m × factor_ff_hml,true,0,100,0.0,,0,0.0,false,0.0,入选频率不足
+utils,完整训练期,macro_b/m × factor_q_year,false,0,100,,,0,,false,0.0,预先剔除非因子或重复市场项
+utils,完整训练期,macro_b/m × factor_q_f,false,0,100,,,0,,false,0.0,预先剔除非因子或重复市场项
+utils,完整训练期,macro_b/m × factor_q_mkt,false,0,100,,,0,,false,0.0,预先剔除非因子或重复市场项
+utils,完整训练期,macro_b/m × factor_q_me,true,0,100,0.0,,0,0.0,false,0.0,入选频率不足
+utils,完整训练期,macro_b/m × factor_q_ia,true,0,100,0.0,,0,0.0,false,0.0,入选频率不足
+utils,完整训练期,macro_b/m × factor_q_roe,true,0,100,0.0,,0,0.0,false,0.0,入选频率不足
+utils,完整训练期,macro_b/m × factor_q_eg,true,0,100,0.0,,0,0.0,false,0.0,入选频率不足
+utils,完整训练期,macro_ntis × factor_ff_mkt_excess,true,3,100,0.03,1.0,1,0.0,false,0.0,入选频率不足
+utils,完整训练期,macro_ntis × factor_ff_smb,true,0,100,0.0,,0,0.0,false,0.0,入选频率不足
+utils,完整训练期,macro_ntis × factor_ff_hml,true,12,100,0.12,1.0,1,0.0,false,0.0,入选频率不足
+utils,完整训练期,macro_ntis × factor_q_year,false,0,100,,,0,,false,0.0,预先剔除非因子或重复市场项
+utils,完整训练期,macro_ntis × factor_q_f,false,0,100,,,0,,false,0.0,预先剔除非因子或重复市场项
+utils,完整训练期,macro_ntis × factor_q_mkt,false,0,100,,,0,,false,0.0,预先剔除非因子或重复市场项
+utils,完整训练期,macro_ntis × factor_q_me,true,0,100,0.0,,0,0.0,false,0.0,入选频率不足
+utils,完整训练期,macro_ntis × factor_q_ia,true,0,100,0.0,,0,0.0,false,0.0,入选频率不足
+utils,完整训练期,macro_ntis × factor_q_roe,true,0,100,0.0,,0,0.0,false,0.0,入选频率不足
+utils,完整训练期,macro_ntis × factor_q_eg,true,1,100,0.01,1.0,-1,0.0,false,0.0,入选频率不足
+utils,完整训练期,macro_tbl × factor_ff_mkt_excess,true,0,100,0.0,,0,0.0,false,0.0,入选频率不足
+utils,完整训练期,macro_tbl × factor_ff_smb,true,1,100,0.01,1.0,-1,0.0,false,0.0,入选频率不足
+utils,完整训练期,macro_tbl × factor_ff_hml,true,4,100,0.04,1.0,1,0.0,false,0.0,入选频率不足
+utils,完整训练期,macro_tbl × factor_q_year,false,0,100,,,0,,false,0.0,预先剔除非因子或重复市场项
+utils,完整训练期,macro_tbl × factor_q_f,false,0,100,,,0,,false,0.0,预先剔除非因子或重复市场项
+utils,完整训练期,macro_tbl × factor_q_mkt,false,0,100,,,0,,false,0.0,预先剔除非因子或重复市场项
+utils,完整训练期,macro_tbl × factor_q_me,true,0,100,0.0,,0,0.0,false,0.0,入选频率不足
+utils,完整训练期,macro_tbl × factor_q_ia,true,0,100,0.0,,0,0.0,false,0.0,入选频率不足
+utils,完整训练期,macro_tbl × factor_q_roe,true,0,100,0.0,,0,0.0,false,0.0,入选频率不足
+utils,完整训练期,macro_tbl × factor_q_eg,true,0,100,0.0,,0,0.0,false,0.0,入选频率不足
+utils,完整训练期,macro_lty × factor_ff_mkt_excess,true,0,100,0.0,,0,0.0,false,0.0,入选频率不足
+utils,完整训练期,macro_lty × factor_ff_smb,true,1,100,0.01,1.0,-1,0.0,false,0.0,入选频率不足
+utils,完整训练期,macro_lty × factor_ff_hml,true,1,100,0.01,1.0,1,0.0,false,0.0,入选频率不足
+utils,完整训练期,macro_lty × factor_q_year,false,0,100,,,0,,false,0.0,预先剔除非因子或重复市场项
+utils,完整训练期,macro_lty × factor_q_f,false,0,100,,,0,,false,0.0,预先剔除非因子或重复市场项
+utils,完整训练期,macro_lty × factor_q_mkt,false,0,100,,,0,,false,0.0,预先剔除非因子或重复市场项
+utils,完整训练期,macro_lty × factor_q_me,true,0,100,0.0,,0,0.0,false,0.0,入选频率不足
+utils,完整训练期,macro_lty × factor_q_ia,true,0,100,0.0,,0,0.0,false,0.0,入选频率不足
+utils,完整训练期,macro_lty × factor_q_roe,true,0,100,0.0,,0,0.0,false,0.0,入选频率不足
+utils,完整训练期,macro_lty × factor_q_eg,true,0,100,0.0,,0,0.0,false,0.0,入选频率不足
+utils,完整训练期,macro_ltr × factor_ff_mkt_excess,true,0,100,0.0,,0,0.0,false,0.0,入选频率不足
+utils,完整训练期,macro_ltr × factor_ff_smb,true,0,100,0.0,,0,0.0,false,0.0,入选频率不足
+utils,完整训练期,macro_ltr × factor_ff_hml,true,0,100,0.0,,0,0.0,false,0.0,入选频率不足
+utils,完整训练期,macro_ltr × factor_q_year,false,0,100,,,0,,false,0.0,预先剔除非因子或重复市场项
+utils,完整训练期,macro_ltr × factor_q_f,false,0,100,,,0,,false,0.0,预先剔除非因子或重复市场项
+utils,完整训练期,macro_ltr × factor_q_mkt,false,0,100,,,0,,false,0.0,预先剔除非因子或重复市场项
+utils,完整训练期,macro_ltr × factor_q_me,true,0,100,0.0,,0,0.0,false,0.0,入选频率不足
+utils,完整训练期,macro_ltr × factor_q_ia,true,3,100,0.03,1.0,1,0.0,false,0.0,入选频率不足
+utils,完整训练期,macro_ltr × factor_q_roe,true,0,100,0.0,,0,0.0,false,0.0,入选频率不足
+utils,完整训练期,macro_ltr × factor_q_eg,true,0,100,0.0,,0,0.0,false,0.0,入选频率不足
+utils,完整训练期,macro_tms × factor_ff_mkt_excess,true,8,100,0.08,1.0,1,0.0,false,0.0,入选频率不足
+utils,完整训练期,macro_tms × factor_ff_smb,true,0,100,0.0,,0,0.0,false,0.0,入选频率不足
+utils,完整训练期,macro_tms × factor_ff_hml,true,0,100,0.0,,0,0.0,false,0.0,入选频率不足
+utils,完整训练期,macro_tms × factor_q_year,false,0,100,,,0,,false,0.0,预先剔除非因子或重复市场项
+utils,完整训练期,macro_tms × factor_q_f,false,0,100,,,0,,false,0.0,预先剔除非因子或重复市场项
+utils,完整训练期,macro_tms × factor_q_mkt,false,0,100,,,0,,false,0.0,预先剔除非因子或重复市场项
+utils,完整训练期,macro_tms × factor_q_me,true,0,100,0.0,,0,0.0,false,0.0,入选频率不足
+utils,完整训练期,macro_tms × factor_q_ia,true,0,100,0.0,,0,0.0,false,0.0,入选频率不足
+utils,完整训练期,macro_tms × factor_q_roe,true,0,100,0.0,,0,0.0,false,0.0,入选频率不足
+utils,完整训练期,macro_tms × factor_q_eg,true,0,100,0.0,,0,0.0,false,0.0,入选频率不足
+utils,完整训练期,macro_dfy × factor_ff_mkt_excess,true,61,100,0.61,1.0,1,0.12473834395101549,false,0.0,入选频率不足
+utils,完整训练期,macro_dfy × factor_ff_smb,true,1,100,0.01,1.0,-1,0.0,false,0.0,入选频率不足
+utils,完整训练期,macro_dfy × factor_ff_hml,true,0,100,0.0,,0,0.0,false,0.0,入选频率不足
+utils,完整训练期,macro_dfy × factor_q_year,false,0,100,,,0,,false,0.0,预先剔除非因子或重复市场项
+utils,完整训练期,macro_dfy × factor_q_f,false,0,100,,,0,,false,0.0,预先剔除非因子或重复市场项
+utils,完整训练期,macro_dfy × factor_q_mkt,false,0,100,,,0,,false,0.0,预先剔除非因子或重复市场项
+utils,完整训练期,macro_dfy × factor_q_me,true,0,100,0.0,,0,0.0,false,0.0,入选频率不足
+utils,完整训练期,macro_dfy × factor_q_ia,true,0,100,0.0,,0,0.0,false,0.0,入选频率不足
+utils,完整训练期,macro_dfy × factor_q_roe,true,0,100,0.0,,0,0.0,false,0.0,入选频率不足
+utils,完整训练期,macro_dfy × factor_q_eg,true,0,100,0.0,,0,0.0,false,0.0,入选频率不足
+utils,完整训练期,macro_infl × factor_ff_mkt_excess,true,5,100,0.05,1.0,1,0.0,false,0.0,入选频率不足
+utils,完整训练期,macro_infl × factor_ff_smb,true,0,100,0.0,,0,0.0,false,0.0,入选频率不足
+utils,完整训练期,macro_infl × factor_ff_hml,true,0,100,0.0,,0,0.0,false,0.0,入选频率不足
+utils,完整训练期,macro_infl × factor_q_year,false,0,100,,,0,,false,0.0,预先剔除非因子或重复市场项
+utils,完整训练期,macro_infl × factor_q_f,false,0,100,,,0,,false,0.0,预先剔除非因子或重复市场项
+utils,完整训练期,macro_infl × factor_q_mkt,false,0,100,,,0,,false,0.0,预先剔除非因子或重复市场项
+utils,完整训练期,macro_infl × factor_q_me,true,0,100,0.0,,0,0.0,false,0.0,入选频率不足
+utils,完整训练期,macro_infl × factor_q_ia,true,0,100,0.0,,0,0.0,false,0.0,入选频率不足
+utils,完整训练期,macro_infl × factor_q_roe,true,0,100,0.0,,0,0.0,false,0.0,入选频率不足
+utils,完整训练期,macro_infl × factor_q_eg,true,0,100,0.0,,0,0.0,false,0.0,入选频率不足
