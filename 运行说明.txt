@@ -8,9 +8,7 @@ requirements.txt：已验证环境的依赖版本；不包含本机虚拟环境�
 build_tidy_finance.py、data_sources/：重建脚本、原始公开数据及来源说明；正常运行不需要重新下载。
 lasso_stability_results/：本版结果，运行主 Notebook 时更新。
 
-历史对照（不是当前主结果）：
-4.1机器学习与因子筛选_Lasso方法对照.ipynb、lasso_method_results/ 是此前 one-SE 等探索记录。
-lasso_results/ 是此前仅优化求解与搜索效率的记录；其中 101 秒/30 秒计时不适用于本版嵌套稳定筛选。
+本提交包只包含一个 Notebook，请使用“4.1机器学习与因子筛选_整合.ipynb”。
 
 二、运行方法（推荐 Python 3.13，验证环境 Python 3.13.16）
 先完整解压，再进入“Lasso作业_代码与数据”文件夹；不要在压缩包内运行。
